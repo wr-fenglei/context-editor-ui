@@ -4,6 +4,8 @@ Conversation UI design system for messages, tool calls, subagents, code objects,
 
 This is a screenshot-derived, unofficial implementation and does not represent any official product tokens
 
+[Preview the design system](https://wr-fenglei.github.io/context-editor-ui/)
+
 ## What is included
 
 - One integrated conversation example
@@ -98,3 +100,8 @@ To expose it as a personal skill, link or copy this repository to the skills dir
 - Avatar group: `system/components/AvatarGroup/spec.html`
 - Both expose DOM factories on `window`, bind the shared configuration and stylesheet, and keep their required images in `system/assets`
 - These are static display components, with no implicit navigation or account actions
+
+## Avatar assets
+
+The three 120 x 120 PNG portraits in `system/assets` are cropped from the user-owned Little Sun Cafe character atlas and displayed at 40 CSS pixels
+Source: `little-sun-cafe/design/customer-moods-source.png`, neutral portraits from rows 1-3 of the 8 x 4 atlas

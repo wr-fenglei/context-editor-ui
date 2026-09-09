@@ -21,7 +21,7 @@
         '--profile-tag-leading': '1.45',
         '--profile-tag-padding-block': 'var(--space-1)',
         '--profile-tag-padding-inline': 'var(--space-2)',
-        '--avatar-group-size': 'var(--space-6)',
+        '--avatar-group-size': 'var(--space-10)',
         '--avatar-group-overlap': 'var(--space-2)',
 
         '--font-display': '-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif',
@@ -299,13 +299,13 @@
       avatarGroup: {
         "eyebrow": "Component 07",
         "title": "头像组",
-        "lede": "24px 圆形头像以 8px 重叠排列, 使用画布色描边区分相邻成员",
+        "lede": "40px 圆形头像以 8px 重叠排列, 使用画布色描边区分相邻成员",
         "source": "system/components/AvatarGroup/AvatarGroup.js",
         "rulesIntro": "仅保留选定的系统风格, 头像图片迁入系统资产目录",
         "rules": [
           [
             "头像",
-            "沿用选定的三个原始位图, 圆形裁切属于该组件的展示语义"
+            "使用晴日小馆的三个人物 PNG 头像, 120px 源图以 40px 显示, 圆形裁切由组件完成"
           ],
           [
             "布局",
@@ -350,22 +350,22 @@
           "label": "示例头像组",
           "items": [
             {
-              "src": "avatar-group-1.jpg",
-              "alt": "导入示例头像 1",
-              "width": 320,
-              "height": 480
+              "src": "avatar-short-hair.png",
+              "alt": "短发眼镜人物头像",
+              "width": 120,
+              "height": 120
             },
             {
-              "src": "avatar-group-2.jpg",
-              "alt": "导入示例头像 2",
-              "width": 320,
-              "height": 480
+              "src": "avatar-bob-hair.png",
+              "alt": "齐肩发人物头像",
+              "width": 120,
+              "height": 120
             },
             {
-              "src": "avatar-group-3.jpg",
-              "alt": "导入示例头像 3",
-              "width": 320,
-              "height": 480
+              "src": "avatar-curly-hair.png",
+              "alt": "卷发人物头像",
+              "width": 120,
+              "height": 120
             }
           ]
         }

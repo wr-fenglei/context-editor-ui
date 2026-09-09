@@ -5,9 +5,9 @@ function KindIcon({ kind }) {
   return <NoteIcon/>
 }
 
-function ContextEditor({ draft, pending, includedCount, attention, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
+function ContextEditor({ editorRef, draft, pending, includedCount, attention, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
   return (
-    <section className={`context-editor${attention ? ' is-attention' : ''}`} aria-label="上下文编辑" data-od-id="context-editor">
+    <section ref={editorRef} className={`context-editor${attention ? ' is-attention' : ''}`} aria-label="上下文编辑" data-od-id="context-editor">
       <header className="context-editor-head">
         <span className="context-editor-mark" aria-hidden="true"><ContextIcon/></span>
         <div className="context-editor-heading">
@@ -96,16 +96,32 @@ function useContextEditor(initialDraft, initialPending) {
   const [status, setStatus] = React.useState('')
   const [newItem, setNewItem] = React.useState('')
   const attentionTimer = React.useRef(null)
+  const editorRef = React.useRef(null)
+  const [openRequest, setOpenRequest] = React.useState(0)
 
   const includedCount = draft.filter((item) => item.included).length
 
   const openEditor = () => {
     setOpen(true)
+    setOpenRequest((request) => request + 1)
     setAttention(true)
     clearTimeout(attentionTimer.current)
     attentionTimer.current = setTimeout(() => setAttention(false), 1400)
   }
   React.useEffect(() => () => clearTimeout(attentionTimer.current), [])
+
+  // Wait for React to mount the card, including a reopen after collapse
+  // A separate request counter also handles repeated clicks on an open editor
+  React.useEffect(() => {
+    if (!open || !openRequest) return
+    const frame = requestAnimationFrame(() => {
+      editorRef.current?.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+        block: 'start'
+      })
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [open, openRequest])
 
   const toggleItem = (id) => setDraft((items) => items.map((item) => item.id === id ? { ...item, included: !item.included } : item))
   const removeDraft = (id) => setDraft((items) => items.filter((item) => item.id !== id))
@@ -144,7 +160,7 @@ function useContextEditor(initialDraft, initialPending) {
     setOpen, setNewItem, openEditor, toggleItem, removeDraft, removePending,
     move, merge, mergeAll, addPending, confirmDraft,
     editorProps: {
-      draft, pending, includedCount, attention, status, newItem,
+      editorRef, draft, pending, includedCount, attention, status, newItem,
       onNewItem: setNewItem, onToggle: toggleItem, onRemoveDraft: removeDraft,
       onRemovePending: removePending, onMove: move, onMerge: merge, onMergeAll: mergeAll,
       onAddPending: addPending, onConfirm: confirmDraft, onCollapse: () => setOpen(false)

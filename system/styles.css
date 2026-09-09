@@ -88,6 +88,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 
 /* ─── Context Editor (inline conversation object) ──────────────── */
 .context-editor {
+  scroll-margin-top: var(--space-5);
   border: 1px solid var(--border);
   border-radius: var(--radius-message);
   background: var(--code-object-bg);
@@ -294,7 +295,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 
 .spec-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
 .spec-index-card { display: block; padding: var(--space-5); border: 1px solid var(--border-soft); border-radius: var(--radius-card); background: var(--bg); color: var(--fg); text-decoration: none; transition: border-color var(--motion-fast) var(--ease-standard), background var(--motion-fast) var(--ease-standard); }
-.spec-index-card:hover { border-color: var(--fg); background: var(--surface); }
+.spec-index-card:hover { border-color: var(--fg); background: var(--surface); color: var(--fg); }
 .spec-index-card code { display: block; margin-bottom: var(--space-2); color: var(--muted); font-size: var(--text-sm); }
 .spec-index-card strong { display: block; font-size: var(--text-lg); font-weight: 600; }
 .spec-index-card span { display: block; margin-top: var(--space-2); color: var(--muted); font-size: var(--text-sm); }
