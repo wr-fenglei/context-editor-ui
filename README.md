@@ -84,7 +84,7 @@ python3 -m http.server 8000
 
 ## 图标
 
-全站使用 Codex 内置生图工具生成的透明图标图集, 30 个图形保存在 `system/assets/icons/atlas.png`, 基础规范页提供预览和下载入口
+全站使用 Codex 内置生图工具生成的细线透明图标图集, 30 个图形保存在 `system/assets/icons/atlas.png`, 基础规范页提供预览和下载入口
 
 `atlas.json` 保存按实际轮廓归一的切图坐标, 页面通过透明遮罩取出图标并继承主题颜色, 原始图片保持完整, 生成提示词见 `system/assets/icons/prompt.txt`
 
