@@ -18,7 +18,7 @@
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="Icons.js?v=generated-icons-1"></script>
   <script type="text/babel" src="MotionPresence.js?v=motion-system-1"></script>
-  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=motion-system-1"></script>
+  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=message-feedback-1"></script>
   <script type="text/babel" src="components/ToolCall/ToolCall.js?v=motion-system-1"></script>
   <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=inline-agents-1"></script>
   <script type="text/babel" src="components/Composer/Composer.js?v=motion-system-1"></script>
@@ -92,7 +92,6 @@
                 </AssistantMessage>
 
                 <MessageActions targetId="assistant-message" onEditContext={editor.openEditor}/>
-                <p className="live-copy-status" data-live-status role="status" aria-live="polite"></p>
               </article>
 
               <MotionPresence show={editor.open} as="article" className="turn" data-od-id="context-editor-turn">
@@ -119,6 +118,6 @@
 
     ReactDOM.createRoot(document.getElementById('app')).render(<App/>)
   </script>
-  <script src="interactions.js?v=motion-system-1"></script>
+  <script src="interactions.js?v=message-feedback-1"></script>
 </body>
 </html>

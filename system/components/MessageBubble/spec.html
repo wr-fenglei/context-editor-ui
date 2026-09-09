@@ -12,7 +12,7 @@
 <body>
   <main class="review-shell" data-od-id="messages-preview">
     <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title data-od-id="messages-title"></h1><p class="lede" data-config-lede></p></div><p data-config-summary></p></header>
-    <section class="review-section" data-od-id="messages-demo"><div class="section-head"><h2>组件示例</h2><p>消息层级, 内容布局与操作反馈</p></div><div class="stage component-demo" id="messages-demo-root"></div><p class="live-copy-status" data-live-status role="status" aria-live="polite"></p></section>
+    <section class="review-section" data-od-id="messages-demo"><div class="section-head"><h2>组件示例</h2><p>消息层级, 内容布局与操作反馈</p></div><div class="stage component-demo" id="messages-demo-root"></div></section>
     <section class="review-section" data-od-id="messages-rules"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
     <section class="review-section" data-od-id="messages-parameters"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
     <footer class="review-foot" data-config-footer></footer>
@@ -22,7 +22,7 @@
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="../../Icons.js?v=generated-icons-1"></script>
   <script type="text/babel" src="../../MotionPresence.js?v=motion-system-1"></script>
-  <script type="text/babel" src="./MessageBubble.js?v=motion-system-1"></script>
+  <script type="text/babel" src="./MessageBubble.js?v=message-feedback-1"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.components.messages.demo
     ReactDOM.createRoot(document.getElementById('messages-demo-root')).render(
@@ -33,6 +33,6 @@
     )
     ContextEditorUI.renderComponentPage('messages')
   </script>
-  <script src="../../interactions.js?v=motion-system-1"></script>
+  <script src="../../interactions.js?v=message-feedback-1"></script>
 </body>
 </html>

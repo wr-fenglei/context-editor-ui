@@ -1,7 +1,7 @@
 (() => {
-  const statusElement = () => document.querySelector('[data-live-status]')
-  const setStatus = (message) => {
-    const status = statusElement()
+  const statusElement = (source) => source?.closest('[data-message-actions]')?.querySelector('[data-message-status]') || document.querySelector('[data-live-status]')
+  const setStatus = (message, source) => {
+    const status = statusElement(source)
     if (status) status.textContent = message
   }
   const feedbackTimers = new WeakMap()
@@ -50,7 +50,7 @@
       return
     }
     const statusButton = source.closest('[data-status-message]')
-    if (statusButton) setStatus(statusButton.dataset.statusMessage)
+    if (statusButton) setStatus(statusButton.dataset.statusMessage, statusButton)
   }
 
   const bindMessageActions = () => {
