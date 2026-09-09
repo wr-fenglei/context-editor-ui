@@ -2,7 +2,7 @@
 
 Conversation UI design system for messages, tool calls, subagents, code objects, message actions, the composer and the Context Editor
 
-This is a screenshot-derived, unofficial implementation and does not represent any official product tokens
+An independent design system with clear message hierarchy, restrained surfaces and borders, consistent interaction feedback, and light and dark themes
 
 [Preview the design system](https://wr-fenglei.github.io/context-editor-ui/)
 
@@ -10,7 +10,7 @@ This is a screenshot-derived, unofficial implementation and does not represent a
 
 - One integrated conversation example
 - Shared conversation components plus standalone ProfileTags and AvatarGroup components
-- One configuration source for tokens, parameters, evidence and demo content
+- One configuration source for tokens, parameters and demo content
 - One stylesheet for component visuals and spec layout
 - Specification pages for foundations, messages, tool calls, subagents, the composer, Context Editor, ProfileTags and AvatarGroup
 - A skill entry and concise design constraints
@@ -75,7 +75,7 @@ Open these entries
 
 ## Change workflow
 
-1. Change tokens, evidence, rules or demo data in `system/design-system.config.js`
+1. Change tokens, rules or demo data in `system/design-system.config.js`
 2. Change structure or icons in the matching `system/components/<component>/<component>.js`
 3. Change visual or responsive behavior in `system/styles.css`
 4. Change copy or status behavior in `system/interactions.js`
@@ -94,7 +94,7 @@ Read DESIGN.md and SKILL.md, then use the matching shared component and tokens
 
 To expose it as a personal skill, link or copy this repository to the skills directory as `context-editor-ui`, then restart or refresh skill discovery
 
-## Selected profile components
+## Profile components
 
 - Personal profile tags: `system/components/ProfileTags/spec.html`
 - Avatar group: `system/components/AvatarGroup/spec.html`
@@ -103,5 +103,4 @@ To expose it as a personal skill, link or copy this repository to the skills dir
 
 ## Avatar assets
 
-The three 120 x 120 PNG portraits in `system/assets` are cropped from the user-owned Little Sun Cafe character atlas and displayed at 40 CSS pixels
-Source: `little-sun-cafe/design/customer-moods-source.png`, neutral portraits from rows 1-3 of the 8 x 4 atlas
+Three 120 x 120 PNG portraits are displayed at 40 CSS pixels with circular cropping, overlapping layout and an opaque theme background

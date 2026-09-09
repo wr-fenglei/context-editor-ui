@@ -2,14 +2,14 @@
 
 ## 1 Scope
 
-- 覆盖用户选定的个人资料标签与头像组, 以及 conversation 中的 user message, assistant message, worked summary, tool call, subagent call, code object, message actions, composer 和 Context Editor
+- 覆盖个人资料标签与头像组, 以及 conversation 中的 user message, assistant message, worked summary, tool call, subagent call, code object, message actions, composer 和 Context Editor
 - Context Editor 必须像原生消息流的一部分, 不形成 dashboard, inspector, sidebar 或独立品牌 surface
 - `system/app.html` 是完整集成示例, 不拥有组件样式或参数
 - `index.html` 是设计系统概览, 汇总集成示例与全部规范页
 
 ## 2 Source of truth
 
-- `system/design-system.config.js` 是 token, evidence, voice, component rules, parameters 和 demo copy 的唯一数据来源
+- `system/design-system.config.js` 是 token, voice, component rules, parameters 和 demo copy 的唯一数据来源
 - `system/styles.css` 是组件视觉, responsive layout 和 interaction state 的唯一实现来源
 - `system/components/<组件>/<组件>.js` 是组件结构的唯一实现来源, `system/Icons.js` 是共享图标几何
 - `system/interactions.js` 是 copy 和 status 行为的唯一实现来源
@@ -67,13 +67,13 @@
 - Reduced motion 下取消 transition, 状态仍由文字表达
 - Narrow width 不允许 overlap, clipping 或 horizontal scroll
 
-## 8 Evidence boundary
+## 8 Theme and visual roles
 
-- Light baseline 来自配置中记录的截图证据
-- Accent, ink, surface 与 semantic colors 来自 `codex-theme-v1` 主题包, 记录在 `system/design-system.config.js` 的 `themeSource`
-- Dark 已确认 canvas, foreground, accent 与 semantic colors, 其余 component neutral 保持 provisional
-- Source sample 与 implementation role 分离, 组件只绑定 semantic role
-- 本项目是截图驱动的非官方复原系统, 不代表任何官方 token
+- 本项目是面向对话交互的独立设计系统
+- Light 使用白色画布和浅灰表面, dark 使用深色画布和低对比表面
+- 两种主题保持一致的消息层级, 控件布局和交互反馈
+- 组件使用语义颜色, 区分正文, 辅助信息, 强调内容与状态
+- 设计说明以组件效果, 行为和使用场景为主
 
 ## 9 Change workflow
 
@@ -90,5 +90,5 @@
 - Message, tool, subagent, code, composer 和 Context Editor 可在独立规范页核对
 - Composer 可输入, 发送并操作全部 menu
 - Context Editor 可纳入, 排除, 排序, 并入, 添加和确认
-- Light UI 保持已确认视觉, dark UI 无 contrast, clipping 或 state role 缺失
-- 所有本地引用有效, 不存在旧 token, brand 或 provenance 并行来源
+- Light 与 dark UI 均保持可读对比度, 无裁切或状态缺失
+- 所有本地引用有效, 所有组件使用一致的 token 和设计规范

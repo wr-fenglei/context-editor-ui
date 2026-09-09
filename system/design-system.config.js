@@ -3,17 +3,11 @@
     meta: {
       id: 'user:context-editor-ui',
       name: 'context-editor-ui',
-      surface: 'responsive conversation UI',
-      lightStatus: 'measured',
-      darkStatus: 'provisional',
-      evidence: '19 screenshots captured on 2026-08-28 · theme codex-theme-v1',
-      nonClaim: '截图驱动的非官方复原系统, 不代表任何官方 token'
-    },
-    themeSource: {
-      id: 'codex-theme-v1',
-      accentSource: 'chatgpt',
-      light: { variant: 'light', accent: '#3a83f7', ink: '#1a1c1f', surface: '#ffffff', contrast: 45, diffAdded: '#00a240', diffRemoved: '#ba2623', skill: '#924ff7' },
-      dark: { variant: 'dark', accent: '#3a83f7', ink: '#ffffff', surface: '#181818', contrast: 60, diffAdded: '#40c977', diffRemoved: '#fa423e', skill: '#ad7bf9' }
+      surface: '面向对话交互的独立设计系统',
+      lightLabel: '白色画布',
+      darkLabel: '深色画布',
+      principles: '清晰的消息层级, 克制的表面与描边, 统一的交互反馈',
+      description: '为消息阅读, 内容输入和上下文编辑提供一致的界面体验'
     },
     tokens: {
       shared: {
@@ -92,46 +86,46 @@
         '--ease-standard': 'cubic-bezier(.2, .8, .2, 1)'
       },
       light: {
-        '--source-light-canvas': '#ffffff',
-        '--source-light-foreground': '#1a1c1f',
-        '--source-user-foreground': '#0d0d0d',
-        '--source-user-surface': '#f4f4f4',
-        '--source-selected-surface': '#f2f3f3',
-        '--source-muted': '#767778',
-        '--source-meta': '#96999d',
-        '--source-placeholder': '#aaabab',
-        '--source-hairline': '#ededed',
-        '--source-accent': '#3a83f7',
-        '--source-skill': '#924ff7',
-        '--source-diff-added': '#00a240',
-        '--source-diff-removed': '#ba2623',
-        '--source-agent-blue': '#5ea3f6',
-        '--source-agent-green': '#96da7f',
-        '--bg': 'var(--source-light-canvas)',
-        '--surface': 'var(--source-user-surface)',
-        '--surface-selected': 'var(--source-selected-surface)',
-        '--fg': 'var(--source-light-foreground)',
+        '--palette-light-canvas': '#ffffff',
+        '--palette-light-foreground': '#1a1c1f',
+        '--palette-user-foreground': '#0d0d0d',
+        '--palette-user-surface': '#f4f4f4',
+        '--palette-selected-surface': '#f2f3f3',
+        '--palette-muted': '#767778',
+        '--palette-meta': '#96999d',
+        '--palette-placeholder': '#aaabab',
+        '--palette-hairline': '#ededed',
+        '--palette-accent': '#3a83f7',
+        '--palette-skill': '#924ff7',
+        '--palette-diff-added': '#00a240',
+        '--palette-diff-removed': '#ba2623',
+        '--palette-agent-blue': '#5ea3f6',
+        '--palette-agent-green': '#96da7f',
+        '--bg': 'var(--palette-light-canvas)',
+        '--surface': 'var(--palette-user-surface)',
+        '--surface-selected': 'var(--palette-selected-surface)',
+        '--fg': 'var(--palette-light-foreground)',
         '--fg-secondary': '#34363a',
         '--muted': '#757677',
         '--muted-soft': 'var(--muted)',
         '--placeholder': 'var(--muted)',
         '--border': '#eaeaea',
-        '--border-soft': 'var(--source-hairline)',
-        '--accent': 'var(--source-accent)',
+        '--border-soft': 'var(--palette-hairline)',
+        '--accent': 'var(--palette-accent)',
         '--link': 'color-mix(in oklch, var(--accent) 72%, black)',
         '--link-hover': 'color-mix(in oklch, var(--link) 86%, black)',
         '--accent-on': '#ffffff',
-        '--effort': 'color-mix(in oklch, var(--source-skill) 92%, black)',
-        '--success': 'var(--source-diff-added)',
+        '--effort': 'color-mix(in oklch, var(--palette-skill) 92%, black)',
+        '--success': 'var(--palette-diff-added)',
         '--warning': '#8a6100',
-        '--danger': 'var(--source-diff-removed)',
+        '--danger': 'var(--palette-diff-removed)',
         '--fg-hover': 'color-mix(in oklch, var(--fg) 88%, var(--bg))',
         '--surface-hover': 'color-mix(in oklch, var(--surface) 88%, var(--fg))',
         '--accent-hover': 'color-mix(in oklch, var(--accent) 88%, black)',
         '--send-disabled': 'color-mix(in oklch, var(--fg) 52%, var(--bg))',
         '--conversation-canvas': 'var(--bg)',
         '--message-user-bg': 'var(--surface)',
-        '--message-user-fg': 'var(--source-user-foreground)',
+        '--message-user-fg': 'var(--palette-user-foreground)',
         '--message-assistant-fg': 'var(--fg)',
         '--message-action-fg': 'var(--muted)',
         '--tool-call-fg': 'var(--muted)',
@@ -157,18 +151,18 @@
         '--placeholder': 'var(--muted)',
         '--border': 'color-mix(in oklch, var(--fg) 20%, var(--bg))',
         '--border-soft': 'color-mix(in oklch, var(--fg) 13%, var(--bg))',
-        '--source-accent': '#3a83f7',
-        '--source-skill': '#ad7bf9',
-        '--source-diff-added': '#40c977',
-        '--source-diff-removed': '#fa423e',
-        '--accent': 'var(--source-accent)',
+        '--palette-accent': '#3a83f7',
+        '--palette-skill': '#ad7bf9',
+        '--palette-diff-added': '#40c977',
+        '--palette-diff-removed': '#fa423e',
+        '--accent': 'var(--palette-accent)',
         '--link': 'var(--accent)',
         '--link-hover': 'color-mix(in oklch, var(--link) 84%, #ffffff)',
         '--accent-on': '#181818',
-        '--effort': 'var(--source-skill)',
-        '--success': 'var(--source-diff-added)',
+        '--effort': 'var(--palette-skill)',
+        '--success': 'var(--palette-diff-added)',
         '--warning': 'color-mix(in oklch, #8a6100 70%, #ffffff)',
-        '--danger': 'var(--source-diff-removed)',
+        '--danger': 'var(--palette-diff-removed)',
         '--fg-hover': 'color-mix(in oklch, var(--fg) 88%, var(--bg))',
         '--surface-hover': 'color-mix(in oklch, var(--surface) 82%, var(--fg))',
         '--accent-hover': 'color-mix(in oklch, var(--accent) 82%, #ffffff)',
@@ -193,15 +187,15 @@
     },
     foundations: {
       colors: [
-        { label: 'User surface', token: '--source-user-surface' },
-        { label: 'Foreground', token: '--source-light-foreground' },
-        { label: 'Accent', token: '--source-accent' },
-        { label: 'Skill', token: '--source-skill' },
-        { label: 'Diff added', token: '--source-diff-added' },
-        { label: 'Diff removed', token: '--source-diff-removed' }
+        { label: 'User surface', token: '--palette-user-surface' },
+        { label: 'Foreground', token: '--palette-light-foreground' },
+        { label: 'Accent', token: '--palette-accent' },
+        { label: 'Skill', token: '--palette-skill' },
+        { label: 'Diff added', token: '--palette-diff-added' },
+        { label: 'Diff removed', token: '--palette-diff-removed' }
       ],
       typography: [
-        { label: 'message', sample: '先复原原生消息和输入框, 不增加额外面板', token: '--text-base', className: 'message-sample' },
+        { label: 'message', sample: '清晰区分消息内容与操作, 保持连续的阅读体验', token: '--text-base', className: 'message-sample' },
         { label: 'tool', sample: 'Loaded a tool, ran a command, searched the web', token: '--text-base', className: 'tool-sample' },
         { label: 'metadata', sample: 'Today 4:18 PM', token: '--text-sm', className: 'time-sample' },
         { label: 'code', sample: 'system/components/ContextEditor/ContextEditor.js', token: '--text-sm', className: 'mono-sample' }
@@ -215,11 +209,12 @@
     },
     components: {
       profileTags: {
+        overview: '图文标签, 自然换行, 统一间距',
         "eyebrow": "Component 06",
         "title": "个人资料标签",
-        "lede": "带图标或纯文字的资料标签, 使用系统 surface、文字和圆角, 窄屏自然换行",
+        "lede": "通过图标与文字展示个人资料, 浅色背景和圆角区分标签, 窄屏自然换行",
         "source": "system/components/ProfileTags/ProfileTags.js",
-        "rulesIntro": "仅保留选定的系统风格, 标签用于展示资料, 不添加无定义的点击行为",
+        "rulesIntro": "资料标签通过文字, 图标和间距组织个人信息",
         "rules": [
           [
             "内容",
@@ -234,8 +229,8 @@
             "绑定 surface、fg-secondary、border-soft 与 radius-inline"
           ],
           [
-            "来源",
-            "保留用户选定的图标几何, 当前数据是导入示例资料"
+            "图标",
+            "图标与文字垂直居中, 使用一致的尺寸和间距"
           ]
         ],
         "parameters": [
@@ -301,15 +296,16 @@
         }
       },
       avatarGroup: {
+        overview: '圆形裁切, 重叠排列, 主题底色',
         "eyebrow": "Component 07",
         "title": "头像组",
         "lede": "40px 圆形头像以 8px 重叠排列, 使用画布色描边区分相邻成员",
         "source": "system/components/AvatarGroup/AvatarGroup.js",
-        "rulesIntro": "仅保留选定的系统风格, 头像图片迁入系统资产目录",
+        "rulesIntro": "圆形头像按顺序重叠, 不透明底色与画布色描边区分相邻成员",
         "rules": [
           [
             "头像",
-            "使用晴日小馆的三个人物 PNG 头像, 120px 源图以 40px 显示, 圆形裁切由组件完成"
+            "使用 120px PNG 头像, 以 40px 圆形显示, 透明区域由主题底色填充"
           ],
           [
             "布局",
@@ -376,16 +372,17 @@
       },
 
       messages: {
+        overview: '消息分层, 连续阅读, 原处操作反馈',
         eyebrow: 'Component 01', title: '消息组件',
-        lede: 'User bubble, worked summary, assistant prose, code object 和 message actions 共用同一套组件实现',
+        lede: '通过对齐, 留白和背景区分用户消息与助手回复, 支持过程展开和原处复制反馈',
         source: 'system/components/MessageBubble/MessageBubble.js',
         demo: {
-          user: '先把对话消息和输入框做成原生效果',
+          user: '帮我整理本周的项目进展',
           duration: '1m 38s',
-          process: '我会先核对消息层级和对话节奏',
-          assistant: ['助手正文保持无框, 不加入额外面板', '代码对象只在需要展示可复制内容时出现'],
-          codeLabel: 'Message contract',
-          code: 'assistant → unboxed prose\nactions   → low-emphasis outline'
+          process: '我会先查看项目笔记, 再按任务整理进展',
+          assistant: ['本周已完成需求梳理和交互检查', '接下来需要确认文案, 并安排体验验证'],
+          codeLabel: 'Project summary',
+          code: 'requirements → complete\ninteraction  → reviewed\ncopy         → pending'
         },
         rulesIntro: '消息身份由 alignment, surface 和 whitespace 表达, assistant 正文不增加 card shell',
         rules: [
@@ -405,12 +402,13 @@
         ]
       },
       tools: {
+        overview: '单行摘要, 按需展开, 状态可见',
         eyebrow: 'Component 02', title: '工具调用组件',
         lede: 'Collapsed row 留在正文流, 只有 command output 获得浅灰 surface',
         source: 'system/components/ToolCall/ToolCall.js',
         demo: {
           rows: ['Searched the web', 'Loaded a tool, ran commands, searched the web', 'Ran command rg -n "message|composer"'],
-          output: '$ rg -n "message|composer" source\n19 screenshot references matched\nConversation surfaces isolated'
+          output: '$ rg -n "done|pending" notes\n3 task groups found\nContext draft ready'
         },
         rulesIntro: '工具状态必须同时包含文字, 不能只依赖 icon 或颜色',
         rules: [
@@ -429,10 +427,11 @@
         ]
       },
       subagents: {
+        overview: '任务标签, 进度状态, 时间顺序',
         eyebrow: 'Component 03', title: 'Subagent 调用组件',
         lede: 'Task pill 与 lifecycle text 位于同一 timeline, started 和 finished 保持可读但不形成卡片',
         source: 'system/components/SubagentCall/SubagentCall.js',
-        demo: { task: 'Inspect message UI', tool: 'Read conversation screenshots', started: 'started working', finished: 'finished' },
+        demo: { task: 'Review project brief', tool: 'Read project notes', started: 'started working', finished: 'finished' },
         rulesIntro: 'Subagent 是对话事件, 不是独立工作面板',
         rules: [
           ['Task pill', '轻描边 pill 包含 agent mark 与 2 至 4 个词的任务名'],
@@ -450,8 +449,9 @@
         ]
       },
       composer: {
+        overview: '内容输入, 工具入口, 模型选择',
         eyebrow: 'Component 04', title: '输入框组件',
-        lede: 'Textarea, accessory, bottom bar, menus 和 send state 全部来自集成页使用的同一个 Composer',
+        lede: '将多行输入, 上下文入口和底部工具组合在同一输入区域, 面板紧邻对应按钮',
         source: 'system/components/Composer/Composer.js',
         interface: { placeholder: 'Do anything', approval: 'Approve for me', effort: 'Ultra' },
         modelMenu: {
@@ -475,7 +475,7 @@
           ['Hover', '保持完整 target, 可见 hover surface 使用紧凑 pill'],
           ['Focus', 'Textarea 不出现蓝框, composer border 颜色保持不变'],
           ['Menus', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 支持 outside click, Escape 和 focus return'],
-          ['Model selection', '模型列表按参考图展示, 勾号表示当前选择, hover 只高亮当前行, 选择后关闭面板并同步按钮文字']
+          ['Model selection', '模型以单列选项展示, 勾号表示当前选择, hover 只高亮当前行, 选择后关闭面板并同步按钮文字']
         ],
         parameters: [
           { label: 'minimum height', tokens: ['--composer-min-height'] },
@@ -487,6 +487,7 @@
         ]
       },
       contextEditor: {
+        overview: '工作草稿, 待处理内容, 逐项确认',
         eyebrow: 'Component 05', title: '上下文编辑组件',
         lede: 'Context Editor 是对话流内的对象, 用一条 boundary 把 confirmed work draft 与 pending input 硬性分开',
         source: 'system/components/ContextEditor/ContextEditor.js',
@@ -523,16 +524,16 @@
     },
     integratedDemo: {
       time: 'Today 4:18 PM',
-      user: '把上下文编辑插件的消息显示做得和原生会话一样, 先不要加入额外面板',
+      user: '帮我整理本周的项目进展, 并把待确认事项加入上下文',
       duration: '1m 38s',
-      process: '我先核对消息层级, 工具行, subagent pill 和 composer 的几何关系',
-      task: 'Inspect message UI',
-      toolWeb: 'Read conversation screenshots',
+      process: '我会先查看项目笔记, 再整理进展和待确认事项',
+      task: 'Review project brief',
+      toolWeb: 'Read project notes',
       toolCommand: 'Ran commands',
-      output: '$ rg -n "message|composer|subagent" source\n19 screenshot references matched\nConversation surfaces isolated',
-      assistant: ['范围已收敛到原生对话层, 保留用户消息, 助手正文, 工具调用, subagent timeline 和输入框', '上下文编辑功能只从 message action, tool row 或 composer accessory 进入, 不增加独立面板'],
-      codeLabel: 'Message contract',
-      code: 'user message  → soft surface bubble\nassistant     → unboxed prose\ntool call     → muted inline row\nsubagent      → outlined task pill'
+      output: '$ rg -n "done|pending" notes\n3 task groups found\nContext draft ready',
+      assistant: ['本周的需求梳理和界面交互检查已完成, 当前进展整理如下', '待确认事项已放入上下文编辑区, 可以逐项纳入, 排除或移除'],
+      codeLabel: 'Project summary',
+      code: 'requirements → complete\ninteraction  → reviewed\ncopy         → pending\nvalidation   → scheduled'
     },
     voice: {
       assistant: '先给判断, 再给动作和可验证结果',
@@ -542,7 +543,7 @@
     },
     boundaries: {
       integration: 'Context Editor 入口只能作为 message action, tool row 或 composer accessory',
-      dark: 'Dark 已确认 canvas, foreground, accent 与 semantic colors, component neutral 仍为 provisional'
+      dark: '浅色与深色主题保持相同的层级和交互, 通过画布, 表面和文字颜色区分内容'
     }
   }
 
@@ -565,28 +566,28 @@
     setText('[data-config-eyebrow]', component.eyebrow)
     setText('[data-config-title]', component.title)
     setText('[data-config-lede]', component.lede)
-    setText('[data-config-source]', `实现: ${component.source}`)
+    setText('[data-config-summary]', component.overview)
     setText('[data-config-rules-intro]', component.rulesIntro)
-    setText('[data-config-parameters-intro]', '参数直接读取 system/design-system.config.js, 页面不保存数值副本')
+    setText('[data-config-parameters-intro]', '尺寸, 间距, 圆角与交互状态的设计参数')
     const rules = document.querySelector('[data-config-rules]')
     if (rules) rules.innerHTML = component.rules.map(([name, description]) => `<div class="spec-row"><dt>${escapeHtml(name)}</dt><dd>${escapeHtml(description)}</dd></div>`).join('')
     const parameters = document.querySelector('[data-config-parameters]')
     if (parameters) parameters.innerHTML = component.parameters.map((parameter) => `<div class="parameter-card"><code>${escapeHtml(parameter.tokens.join(parameter.separator || ''))}</code><strong>${escapeHtml(parameterValue(parameter))}</strong><span>${escapeHtml(parameter.label)}</span></div>`).join('')
-    setText('[data-config-footer]', '真实组件, 规范和参数均来自 system/ 的共享来源')
+    setText('[data-config-footer]', '统一消息, 操作与输入的视觉层级')
   }
   const renderFoundationsPage = () => {
     const root = document.getElementById('foundations-root')
     if (!root) return
-    const colorRows = config.foundations.colors.map((item) => `<div class="source-token"><strong>${escapeHtml(item.label)}</strong><span class="swatch" style="background:var(${escapeHtml(item.token)})"></span><code>${escapeHtml(tokenValue(item.token))}</code></div>`).join('')
+    const colorRows = config.foundations.colors.map((item) => `<div class="color-token"><strong>${escapeHtml(item.label)}</strong><span class="swatch" style="background:var(${escapeHtml(item.token)})"></span><code>${escapeHtml(tokenValue(item.token))}</code></div>`).join('')
     const typeRows = config.foundations.typography.map((item) => `<div class="type-row"><span class="type-label">${escapeHtml(item.label)}</span><span class="${escapeHtml(item.className)}">${escapeHtml(item.sample)}</span><span class="type-size">${escapeHtml(tokenValue(item.token))}</span></div>`).join('')
     const spacingRows = config.foundations.spacing.map((item) => `<div class="space-track"><code>${escapeHtml(item.label)}</code><span class="space-bar" style="width:${escapeHtml(tokenValue(item.token))}"></span><span>${escapeHtml(tokenValue(item.token))}</span></div>`).join('')
     root.innerHTML = `
-      <header class="review-head"><div><p class="eyebrow">Foundations</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">基础角色直接读取共享配置, 不在组件 spec 页中保存参数副本</p></div><p>${escapeHtml(config.meta.evidence)}</p></header>
-      <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>Source sample 用于追溯, semantic role 用于组件实现</p></div><div class="stage">${colorRows}</div></section>
+      <header class="review-head"><div><p class="eyebrow">Foundations</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
+      <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>颜色用于区分画布, 内容表面, 强调信息和操作状态</p></div><div class="stage">${colorRows}</div></section>
       <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>系统 UI 负责消息, monospace 只用于 code, command 和 path</p></div><div class="stage">${typeRows}</div></section>
-      <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>Reading column, turn rhythm 和 message spacing 均来自共享 token</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">User bubble, ${escapeHtml(tokenValue('--message-user-max-width'))} maximum</div><div class="turn-block">Assistant message stays unboxed across the reading column</div></div></div></div></section>
-      <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>Light 与 dark</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>Light</strong><span>${escapeHtml(config.meta.lightStatus)}</span></div><div class="message-pair"><div class="user-message">Measured user surface</div><p>Assistant 正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>Dark</strong><span>${escapeHtml(config.meta.darkStatus)}</span></div><div class="message-pair"><div class="user-message">Derived user surface</div><p>Component neutrals need evidence</p></div></div></div></section>
-      <footer class="review-foot">${escapeHtml(config.meta.nonClaim)}</footer>`
+      <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">User bubble, ${escapeHtml(tokenValue('--message-user-max-width'))} maximum</div><div class="turn-block">Assistant message stays unboxed across the reading column</div></div></div></div></section>
+      <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>Light 与 dark</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>Light</strong><span>${escapeHtml(config.meta.lightLabel)}</span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>Assistant 正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>Dark</strong><span>${escapeHtml(config.meta.darkLabel)}</span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div></div></section>
+      <footer class="review-foot">${escapeHtml(config.meta.description)}</footer>`
   }
   const applyThemeFromLocation = () => {
     const theme = new URLSearchParams(window.location.search).get('theme')

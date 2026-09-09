@@ -4,7 +4,7 @@
   "name": "context-editor-ui",
   "category": "Developer",
   "surface": "responsive-web",
-  "description": "截图复测的 conversation UI system, 聚焦 message, tool call, subagent, composer, Context Editor 与可追溯 light/dark role",
+  "description": "面向对话交互的独立设计系统, 包含消息, 工具调用, 输入框, 上下文编辑, 头像和资料标签, 支持浅色与深色主题",
   "files": {
     "design": "DESIGN.md",
     "skill": "SKILL.md",

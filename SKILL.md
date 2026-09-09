@@ -18,7 +18,7 @@ Do not use it for dashboards, settings, navigation, marketing pages, host-shell 
 
 ## Source ownership
 
-- Change data, tokens, evidence, voice or documented parameters in `design-system.config.js`
+- Change data, tokens, voice or documented parameters in `design-system.config.js`
 - Change component structure or icon geometry in the matching component JS
 - Change visual behavior or responsive states in `styles.css`
 - Change copy and status interaction in `interactions.js`
@@ -37,12 +37,12 @@ Do not use it for dashboards, settings, navigation, marketing pages, host-shell 
 - Pending input is not work-draft content
 - The work draft is the current confirmed context
 - Context Editor controls belong in a message action, tool row or composer accessory
-- Dark component roles remain provisional unless new evidence is added to the shared configuration
+- Light and dark themes share the same hierarchy, layout and interaction behavior
 
 ## Delivery check
 
 - No dashboard, inspector panel or unrelated form was introduced
 - Spec pages contain templates and mounts, not copied design values
-- Components bind semantic roles rather than source samples
+- Components use semantic colors for content, surfaces and interaction states
 - Hover, focus, pressed and disabled states retain readable foreground and background pairs
 - Mobile has no horizontal scroll, clipped code or overlapping composer controls
