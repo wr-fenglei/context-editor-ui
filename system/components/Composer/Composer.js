@@ -95,24 +95,21 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
         <div className="composer-right">
           <button ref={modelTriggerRef} className="model-button" id="model-trigger" title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><ChevronDownIcon className="model-chevron"/></button>
           <button className="icon-button" type="button" aria-label="语音输入" data-od-id="microphone-button"><MicIcon/></button>
-          <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" onClick={send} data-od-id="send-button"><SendIcon/></button>
+          <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" disabled={!ready} onClick={send} data-od-id="send-button"><SendIcon/></button>
         </div>
 
-      {addOpen ? (
-        <div className="popover is-add" role="menu" aria-label="添加内容" data-od-id="add-menu">
+      <MotionPresence show={addOpen} mode="popover" className="popover is-add" role="menu" aria-label="添加内容" data-od-id="add-menu">
           <div className="popover-title">{menuCopy.add}</div>
           <button className="menu-row" type="button" role="menuitem" data-od-id="add-files"><PlusIcon/><span>{menuCopy.files}</span><span/></button>
           <button className="menu-row" type="button" role="menuitem" data-od-id="add-goal"><ShieldIcon/><span><strong>{menuCopy.goal}</strong><small>{menuCopy.goalDescription}</small></span><span/></button>
           <button className="menu-row" type="button" role="menuitem" data-od-id="add-plan"><ShieldIcon/><span><strong>{menuCopy.plan}</strong><small>{menuCopy.planDescription}</small></span><span/></button>
           <div className="menu-group-label">{menuCopy.plugins}</div>
           <button className="menu-row" type="button" role="menuitem" onClick={() => { closeMenus(false); onOpenContextEditor?.() }} data-od-id="add-context-editor"><ContextIcon/><span><strong>{menuCopy.contextEditor}</strong><small>整理当前会话上下文</small></span><span/></button>
-        </div>
-      ) : null}
+        </MotionPresence>
 
-      {approvalOpen ? (
-        <div className="popover is-approval" role="menu" aria-label="操作批准方式" data-od-id="approval-menu" onKeyDown={onChoiceKeyDown}>
+      <MotionPresence show={approvalOpen} mode="popover" className="popover is-approval" role="menu" aria-label="操作批准方式" data-od-id="approval-menu" onKeyDown={onChoiceKeyDown}>
           <div className="popover-title"><span>{approvalMenu.title}</span><button className="menu-link" type="button" aria-expanded={approvalHelpOpen} onClick={() => setApprovalHelpOpen((open) => !open)}>{menuCopy.learnMore}</button></div>
-          {approvalHelpOpen ? <p className="approval-help">{approvalMenu.help}</p> : null}
+          <MotionPresence show={approvalHelpOpen}><p className="approval-help">{approvalMenu.help}</p></MotionPresence>
           {approvalMenu.items.map((item) => (
             <button key={item.value} className={`menu-row${item.danger ? ' is-danger' : ''}`} type="button" role="menuitemradio"
                     aria-checked={selectedApproval === item.value} onClick={() => selectApproval(item.value)} data-od-id={`approval-${item.value}`}>
@@ -120,11 +117,9 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
               <span className="approval-check" aria-hidden="true">{selectedApproval === item.value ? <CheckIcon/> : null}</span>
             </button>
           ))}
-        </div>
-      ) : null}
+        </MotionPresence>
 
-      {modelOpen ? (
-        <div className="popover is-model" role="menu" aria-label={modelMenu.title} data-od-id="model-menu" onKeyDown={onChoiceKeyDown}>
+      <MotionPresence show={modelOpen} mode="popover" className="popover is-model" role="menu" aria-label={modelMenu.title} data-od-id="model-menu" onKeyDown={onChoiceKeyDown}>
           <div className="model-menu-title">{modelMenu.title}</div>
           {modelMenu.items.map((item) => (
             <button key={item.value} className="model-option" type="button" role="menuitemradio" aria-checked={selectedModel === item.value}
@@ -133,8 +128,7 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
               <span className="model-option-check" aria-hidden="true">{selectedModel === item.value ? <CheckIcon/> : null}</span>
             </button>
           ))}
-        </div>
-      ) : null}
+        </MotionPresence>
       </div>
     </div>
   )

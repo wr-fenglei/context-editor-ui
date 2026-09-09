@@ -22,6 +22,8 @@
 - `system/Icons.js`: 对话组件的图标接口
 - `system/components/<组件>/<组件>.js`: 组件结构
 - `system/interactions.js`: 共享复制行为和状态反馈
+- `system/motion-runtime.js`: 展开, 收起, 条目排序与移除的共享动效
+- `system/MotionPresence.js`: 面板和消息的进入退出生命周期
 - `DESIGN.md`: 设计约束和集成边界
 - `SKILL.md`: 代理应用本系统的方式
 - `system/components/<组件>/spec.html`: 规范页模板和组件挂载点, 不保存设计数值副本
@@ -83,3 +85,11 @@ python3 -m http.server 8000
 ## 图标
 
 全站使用统一的圆角线框图标, 基础规范页提供整套图标预览, 图标轮廓来自 Lucide, 许可见 `THIRD_PARTY_NOTICES.md`
+
+## 动效
+
+操作反馈使用 120ms, 面板进入使用 180ms, 高度展开与条目排序使用 260ms, 退出使用 120ms, 参数统一保存在共享配置, 基础规范页提供说明
+
+面板关闭时立即停止交互, 动画完成后移除, 连续点击可以中断并反向播放, 开启系统的减少动态效果后直接切换状态, 保留键盘操作与焦点返回
+
+集成时先加载共享配置和 `motion-runtime.js`, 再加载 React, `MotionPresence.js` 与各组件, 上下文编辑区在展开结束后计算滚动位置

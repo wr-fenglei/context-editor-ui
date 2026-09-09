@@ -85,7 +85,11 @@
         '--composer-shadow': '0 10px 34px color-mix(in oklch, var(--fg) 7%, transparent)',
         '--motion-fast': '120ms',
         '--motion-base': '180ms',
-        '--ease-standard': 'cubic-bezier(.2, .8, .2, 1)'
+        '--motion-layout': '260ms',
+        '--motion-exit': '120ms',
+        '--motion-distance': '6px',
+        '--ease-exit': 'cubic-bezier(.4, 0, 1, 1)',
+        '--ease-standard': 'cubic-bezier(.22, 1, .36, 1)'
       },
       light: {
         '--profile-icon-design': '#a65dc5',
@@ -202,6 +206,12 @@
       }
     },
     foundations: {
+      motion: [
+        { label: '悬停与按下反馈', token: '--motion-fast', description: '颜色平滑过渡, 按下时提供轻微反馈' },
+        { label: '面板进入', token: '--motion-base', description: '从对应按钮上方淡入, 位移为 6px' },
+        { label: '展开与条目排序', token: '--motion-layout', description: '高度和位置连续变化, 保持阅读顺序' },
+        { label: '面板退出', token: '--motion-exit', description: '退出时立即停止交互, 动画结束后移除' }
+      ],
       icons: [{"name": "copy", "label": "复制"}, {"name": "thumbs-up", "label": "有帮助"}, {"name": "thumbs-down", "label": "没有帮助"}, {"name": "git-branch", "label": "创建分支"}, {"name": "plus", "label": "添加"}, {"name": "shield-check", "label": "批准方式"}, {"name": "mic", "label": "语音输入"}, {"name": "arrow-up", "label": "发送"}, {"name": "square-pen", "label": "上下文编辑"}, {"name": "file-text", "label": "文件"}, {"name": "text-cursor-input", "label": "选中文本"}, {"name": "target", "label": "指令"}, {"name": "sticky-note", "label": "备注"}, {"name": "trash-2", "label": "删除"}, {"name": "arrow-up", "label": "上移"}, {"name": "arrow-down", "label": "下移"}, {"name": "check", "label": "确认"}, {"name": "chevron-down", "label": "展开"}, {"name": "chevron-right", "label": "进入"}, {"name": "globe", "label": "网页"}, {"name": "square-terminal", "label": "命令"}, {"name": "blocks", "label": "工具"}, {"name": "code-xml", "label": "代码"}, {"name": "bot", "label": "子代理"}, {"name": "palette", "label": "设计"}, {"name": "cpu", "label": "科技"}, {"name": "book-open", "label": "阅读"}, {"name": "plane", "label": "旅行"}, {"name": "dumbbell", "label": "运动"}, {"name": "music-2", "label": "音乐"}],
       colors: [
         { label: '用户消息背景', token: '--palette-user-surface' },
@@ -391,7 +401,7 @@
           ['助手消息', '正文保持无框, 仅对链接和行内代码进行局部强调'],
           ['处理过程', '处理过程可展开或收起, 内容按发生顺序排列'],
           ['消息操作', '复制, 赞, 踩和分支使用弱化的线框图标'],
-          ['复制反馈', '复制成功在原按钮旁显示已复制并切换为勾号, 2 秒后恢复, 失败也在原处提示']
+          ['复制反馈', '复制成功时图标交叉淡入切换为勾号, 原按钮旁显示已复制, 2 秒后恢复, 失败也在原处提示']
         ],
         parameters: [
           { label: '消息圆角', tokens: ['--radius-message'] },
@@ -415,7 +425,7 @@
         rules: [
           ['收起状态', '线框图标, 弱化文字与可选展开箭头直接排列, 不增加卡片外框'],
           ['合并摘要', '多个动作可以合并成一句过去时摘要, 保持单行或自然换行'],
-          ['展开输出', '输出使用等宽字体和浅灰背景'],
+          ['展开输出', '点击摘要展开或收起, 高度连续变化, 输出使用等宽字体和浅灰背景'],
           ['错误状态', '仅在发生错误时使用错误提示色']
         ],
         parameters: [
@@ -489,7 +499,7 @@
           ['底部工具栏', '左侧为添加和批准方式, 右侧为模型, 思考深度, 语音输入和发送'],
           ['悬停', '保持完整点击区域, 悬停背景使用紧凑的胶囊形状'],
           ['聚焦', '输入区聚焦时不显示蓝框, 输入框描边颜色保持不变'],
-          ['工具面板', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 点击外部或按退出键可关闭, 关闭后焦点返回按钮'],
+          ['工具面板', '面板以 180ms 淡入, 120ms 退出, 在底部工具按钮上方展开, 与按钮间隔 8px, 点击外部或按退出键可关闭, 关闭后焦点返回按钮'],
           ['批准方式', '点击选项后同步按钮文字与勾号, 关闭面板并返回焦点, 再次打开保留当前选择, 支持方向键和确认键操作'],
           ['模型选择', '模型以单列选项展示, 勾号表示当前选择, 悬停只高亮当前行, 选择后关闭面板并同步按钮文字']
         ],
@@ -526,7 +536,8 @@
           ['待处理内容', '未处理的内容, 只有明确并入后才进入工作草稿'],
           ['分隔线', '虚线分隔已确认的草稿与待处理内容'],
           ['入口', '从消息操作, 工具行或输入框进入, 不增加独立面板'],
-          ['确认', '确认后工作草稿成为下一条消息的上下文']
+          ['确认', '确认后工作草稿成为下一条消息的上下文'],
+          ['状态过渡', '纳入和排除平滑切换, 排序时条目移动到新位置, 移除时收起, 确认结果在原处淡入']
         ],
         parameters: [
           { label: '编辑区圆角', tokens: ['--radius-message'] },
@@ -567,7 +578,7 @@
   const declarations = (values) => Object.entries(values).map(([name, value]) => `${name}:${value};`).join('')
   const tokenStyle = document.createElement('style')
   tokenStyle.id = 'context-editor-ui-tokens'
-  tokenStyle.textContent = `:root{${declarations(config.tokens.shared)}}:root,[data-theme="light"]{color-scheme:light;${declarations(config.tokens.light)}}[data-theme="dark"]{color-scheme:dark;${declarations(config.tokens.dark)}}@media(prefers-reduced-motion:reduce){:root{--motion-fast:0ms;--motion-base:0ms;--ease-standard:linear;}}`
+  tokenStyle.textContent = `:root{${declarations(config.tokens.shared)}}:root,[data-theme="light"]{color-scheme:light;${declarations(config.tokens.light)}}[data-theme="dark"]{color-scheme:dark;${declarations(config.tokens.dark)}}@media(prefers-reduced-motion:reduce){:root{--motion-fast:0ms;--motion-base:0ms;--motion-layout:0ms;--motion-exit:0ms;--ease-standard:linear;}}`
   document.head.appendChild(tokenStyle)
 
   const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character])
@@ -601,6 +612,7 @@
       <header class="review-head"><div><p class="eyebrow">基础规范</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
       <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>颜色用于区分画布, 内容表面, 强调信息和操作状态</p></div><div class="stage">${colorRows}</div></section>
       <section class="review-section" id="icons" data-od-id="foundation-icons"><div class="section-head"><h2>图标规范</h2><p>统一的圆角线框, 24 × 24 网格, 线宽 ${escapeHtml(tokenValue('--icon-stroke'))}, 随主题和操作状态切换颜色</p></div><div class="icon-catalog" id="icon-catalog"></div></section>
+      <section class="review-section" id="motion" data-od-id="foundation-motion"><div class="section-head"><h2>动效规范</h2><p>动效用于表达状态和位置变化, 开启减少动态效果后立即切换, 不影响操作结果</p></div><div class="parameter-grid">${config.foundations.motion.map((item) => `<div class="parameter-card"><strong>${escapeHtml(tokenValue(item.token))}</strong><span>${escapeHtml(item.label)}</span><span>${escapeHtml(item.description)}</span></div>`).join('')}</div></section>
       <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>消息使用系统界面字体, 等宽字体仅用于代码, 命令和路径</p></div><div class="stage">${typeRows}</div></section>
       <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">用户气泡宽度上限为 ${escapeHtml(tokenValue('--message-user-max-width'))}</div><div class="turn-block">助手消息在阅读栏内保持无框</div></div></div></div></section>
       <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>浅色与深色</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>浅色</strong><span>${escapeHtml(config.meta.lightLabel)}</span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>助手正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>深色</strong><span>${escapeHtml(config.meta.darkLabel)}</span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div></div></section>

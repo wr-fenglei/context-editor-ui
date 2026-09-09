@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>工具调用 - context-editor-ui</title>
-  <script src="../../design-system.config.js?v=agent-mark-2"></script>
+  <script src="../../design-system.config.js?v=motion-system-1"></script>
+  <script src="../../motion-runtime.js?v=motion-system-1"></script>
   <script src="../../icon-set.js?v=unified-icons-1"></script>
-  <link rel="stylesheet" href="../../styles.css?v=unified-icons-1">
+  <link rel="stylesheet" href="../../styles.css?v=motion-system-1">
 </head>
 <body>
   <main class="review-shell" data-od-id="tool-calls-preview">
@@ -20,10 +21,11 @@
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="../../Icons.js?v=unified-icons-1"></script>
-  <script type="text/babel" src="./ToolCall.js?v=unified-icons-1"></script>
+  <script type="text/babel" src="../../MotionPresence.js?v=motion-system-1"></script>
+  <script type="text/babel" src="./ToolCall.js?v=motion-system-1"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.components.tools.demo
-    ReactDOM.createRoot(document.getElementById('tools-demo-root')).render(<div className="demo-tool-stack"><ToolCall kind="web" label={demo.rows[0]} /><ToolCall label={demo.rows[1]} expandable={true} /><ToolCall kind="command" label={demo.rows[2]} expandable={true} /><ToolOutput>{demo.output}</ToolOutput></div>)
+    ReactDOM.createRoot(document.getElementById('tools-demo-root')).render(<div className="demo-tool-stack"><ToolCall kind="web" label={demo.rows[0]} /><ToolCall label={demo.rows[1]} expandable={true} output={demo.output} /><ToolCall kind="command" label={demo.rows[2]} expandable={true} output={demo.output} /></div>)
     ContextEditorUI.renderComponentPage('tools')
   </script>
 </body>

@@ -49,7 +49,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .worked > summary { min-height: var(--control-target); display: flex; align-items: center; gap: var(--space-2); padding-bottom: var(--space-2); border-bottom: 1px solid var(--border-soft); color: var(--muted); cursor: pointer; list-style: none; }
 .worked > summary::-webkit-details-marker { display: none; }
 .summary-chevron { width: 14px; height: 14px; transform: rotate(-90deg); transition: transform var(--motion-fast) var(--ease-standard); }
-.worked[open] .summary-chevron { transform: rotate(0); }
+.worked[open]:not([data-expanded="false"]) .summary-chevron { transform: rotate(0); }
 .work-log { display: flex; flex-direction: column; gap: var(--space-3); padding: var(--space-4) 0 var(--space-3); }
 .process-copy { color: var(--message-assistant-fg); }
 .process-copy + .tool-stack, .tool-stack + .process-copy { margin-top: var(--space-1); }
@@ -85,9 +85,11 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .assistant-actions .icon-button.compact { width: 32px; color: var(--palette-meta); }
 .assistant-actions .icon-button.compact:hover, .assistant-actions .icon-button.compact:focus-visible { color: var(--fg); }
 .copy-control { position: relative; display: inline-flex; flex: 0 0 auto; }
-.copy-control .copy-success-icon { display: none; }
-.copy-control[data-copy-state="success"] .copy-default-icon { display: none; }
-.copy-control[data-copy-state="success"] .copy-success-icon { display: block; }
+.copy-control .icon-button { position: relative; }
+.copy-control .copy-default-icon, .copy-control .copy-success-icon { position: absolute; transition: opacity var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard); }
+.copy-control .copy-success-icon { opacity: 0; transform: scale(.75); }
+.copy-control[data-copy-state="success"] .copy-default-icon { opacity: 0; transform: scale(.75); }
+.copy-control[data-copy-state="success"] .copy-success-icon { opacity: 1; transform: scale(1); }
 .copy-control[data-copy-feedback]::after { position: absolute; z-index: 30; bottom: calc(100% + var(--space-1)); left: 0; width: max-content; max-width: calc(100vw - var(--space-8)); padding: var(--space-1) var(--space-2); border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--popover-bg); color: var(--fg); font: var(--text-sm)/1.4 var(--font-body); content: attr(data-copy-feedback); pointer-events: none; }
 .user-meta .copy-control::after, .code-actions .copy-control::after { right: 0; left: auto; }
 .user-meta:has(.copy-control[data-copy-state]) { opacity: 1; }
@@ -400,3 +402,37 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .icon-catalog { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: var(--space-3); }
 .icon-sample { min-height: 92px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-3); border: 1px solid var(--border-soft); border-radius: var(--radius-card); color: var(--fg-secondary); }
 .icon-sample span { font-size: var(--text-sm); color: var(--muted); }
+
+/* Motion expresses state changes without moving static content on hover */
+button, a, .context-check, .context-item-title, .context-item-meta { transition: color var(--motion-fast) var(--ease-standard), background-color var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard), opacity var(--motion-fast) var(--ease-standard), box-shadow var(--motion-fast) var(--ease-standard); }
+button::before { transition: background-color var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard); }
+button:not(:disabled) > .ui-icon { transition: transform var(--motion-fast) var(--ease-standard), opacity var(--motion-fast) var(--ease-standard); }
+button:not(:disabled):active > .ui-icon { transform: scale(.9); }
+button:disabled { cursor: default; }
+button:disabled::before { pointer-events: none; }
+.popover { transform-origin: bottom center; }
+.popover.is-add, .popover.is-approval { transform-origin: bottom left; }
+.popover.is-model { transform-origin: bottom right; }
+.motion-presence[data-motion-state="closing"] { pointer-events: none; }
+.model-option:focus-visible { background: var(--popover-selected-bg); }
+.model-chevron { transition: transform var(--motion-fast) var(--ease-standard); }
+.model-button[aria-expanded="true"] .model-chevron { transform: rotate(180deg); }
+.context-check .ui-icon { transition: opacity var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard); }
+.context-toggle[aria-checked="false"] .context-check .ui-icon { opacity: 0; transform: scale(.7); }
+.context-toggle[aria-checked="true"] .context-check .ui-icon { opacity: 1; transform: scale(1); }
+.copy-control[data-copy-feedback]::after { animation: feedback-in var(--motion-fast) var(--ease-standard) both; }
+@keyframes feedback-in { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+.context-status:not(:empty), .live-copy-status:not(:empty) { animation: feedback-in var(--motion-base) var(--ease-standard) both; }
+.tool-disclosure { min-width: 0; }
+.tool-disclosure > summary { list-style: none; cursor: pointer; border-radius: var(--radius-inline); transition: color var(--motion-fast) var(--ease-standard); }
+.tool-disclosure > summary::-webkit-details-marker { display: none; }
+.tool-disclosure > summary:hover { color: var(--fg); }
+.tool-disclosure .tool-chevron { transform: rotate(-90deg); transition: transform var(--motion-base) var(--ease-standard); }
+.tool-disclosure[open]:not([data-expanded="false"]) > summary .tool-chevron { transform: rotate(0); }
+.tool-disclosure-output { padding-top: var(--space-3); }
+.disclosure-body { min-height: 0; }
+.context-demo-toggle { margin-bottom: var(--space-3); min-height: var(--control-target); padding: var(--space-2) var(--space-3); border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--bg); color: var(--fg); }
+.context-demo-toggle:hover { background: var(--surface); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

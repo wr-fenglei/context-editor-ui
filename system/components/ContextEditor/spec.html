@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>上下文编辑 - context-editor-ui</title>
-  <script src="../../design-system.config.js?v=agent-mark-2"></script>
+  <script src="../../design-system.config.js?v=motion-system-1"></script>
+  <script src="../../motion-runtime.js?v=motion-system-1"></script>
   <script src="../../icon-set.js?v=unified-icons-1"></script>
-  <link rel="stylesheet" href="../../styles.css?v=unified-icons-1">
+  <link rel="stylesheet" href="../../styles.css?v=motion-system-1">
 </head>
 <body>
   <main class="review-shell" data-od-id="context-editor-preview">
@@ -20,12 +21,13 @@
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="../../Icons.js?v=unified-icons-1"></script>
-  <script type="text/babel" src="./ContextEditor.js?v=chinese-copy-1"></script>
+  <script type="text/babel" src="../../MotionPresence.js?v=motion-system-1"></script>
+  <script type="text/babel" src="./ContextEditor.js?v=motion-system-1"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.components.contextEditor.demo
     function ContextEditorPreview() {
       const editor = useContextEditor(demo.draft, demo.pending)
-      return <ContextEditor {...editor.editorProps} />
+      return <><button className="context-demo-toggle" data-demo-context-toggle="" aria-expanded={editor.open} onClick={editor.toggleEditor}>{editor.open ? '收起上下文编辑' : '展开上下文编辑'}</button><MotionPresence show={editor.open}><ContextEditor {...editor.editorProps}/></MotionPresence></>
     }
     ReactDOM.createRoot(document.getElementById('context-editor-demo-root')).render(<ContextEditorPreview />)
     ContextEditorUI.renderComponentPage('contextEditor')

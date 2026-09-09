@@ -22,7 +22,7 @@ function AssistantMessage({ children, messageId = 'assistant-message' }) {
 }
 
 function WorkedSummary({ duration = '1 分 38 秒', children, open = true }) {
-  return <details className="worked" open={open} data-od-id="worked-summary"><summary>已处理 {duration}<ChevronDownIcon className="summary-chevron"/></summary><div className="work-log">{children}</div></details>
+  return <details className="worked" data-motion-disclosure="" open={open} data-od-id="worked-summary"><summary>已处理 {duration}<ChevronDownIcon className="summary-chevron"/></summary><div className="disclosure-body"><div className="work-log">{children}</div></div></details>
 }
 
 function CodeObject({ label, codeId, children }) {

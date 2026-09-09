@@ -6,6 +6,7 @@ function KindIcon({ kind }) {
 }
 
 function ContextEditor({ editorRef, draft, pending, includedCount, attention, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
+  React.useLayoutEffect(() => { ContextEditorUIMotion.layout(editorRef.current) }, [draft, pending])
   return (
     <section ref={editorRef} className={`context-editor${attention ? ' is-attention' : ''}`} aria-label="上下文编辑" data-od-id="context-editor">
       <header className="context-editor-head">
@@ -25,9 +26,9 @@ function ContextEditor({ editorRef, draft, pending, includedCount, attention, st
           </div>
           <ul className="context-list">
             {draft.map((item, index) => (
-              <li key={item.id} className={`context-item${item.included ? '' : ' is-excluded'}`} data-od-id={`draft-item-${item.id}`}>
+              <li key={item.id} className={`context-item${item.included ? '' : ' is-excluded'}`} data-motion-key={item.id} data-od-id={`draft-item-${item.id}`}>
                 <button className="context-toggle" type="button" role="checkbox" aria-checked={item.included} aria-label={`${item.included ? '排除' : '纳入'} ${item.title}`} onClick={() => onToggle(item.id)}>
-                  <span className="context-check" aria-hidden="true">{item.included ? <CheckIcon/> : null}</span>
+                  <span className="context-check" aria-hidden="true"><CheckIcon/></span>
                 </button>
                 <span className="context-kind"><KindIcon kind={item.kind}/></span>
                 <span className="context-item-body">
@@ -57,7 +58,7 @@ function ContextEditor({ editorRef, draft, pending, includedCount, attention, st
           </div>
           <ul className="context-list">
             {pending.map((item) => (
-              <li key={item.id} className="context-item is-pending" data-od-id={`pending-item-${item.id}`}>
+              <li key={item.id} className="context-item is-pending" data-motion-key={item.id} data-od-id={`pending-item-${item.id}`}>
                 <span className="context-kind"><KindIcon kind={item.kind}/></span>
                 <span className="context-item-body">
                   <span className="context-item-title">{item.title}</span>
@@ -96,6 +97,7 @@ function useContextEditor(initialDraft, initialPending) {
   const [status, setStatus] = React.useState('')
   const [newItem, setNewItem] = React.useState('')
   const attentionTimer = React.useRef(null)
+  const removing = React.useRef(new Set())
   const editorRef = React.useRef(null)
   const [openRequest, setOpenRequest] = React.useState(0)
 
@@ -108,28 +110,52 @@ function useContextEditor(initialDraft, initialPending) {
     clearTimeout(attentionTimer.current)
     attentionTimer.current = setTimeout(() => setAttention(false), 1400)
   }
+  const collapseEditor = () => {
+    const trigger = document.querySelector('[data-od-id="composer-context-accessory"], [data-demo-context-toggle]')
+    if (editorRef.current?.contains(document.activeElement)) trigger?.focus({ preventScroll: true })
+    setOpen(false)
+  }
   const toggleEditor = () => {
-    if (open) setOpen(false)
+    if (open) collapseEditor()
     else openEditor()
   }
   React.useEffect(() => () => clearTimeout(attentionTimer.current), [])
 
-  // Wait for React to mount the card, including a reopen after collapse
-  // A separate request counter also handles repeated clicks on an open editor
+  // Wait for the card to reach its final height before computing the scroll target
   React.useEffect(() => {
     if (!open || !openRequest) return
+    let cancelled = false
     const frame = requestAnimationFrame(() => {
-      editorRef.current?.scrollIntoView({
-        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
-        block: 'start'
+      const element = editorRef.current
+      ContextEditorUIMotion.settled(element?.closest('.motion-presence')).then(() => {
+        if (cancelled) return
+        element?.scrollIntoView({
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+          block: 'start'
+        })
       })
     })
-    return () => cancelAnimationFrame(frame)
+    return () => { cancelled = true; cancelAnimationFrame(frame) }
   }, [open, openRequest])
 
   const toggleItem = (id) => setDraft((items) => items.map((item) => item.id === id ? { ...item, included: !item.included } : item))
-  const removeDraft = (id) => setDraft((items) => items.filter((item) => item.id !== id))
-  const removePending = (id) => setPending((items) => items.filter((item) => item.id !== id))
+  const exitRows = async (ids, commit) => {
+    if (ids.some((id) => removing.current.has(id))) return
+    ids.forEach((id) => removing.current.add(id))
+    const active = document.activeElement
+    const rows = ids.map((id) => editorRef.current?.querySelector(`[data-motion-key="${CSS.escape(id)}"]`)).filter(Boolean)
+    const focused = rows.find((row) => row.contains(active))
+    if (focused) {
+      const next = Array.from(focused.parentElement.children).find((row) => !ids.includes(row.dataset.motionKey))
+      ;(next?.querySelector('button:not(:disabled)') || editorRef.current?.querySelector('.context-add-input'))?.focus({ preventScroll: true })
+    }
+    await Promise.all(rows.map(ContextEditorUIMotion.remove))
+    ContextEditorUIMotion.capture(editorRef.current)
+    commit()
+    ids.forEach((id) => removing.current.delete(id))
+  }
+  const removeDraft = (id) => exitRows([id], () => setDraft((items) => items.filter((item) => item.id !== id)))
+  const removePending = (id) => exitRows([id], () => setPending((items) => items.filter((item) => item.id !== id)))
   const move = (id, direction) => setDraft((items) => {
     const index = items.findIndex((item) => item.id === id)
     const target = index + direction
@@ -141,15 +167,20 @@ function useContextEditor(initialDraft, initialPending) {
   const merge = (id) => {
     const item = pending.find((entry) => entry.id === id)
     if (!item) return
-    setDraft((items) => [...items, { ...item, included: true, meta: '已并入 · 刚刚' }])
-    setPending((items) => items.filter((entry) => entry.id !== id))
-    setStatus('')
+    exitRows([id], () => {
+      setDraft((items) => [...items, { ...item, included: true, meta: '已并入 · 刚刚' }])
+      setPending((items) => items.filter((entry) => entry.id !== id))
+      setStatus('')
+    })
   }
   const mergeAll = () => {
     if (!pending.length) return
-    setDraft((items) => [...items, ...pending.map((entry) => ({ ...entry, included: true, meta: '已并入 · 刚刚' }))])
-    setPending([])
-    setStatus('')
+    const batch = pending.slice()
+    exitRows(batch.map((item) => item.id), () => {
+      setDraft((items) => [...items, ...batch.map((entry) => ({ ...entry, included: true, meta: '已并入 · 刚刚' }))])
+      setPending((items) => items.filter((item) => !batch.some((entry) => entry.id === item.id)))
+      setStatus('')
+    })
   }
   const addPending = () => {
     const title = newItem.trim()
@@ -167,7 +198,7 @@ function useContextEditor(initialDraft, initialPending) {
       editorRef, draft, pending, includedCount, attention, status, newItem,
       onNewItem: setNewItem, onToggle: toggleItem, onRemoveDraft: removeDraft,
       onRemovePending: removePending, onMove: move, onMerge: merge, onMergeAll: mergeAll,
-      onAddPending: addPending, onConfirm: confirmDraft, onCollapse: () => setOpen(false)
+      onAddPending: addPending, onConfirm: confirmDraft, onCollapse: collapseEditor
     }
   }
 }
