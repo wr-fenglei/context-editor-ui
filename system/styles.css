@@ -70,7 +70,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .agent-copy { min-width: 0; overflow-wrap: anywhere; }
 .agent-status { white-space: nowrap; }
 
-.code-object { overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius-message); background: var(--code-object-bg); }
+.code-object { overflow: visible; border: 1px solid var(--border); border-radius: var(--radius-message); background: var(--code-object-bg); }
 .code-head { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding: var(--space-3) var(--space-4); }
 .code-label { display: inline-flex; align-items: center; gap: var(--space-2); font-weight: 600; }
 .code-actions, .message-actions { display: flex; align-items: center; gap: var(--space-1); }
