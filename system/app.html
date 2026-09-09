@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="对话消息, 工具调用, subagent, 输入框与 Context Editor 集成示例">
+  <meta name="description" content="对话消息, 工具调用, 子代理, 输入框与上下文编辑集成示例">
   <title>对话界面集成示例 - context-editor-ui</title>
-  <script src="design-system.config.js?v=independent-system-1"></script>
-  <link rel="stylesheet" href="styles.css?v=independent-system-1">
+  <script src="design-system.config.js?v=chinese-copy-1"></script>
+  <link rel="stylesheet" href="styles.css?v=chinese-copy-1">
 </head>
 <body>
   <div id="app"></div>
@@ -15,11 +15,11 @@
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="Icons.js"></script>
-  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=local-copy-1"></script>
+  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=chinese-copy-1"></script>
   <script type="text/babel" src="components/ToolCall/ToolCall.js"></script>
-  <script type="text/babel" src="components/SubagentCall/SubagentCall.js"></script>
-  <script type="text/babel" src="components/Composer/Composer.js?v=model-list-1"></script>
-  <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=context-toggle-1"></script>
+  <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=chinese-copy-1"></script>
+  <script type="text/babel" src="components/Composer/Composer.js?v=chinese-copy-1"></script>
+  <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=chinese-copy-1"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.integratedDemo
     const contextDemo = ContextEditorUIConfig.components.contextEditor.demo
@@ -49,7 +49,7 @@
                     <ToolCall kind="command" label={demo.toolCommand} expandable/>
                     <button className="tool-row tool-row-button" type="button" onClick={editor.openEditor} data-od-id="tool-context-editor">
                       <ContextIcon/>
-                      <span className="tool-label">Opened Context Editor</span>
+                      <span className="tool-label">已打开上下文编辑区</span>
                       <span className="tool-chevron" aria-hidden="true"/>
                     </button>
                     <SubagentCall task={demo.task} status="finished"/>

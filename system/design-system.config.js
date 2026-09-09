@@ -187,30 +187,30 @@
     },
     foundations: {
       colors: [
-        { label: 'User surface', token: '--palette-user-surface' },
-        { label: 'Foreground', token: '--palette-light-foreground' },
-        { label: 'Accent', token: '--palette-accent' },
-        { label: 'Skill', token: '--palette-skill' },
-        { label: 'Diff added', token: '--palette-diff-added' },
-        { label: 'Diff removed', token: '--palette-diff-removed' }
+        { label: '用户消息背景', token: '--palette-user-surface' },
+        { label: '正文颜色', token: '--palette-light-foreground' },
+        { label: '强调色', token: '--palette-accent' },
+        { label: '功能强调色', token: '--palette-skill' },
+        { label: '新增内容', token: '--palette-diff-added' },
+        { label: '删除内容', token: '--palette-diff-removed' }
       ],
       typography: [
-        { label: 'message', sample: '清晰区分消息内容与操作, 保持连续的阅读体验', token: '--text-base', className: 'message-sample' },
-        { label: 'tool', sample: 'Loaded a tool, ran a command, searched the web', token: '--text-base', className: 'tool-sample' },
-        { label: 'metadata', sample: 'Today 4:18 PM', token: '--text-sm', className: 'time-sample' },
-        { label: 'code', sample: 'system/components/ContextEditor/ContextEditor.js', token: '--text-sm', className: 'mono-sample' }
+        { label: '消息正文', sample: '清晰区分消息内容与操作, 保持连续的阅读体验', token: '--text-base', className: 'message-sample' },
+        { label: '工具摘要', sample: '已加载工具, 执行命令并搜索网页', token: '--text-base', className: 'tool-sample' },
+        { label: '时间信息', sample: '今天 16:18', token: '--text-sm', className: 'time-sample' },
+        { label: '代码与路径', sample: 'system/components/ContextEditor/ContextEditor.js', token: '--text-sm', className: 'mono-sample' }
       ],
       spacing: [
-        { label: 'message gap', token: '--message-gap' },
-        { label: 'section gap', token: '--space-6' },
-        { label: 'column gutter', token: '--gutter-desktop' },
-        { label: 'turn gap', token: '--turn-gap' }
+        { label: '消息间距', token: '--message-gap' },
+        { label: '区块间距', token: '--space-6' },
+        { label: '阅读栏边距', token: '--gutter-desktop' },
+        { label: '对话轮次间距', token: '--turn-gap' }
       ]
     },
     components: {
       profileTags: {
         overview: '图文标签, 自然换行, 统一间距',
-        "eyebrow": "Component 06",
+        "eyebrow": "组件 06",
         "title": "个人资料标签",
         "lede": "通过图标与文字展示个人资料, 浅色背景和圆角区分标签, 窄屏自然换行",
         "source": "system/components/ProfileTags/ProfileTags.js",
@@ -226,7 +226,7 @@
           ],
           [
             "样式",
-            "绑定 surface、fg-secondary、border-soft 与 radius-inline"
+            "使用统一的背景色, 辅助文字色, 细描边和圆角"
           ],
           [
             "图标",
@@ -275,7 +275,7 @@
               "icon": "profile-female.svg"
             },
             {
-              "text": "IP 重庆"
+              "text": "所在地 重庆"
             },
             {
               "text": "已实名",
@@ -289,7 +289,7 @@
               "text": "互联网"
             },
             {
-              "text": "Steam·8487h",
+              "text": "游戏时长 8487 小时",
               "icon": "profile-steam.svg"
             }
           ]
@@ -297,7 +297,7 @@
       },
       avatarGroup: {
         overview: '圆形裁切, 重叠排列, 主题底色',
-        "eyebrow": "Component 07",
+        "eyebrow": "组件 07",
         "title": "头像组",
         "lede": "40px 圆形头像以 8px 重叠排列, 使用画布色描边区分相邻成员",
         "source": "system/components/AvatarGroup/AvatarGroup.js",
@@ -373,92 +373,100 @@
 
       messages: {
         overview: '消息分层, 连续阅读, 原处操作反馈',
-        eyebrow: 'Component 01', title: '消息组件',
+        eyebrow: '组件 01', title: '消息组件',
         lede: '通过对齐, 留白和背景区分用户消息与助手回复, 支持过程展开和原处复制反馈',
         source: 'system/components/MessageBubble/MessageBubble.js',
         demo: {
           user: '帮我整理本周的项目进展',
-          duration: '1m 38s',
+          duration: '1 分 38 秒',
           process: '我会先查看项目笔记, 再按任务整理进展',
           assistant: ['本周已完成需求梳理和交互检查', '接下来需要确认文案, 并安排体验验证'],
-          codeLabel: 'Project summary',
-          code: 'requirements → complete\ninteraction  → reviewed\ncopy         → pending'
+          codeLabel: '项目摘要',
+          code: '需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理'
         },
-        rulesIntro: '消息身份由 alignment, surface 和 whitespace 表达, assistant 正文不增加 card shell',
+        rulesIntro: '通过对齐, 背景和留白区分消息身份, 助手正文保持无框',
         rules: [
-          ['User message', '右对齐浅灰 bubble, hover 或 keyboard focus 时显示时间和复制操作'],
-          ['Assistant message', '保持无框正文, link 与 inline code 才获得局部强调'],
-          ['Worked summary', '使用原生 details, 展开内容按发生顺序排列'],
-          ['Message actions', '复制, 赞, 踩和分支使用低显著度 outline icon'],
-          ['Copy feedback', '复制成功在原按钮旁显示已复制并切换为勾号, 2 秒后恢复, 失败也在原处提示']
+          ['用户消息', '用户气泡右对齐, 使用浅灰背景, 悬停或键盘聚焦时显示时间和复制操作'],
+          ['助手消息', '正文保持无框, 仅对链接和行内代码进行局部强调'],
+          ['处理过程', '处理过程可展开或收起, 内容按发生顺序排列'],
+          ['消息操作', '复制, 赞, 踩和分支使用弱化的线框图标'],
+          ['复制反馈', '复制成功在原按钮旁显示已复制并切换为勾号, 2 秒后恢复, 失败也在原处提示']
         ],
         parameters: [
-          { label: 'message radius', tokens: ['--radius-message'] },
-          { label: 'user max-width', tokens: ['--message-user-max-width'] },
-          { label: 'user padding', tokens: ['--message-user-padding-block', '--message-user-padding-inline'], separator: ' × ' },
-          { label: 'turn gap', tokens: ['--turn-gap'] },
-          { label: 'message gap', tokens: ['--message-gap'] },
-          { label: 'action icon / stroke', tokens: ['--message-action-icon-size', '--message-action-stroke'], separator: ' / ' }
+          { label: '消息圆角', tokens: ['--radius-message'] },
+          { label: '用户消息宽度上限', tokens: ['--message-user-max-width'] },
+          { label: '用户消息内边距', tokens: ['--message-user-padding-block', '--message-user-padding-inline'], separator: ' × ' },
+          { label: '对话轮次间距', tokens: ['--turn-gap'] },
+          { label: '消息间距', tokens: ['--message-gap'] },
+          { label: '操作图标尺寸 / 描边', tokens: ['--message-action-icon-size', '--message-action-stroke'], separator: ' / ' }
         ]
       },
       tools: {
         overview: '单行摘要, 按需展开, 状态可见',
-        eyebrow: 'Component 02', title: '工具调用组件',
-        lede: 'Collapsed row 留在正文流, 只有 command output 获得浅灰 surface',
+        eyebrow: '组件 02', title: '工具调用组件',
+        lede: '收起时以单行摘要显示在正文中, 展开的命令输出使用浅灰背景',
         source: 'system/components/ToolCall/ToolCall.js',
         demo: {
-          rows: ['Searched the web', 'Loaded a tool, ran commands, searched the web', 'Ran command rg -n "message|composer"'],
-          output: '$ rg -n "done|pending" notes\n3 task groups found\nContext draft ready'
+          rows: ['已搜索网页', '已加载工具, 执行命令并搜索网页', '已执行命令 rg -n "message|composer"'],
+          output: '$ rg -n "done|pending" notes\n找到 3 组任务\n上下文草稿已就绪'
         },
-        rulesIntro: '工具状态必须同时包含文字, 不能只依赖 icon 或颜色',
+        rulesIntro: '工具状态必须包含文字说明, 不能只依赖图标或颜色',
         rules: [
-          ['Collapsed row', 'Outline icon, muted label 和可选 chevron 直接排列, 不包 card'],
-          ['Grouped call', '多个动作可以合并成一句过去时摘要, 保持单行或自然换行'],
-          ['Expanded output', '输出使用 mono 字体和浅灰 surface'],
-          ['Error state', '只有真实错误使用 danger role']
+          ['收起状态', '线框图标, 弱化文字与可选展开箭头直接排列, 不增加卡片外框'],
+          ['合并摘要', '多个动作可以合并成一句过去时摘要, 保持单行或自然换行'],
+          ['展开输出', '输出使用等宽字体和浅灰背景'],
+          ['错误状态', '仅在发生错误时使用错误提示色']
         ],
         parameters: [
-          { label: 'tool icon', tokens: ['--tool-icon-size'] },
-          { label: 'row gap', tokens: ['--tool-row-gap'] },
-          { label: 'stack gap', tokens: ['--tool-stack-gap'] },
-          { label: 'output radius', tokens: ['--radius-message'] },
-          { label: 'output padding', tokens: ['--tool-output-padding'] },
-          { label: 'mono size', tokens: ['--tool-output-font-size'] }
+          { label: '工具图标', tokens: ['--tool-icon-size'] },
+          { label: '行内间距', tokens: ['--tool-row-gap'] },
+          { label: '条目间距', tokens: ['--tool-stack-gap'] },
+          { label: '输出区域圆角', tokens: ['--radius-message'] },
+          { label: '输出区域内边距', tokens: ['--tool-output-padding'] },
+          { label: '等宽字号', tokens: ['--tool-output-font-size'] }
         ]
       },
       subagents: {
         overview: '任务标签, 进度状态, 时间顺序',
-        eyebrow: 'Component 03', title: 'Subagent 调用组件',
-        lede: 'Task pill 与 lifecycle text 位于同一 timeline, started 和 finished 保持可读但不形成卡片',
+        eyebrow: '组件 03', title: '子代理调用组件',
+        lede: '任务标签和状态文字按时间顺序排列, 开始与完成状态清晰可读, 不增加卡片外框',
         source: 'system/components/SubagentCall/SubagentCall.js',
-        demo: { task: 'Review project brief', tool: 'Read project notes', started: 'started working', finished: 'finished' },
-        rulesIntro: 'Subagent 是对话事件, 不是独立工作面板',
+        demo: { task: '查看项目概况', tool: '已阅读项目笔记', started: '开始处理', finished: '已完成' },
+        rulesIntro: '子代理的进度作为事件显示在对话中',
         rules: [
-          ['Task pill', '轻描边 pill 包含 agent mark 与 2 至 4 个词的任务名'],
-          ['Lifecycle', 'started working, working 或 finished 独立写在 pill 外'],
-          ['Timeline', 'started 与 finished 可以出现在同一 turn 中'],
-          ['Detail', '默认只显示任务名和状态, 需要时才展开详情']
+          ['任务标签', '带细描边的胶囊标签包含子代理标记和简短任务名'],
+          ['任务状态', '开始处理, 处理中或已完成等状态独立显示在标签外'],
+          ['时间顺序', '开始与完成状态可以出现在同一轮对话中'],
+          ['详情', '默认只显示任务名和状态, 需要时才展开详情']
         ],
         parameters: [
-          { label: 'agent mark', tokens: ['--subagent-mark-size'] },
-          { label: 'pill min-height', tokens: ['--subagent-pill-min-height'] },
-          { label: 'pill padding', tokens: ['--subagent-pill-padding-block', '--subagent-pill-padding-inline'], separator: ' × ' },
-          { label: 'pill gap', tokens: ['--subagent-pill-gap'] },
-          { label: 'pill border', tokens: ['--subagent-pill-border-width'] },
-          { label: 'timeline stack', tokens: ['--tool-stack-gap'] }
+          { label: '子代理标记', tokens: ['--subagent-mark-size'] },
+          { label: '标签高度下限', tokens: ['--subagent-pill-min-height'] },
+          { label: '标签内边距', tokens: ['--subagent-pill-padding-block', '--subagent-pill-padding-inline'], separator: ' × ' },
+          { label: '标签内容间距', tokens: ['--subagent-pill-gap'] },
+          { label: '标签描边', tokens: ['--subagent-pill-border-width'] },
+          { label: '事件间距', tokens: ['--tool-stack-gap'] }
         ]
       },
       composer: {
         overview: '内容输入, 工具入口, 模型选择',
-        eyebrow: 'Component 04', title: '输入框组件',
+        eyebrow: '组件 04', title: '输入框组件',
         lede: '将多行输入, 上下文入口和底部工具组合在同一输入区域, 面板紧邻对应按钮',
         source: 'system/components/Composer/Composer.js',
-        interface: { placeholder: 'Do anything', approval: 'Approve for me', effort: 'Ultra' },
+        interface: { placeholder: '输入你想做的事', approval: '自动批准', effort: '深度' },
+        menus: {
+          add: '添加', files: '文件和文件夹', goal: '目标', goalDescription: '设定目标并持续推进',
+          plan: '计划模式', planDescription: '开启计划模式', plugins: '插件', contextEditor: '上下文编辑',
+          approvalTitle: '如何批准助手的操作?', learnMore: '了解详情', ask: '每次询问',
+          askDescription: '编辑外部文件和访问网络前始终询问',
+          autoDescription: '仅在检测到操作可能存在风险时询问',
+          full: '完全访问', fullDescription: '允许访问网络和电脑上的所有文件'
+        },
         modelMenu: {
-          title: 'Select model',
+          title: '选择模型',
           initialValue: 'gpt-6-astra',
           items: [
-            { value: 'default', label: 'Default', description: 'Recommended set of models' },
+            { value: 'default', label: '默认', description: '推荐的模型组合' },
             { value: 'gpt-6-astra', label: 'GPT-6 Astra' },
             { value: 'gpt-5.6-sol', label: 'GPT-5.6 Sol' },
             { value: 'gpt-5.6-terra', label: 'GPT-5.6 Terra' },
@@ -467,82 +475,82 @@
             { value: 'gpt-5.3-codex-spark', label: 'GPT-5.3 Codex Spark' }
           ]
         },
-        rulesIntro: 'Composer 是对话中唯一持续 elevated 的对象, 外层 sticky dock 必须透明',
+        rulesIntro: '输入框通过阴影保持层级, 外层固定区域保持透明',
         rules: [
-          ['Textarea', '无内框, placeholder 使用 muted role, 正文使用 foreground'],
-          ['Context accessory', '上下文入口显示已确认与待处理数量, 点击切换展开与收起, 展开时滚动到卡片, 不改变 composer 高度'],
-          ['Bottom bar', '左侧 add 和 approval, 右侧 model, effort, microphone 和 send'],
-          ['Hover', '保持完整 target, 可见 hover surface 使用紧凑 pill'],
-          ['Focus', 'Textarea 不出现蓝框, composer border 颜色保持不变'],
-          ['Menus', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 支持 outside click, Escape 和 focus return'],
-          ['Model selection', '模型以单列选项展示, 勾号表示当前选择, hover 只高亮当前行, 选择后关闭面板并同步按钮文字']
+          ['文本输入', '输入区无内框, 占位文字使用弱化颜色, 输入内容使用正文颜色'],
+          ['上下文入口', '上下文入口显示已确认与待处理数量, 点击切换展开与收起, 展开时滚动到卡片, 输入框高度保持不变'],
+          ['底部工具栏', '左侧为添加和批准方式, 右侧为模型, 思考深度, 语音输入和发送'],
+          ['悬停', '保持完整点击区域, 悬停背景使用紧凑的胶囊形状'],
+          ['聚焦', '输入区聚焦时不显示蓝框, 输入框描边颜色保持不变'],
+          ['工具面板', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 点击外部或按退出键可关闭, 关闭后焦点返回按钮'],
+          ['模型选择', '模型以单列选项展示, 勾号表示当前选择, 悬停只高亮当前行, 选择后关闭面板并同步按钮文字']
         ],
         parameters: [
-          { label: 'minimum height', tokens: ['--composer-min-height'] },
-          { label: 'composer radius', tokens: ['--radius-message'] },
-          { label: 'composer border', tokens: ['--composer-border-width'] },
-          { label: 'top padding', tokens: ['--composer-padding-top'] },
-          { label: 'control target', tokens: ['--control-target'] },
-          { label: 'send visual', tokens: ['--send-visual-size'] }
+          { label: '高度下限', tokens: ['--composer-min-height'] },
+          { label: '输入框圆角', tokens: ['--radius-message'] },
+          { label: '输入框描边', tokens: ['--composer-border-width'] },
+          { label: '顶部内边距', tokens: ['--composer-padding-top'] },
+          { label: '控件点击区域', tokens: ['--control-target'] },
+          { label: '发送按钮尺寸', tokens: ['--send-visual-size'] }
         ]
       },
       contextEditor: {
         overview: '工作草稿, 待处理内容, 逐项确认',
-        eyebrow: 'Component 05', title: '上下文编辑组件',
-        lede: 'Context Editor 是对话流内的对象, 用一条 boundary 把 confirmed work draft 与 pending input 硬性分开',
+        eyebrow: '组件 05', title: '上下文编辑组件',
+        lede: '上下文编辑区位于对话中, 使用分隔线区分已确认的工作草稿与待处理内容',
         source: 'system/components/ContextEditor/ContextEditor.js',
         demo: {
           draft: [
             { id: 'd1', kind: 'file', title: 'packages/context-editor/src/messages.tsx', meta: '上次编辑 · 2 小时前', included: true },
-            { id: 'd2', kind: 'selection', title: 'DESIGN.md §6 Context boundary', meta: '已选 12 行 · 来自工作区', included: true },
-            { id: 'd3', kind: 'instruction', title: 'Assistant 正文保持无框', meta: '当前会话指令', included: true },
+            { id: 'd2', kind: 'selection', title: 'DESIGN.md 第 6 节 上下文边界', meta: '已选 12 行 · 来自工作区', included: true },
+            { id: 'd3', kind: 'instruction', title: '助手正文保持无框', meta: '当前会话指令', included: true },
             { id: 'd4', kind: 'file', title: 'system/components/Composer/Composer.js', meta: '上次编辑 · 昨天', included: false }
           ],
           pending: [
             { id: 'p1', kind: 'file', title: 'system/components/Composer/spec.html', meta: '刚添加 · 未处理' },
-            { id: 'p2', kind: 'note', title: '把 Context Editor 入口放到 composer accessory', meta: '草稿输入 · 未处理' },
+            { id: 'p2', kind: 'note', title: '将上下文编辑入口放在输入框顶部', meta: '草稿输入 · 未处理' },
             { id: 'p3', kind: 'file', title: 'system/interactions.js', meta: '工具调用产生 · 未处理' }
           ]
         },
-        rulesIntro: 'Pending input 是未处理 input, 不是 work draft 内容; 入口只来自 message action, tool row 或 composer accessory',
+        rulesIntro: '待处理内容需明确并入后才进入工作草稿, 可从消息操作, 工具行或输入框进入编辑区',
         rules: [
-          ['Work draft', '已确认的上下文, 随下一条消息发送'],
-          ['Pending input', '未处理 input, 只有明确并入后才进入工作草稿'],
-          ['Boundary', '虚线边界把 confirmed draft 与 pending input 分开'],
-          ['Entry points', 'message action, tool row 或 composer accessory, 不新增独立面板'],
-          ['Confirm', '确认后工作草稿成为下一条消息的上下文']
+          ['工作草稿', '已确认的上下文, 随下一条消息发送'],
+          ['待处理内容', '未处理的内容, 只有明确并入后才进入工作草稿'],
+          ['分隔线', '虚线分隔已确认的草稿与待处理内容'],
+          ['入口', '从消息操作, 工具行或输入框进入, 不增加独立面板'],
+          ['确认', '确认后工作草稿成为下一条消息的上下文']
         ],
         parameters: [
-          { label: 'editor radius', tokens: ['--radius-message'] },
-          { label: 'control target', tokens: ['--control-target'] },
-          { label: 'control radius', tokens: ['--radius-control'] },
-          { label: 'group padding', tokens: ['--space-5'] },
-          { label: 'stack gap', tokens: ['--space-3'] },
-          { label: 'state motion', tokens: ['--motion-base'] }
+          { label: '编辑区圆角', tokens: ['--radius-message'] },
+          { label: '控件点击区域', tokens: ['--control-target'] },
+          { label: '控件圆角', tokens: ['--radius-control'] },
+          { label: '分组内边距', tokens: ['--space-5'] },
+          { label: '条目间距', tokens: ['--space-3'] },
+          { label: '状态过渡时长', tokens: ['--motion-base'] }
         ]
       }
     },
     integratedDemo: {
-      time: 'Today 4:18 PM',
+      time: '今天 16:18',
       user: '帮我整理本周的项目进展, 并把待确认事项加入上下文',
-      duration: '1m 38s',
+      duration: '1 分 38 秒',
       process: '我会先查看项目笔记, 再整理进展和待确认事项',
-      task: 'Review project brief',
-      toolWeb: 'Read project notes',
-      toolCommand: 'Ran commands',
-      output: '$ rg -n "done|pending" notes\n3 task groups found\nContext draft ready',
+      task: '查看项目概况',
+      toolWeb: '已阅读项目笔记',
+      toolCommand: '已执行命令',
+      output: '$ rg -n "done|pending" notes\n找到 3 组任务\n上下文草稿已就绪',
       assistant: ['本周的需求梳理和界面交互检查已完成, 当前进展整理如下', '待确认事项已放入上下文编辑区, 可以逐项纳入, 排除或移除'],
-      codeLabel: 'Project summary',
-      code: 'requirements → complete\ninteraction  → reviewed\ncopy         → pending\nvalidation   → scheduled'
+      codeLabel: '项目摘要',
+      code: '需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理\n体验验证 → 已安排'
     },
     voice: {
       assistant: '先给判断, 再给动作和可验证结果',
       tool: '使用过去时或进行时的短动作加对象',
-      subagent: '任务名使用 2 至 4 个词, lifecycle 独立表达',
-      contextEditor: '明确区分 pending input 与 confirmed work draft'
+      subagent: '任务名简短明确, 状态单独显示',
+      contextEditor: '明确区分待处理内容与已确认的工作草稿'
     },
     boundaries: {
-      integration: 'Context Editor 入口只能作为 message action, tool row 或 composer accessory',
+      integration: '上下文编辑入口位于消息操作, 工具行或输入框中',
       dark: '浅色与深色主题保持相同的层级和交互, 通过画布, 表面和文字颜色区分内容'
     }
   }
@@ -582,11 +590,11 @@
     const typeRows = config.foundations.typography.map((item) => `<div class="type-row"><span class="type-label">${escapeHtml(item.label)}</span><span class="${escapeHtml(item.className)}">${escapeHtml(item.sample)}</span><span class="type-size">${escapeHtml(tokenValue(item.token))}</span></div>`).join('')
     const spacingRows = config.foundations.spacing.map((item) => `<div class="space-track"><code>${escapeHtml(item.label)}</code><span class="space-bar" style="width:${escapeHtml(tokenValue(item.token))}"></span><span>${escapeHtml(tokenValue(item.token))}</span></div>`).join('')
     root.innerHTML = `
-      <header class="review-head"><div><p class="eyebrow">Foundations</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
+      <header class="review-head"><div><p class="eyebrow">基础规范</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
       <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>颜色用于区分画布, 内容表面, 强调信息和操作状态</p></div><div class="stage">${colorRows}</div></section>
-      <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>系统 UI 负责消息, monospace 只用于 code, command 和 path</p></div><div class="stage">${typeRows}</div></section>
-      <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">User bubble, ${escapeHtml(tokenValue('--message-user-max-width'))} maximum</div><div class="turn-block">Assistant message stays unboxed across the reading column</div></div></div></div></section>
-      <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>Light 与 dark</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>Light</strong><span>${escapeHtml(config.meta.lightLabel)}</span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>Assistant 正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>Dark</strong><span>${escapeHtml(config.meta.darkLabel)}</span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div></div></section>
+      <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>消息使用系统界面字体, 等宽字体仅用于代码, 命令和路径</p></div><div class="stage">${typeRows}</div></section>
+      <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">用户气泡宽度上限为 ${escapeHtml(tokenValue('--message-user-max-width'))}</div><div class="turn-block">助手消息在阅读栏内保持无框</div></div></div></div></section>
+      <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>浅色与深色</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>浅色</strong><span>${escapeHtml(config.meta.lightLabel)}</span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>助手正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>深色</strong><span>${escapeHtml(config.meta.darkLabel)}</span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div></div></section>
       <footer class="review-foot">${escapeHtml(config.meta.description)}</footer>`
   }
   const applyThemeFromLocation = () => {

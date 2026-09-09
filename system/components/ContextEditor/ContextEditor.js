@@ -11,7 +11,7 @@ function ContextEditor({ editorRef, draft, pending, includedCount, attention, st
       <header className="context-editor-head">
         <span className="context-editor-mark" aria-hidden="true"><ContextIcon/></span>
         <div className="context-editor-heading">
-          <strong>Context Editor</strong>
+          <strong>上下文编辑</strong>
           <span className="context-editor-sub">工作草稿 {includedCount} 项 · 待处理 {pending.length} 项</span>
         </div>
         <button className="context-editor-collapse" type="button" onClick={onCollapse} data-od-id="context-editor-collapse">收起</button>
@@ -46,14 +46,14 @@ function ContextEditor({ editorRef, draft, pending, includedCount, attention, st
 
         <div className="context-boundary" role="separator" data-od-id="context-boundary">
           <span className="context-boundary-line"/>
-          <span className="context-boundary-label">待处理 input 不会进入工作草稿</span>
+          <span className="context-boundary-label">待处理内容不会进入工作草稿</span>
           <span className="context-boundary-line"/>
         </div>
 
         <section className="context-group" data-od-id="context-pending">
           <div className="context-group-head">
             <span className="context-group-label">待处理</span>
-            <span className="context-group-hint">未处理的 input, 确认后才会并入</span>
+            <span className="context-group-hint">未处理的内容, 确认后才会并入</span>
           </div>
           <ul className="context-list">
             {pending.map((item) => (

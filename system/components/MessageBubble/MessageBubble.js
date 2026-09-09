@@ -8,7 +8,7 @@ function CopyButton({ targetId, label, odId }) {
   )
 }
 
-function MessageBubble({ children, time = '1:40 PM', messageId = 'source-user-message', showMeta = false }) {
+function MessageBubble({ children, time = '13:40', messageId = 'source-user-message', showMeta = false }) {
   return (
     <div data-od-id="user-message-component">
       <div className="message-row is-user"><div className="user-message" id={messageId}>{children}</div></div>
@@ -21,8 +21,8 @@ function AssistantMessage({ children, messageId = 'assistant-message' }) {
   return <div className="assistant-message" id={messageId} data-od-id="assistant-message-component">{children}</div>
 }
 
-function WorkedSummary({ duration = '1m 38s', children, open = true }) {
-  return <details className="worked" open={open} data-od-id="worked-summary"><summary>Worked for {duration}</summary><div className="work-log">{children}</div></details>
+function WorkedSummary({ duration = '1 分 38 秒', children, open = true }) {
+  return <details className="worked" open={open} data-od-id="worked-summary"><summary>已处理 {duration}</summary><div className="work-log">{children}</div></details>
 }
 
 function CodeObject({ label, codeId, children }) {

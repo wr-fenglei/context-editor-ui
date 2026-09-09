@@ -1,48 +1,49 @@
 ---
 name: context-editor-ui
-description: Build or refine context-editing and plugin interfaces that must appear inside existing conversations without disrupting native message, tool, subagent, and composer continuity
+description: 构建或调整嵌入现有对话的上下文编辑与插件界面, 保持消息, 工具调用, 子代理和输入框的连续性
 user-invocable: true
 ---
 
 # context-editor-ui
 
-Use this skill for context-editing, tool, agent or plugin output embedded in an existing conversation
+适用于嵌入现有对话的上下文编辑, 工具, 代理或插件输出
 
-Do not use it for dashboards, settings, navigation, marketing pages, host-shell replicas or generic component libraries
+不用于仪表盘, 设置页, 导航, 营销页, 宿主外壳复刻或通用组件库
 
-## Required reading
+## 必读内容
 
-1. Read `DESIGN.md` for scope, visual invariants and integration boundaries
-2. Load `system/design-system.config.js` for every token, rule, parameter and demo value
-3. Inspect the matching component under `system/components/<component>/<component>.js`
+1. 阅读 `DESIGN.md`, 确认范围, 视觉约束和集成边界
+2. 读取 `system/design-system.config.js` 中的设计变量, 规范, 参数和示例数据
+3. 检查 `system/components/<组件>/<组件>.js` 中的对应组件
 
-## Source ownership
+## 文件职责
 
-- Change data, tokens, voice or documented parameters in `design-system.config.js`
-- Change component structure or icon geometry in the matching component JS
-- Change visual behavior or responsive states in `styles.css`
-- Change copy and status interaction in `interactions.js`
-- Never repair a component with inline CSS in `system/app.html` or a spec template
+- 在 `design-system.config.js` 修改数据, 设计变量, 表达规则和说明参数
+- 在对应组件文件修改结构和图标
+- 在 `styles.css` 修改视觉行为和响应式状态
+- 在 `interactions.js` 修改复制行为和状态反馈
+- 不在 `system/app.html` 或规范页模板中添加组件的行内样式覆盖
 
-## Workflow
+## 工作流程
 
-1. Identify the smallest component and state in scope
-2. Update its owned source only
-3. Open the matching file under `system/components/<component>/spec.html`
-4. Verify the same result in `system/app.html`
-5. Check keyboard focus, menu dismissal, narrow width and conversation continuity
+1. 确定本次涉及的组件和状态
+2. 只修改负责该内容的源文件
+3. 打开对应的 `system/components/<组件>/spec.html`
+4. 在 `system/app.html` 验证相同结果
+5. 检查键盘焦点, 菜单关闭, 窄屏布局和对话连续性
 
-## Hard boundaries
+## 约束
 
-- Pending input is not work-draft content
-- The work draft is the current confirmed context
-- Context Editor controls belong in a message action, tool row or composer accessory
-- Light and dark themes share the same hierarchy, layout and interaction behavior
+- 待处理内容不属于工作草稿
+- 工作草稿是当前已确认的上下文
+- 上下文编辑入口位于消息操作, 工具行或输入框中
+- 浅色与深色主题使用相同的层级, 布局和交互行为
+- 说明文字使用中文, 保留系统名称, 代码标识和模型原名
 
-## Delivery check
+## 交付检查
 
-- No dashboard, inspector panel or unrelated form was introduced
-- Spec pages contain templates and mounts, not copied design values
-- Components use semantic colors for content, surfaces and interaction states
-- Hover, focus, pressed and disabled states retain readable foreground and background pairs
-- Mobile has no horizontal scroll, clipped code or overlapping composer controls
+- 未引入仪表盘, 检查面板或无关表单
+- 规范页仅提供模板和挂载点, 不复制设计数值
+- 组件使用语义颜色表达内容, 背景和交互状态
+- 悬停, 聚焦, 按下和禁用状态均有可读的前景与背景组合
+- 窄屏没有水平滚动, 代码裁切或输入框控件重叠

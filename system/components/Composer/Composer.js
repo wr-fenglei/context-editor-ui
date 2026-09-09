@@ -1,5 +1,6 @@
 function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, includedCount = 0, pendingCount = 0, editorOpen = false }) {
   const interfaceCopy = window.ContextEditorUIConfig.components.composer.interface
+  const menuCopy = window.ContextEditorUIConfig.components.composer.menus
   const modelMenu = window.ContextEditorUIConfig.components.composer.modelMenu
   const [selectedModel, setSelectedModel] = React.useState(modelMenu.initialValue)
   const currentModel = modelMenu.items.find((item) => item.value === selectedModel)
@@ -86,21 +87,21 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
 
       {addOpen ? (
         <div className="popover is-add" role="menu" aria-label="添加内容" data-od-id="add-menu">
-          <div className="popover-title">Add</div>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="add-files"><PlusIcon/><span>Files and folders</span><span/></button>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="add-goal"><ShieldIcon/><span><strong>Goal</strong><small>Set a goal to keep pursuing</small></span><span/></button>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="add-plan"><ShieldIcon/><span><strong>Plan mode</strong><small>Turn plan mode on</small></span><span/></button>
-          <div className="menu-group-label">Plugins</div>
-          <button className="menu-row" type="button" role="menuitem" onClick={() => { closeMenus(false); onOpenContextEditor?.() }} data-od-id="add-context-editor"><ContextIcon/><span><strong>Context Editor</strong><small>整理当前会话上下文</small></span><span/></button>
+          <div className="popover-title">{menuCopy.add}</div>
+          <button className="menu-row" type="button" role="menuitem" data-od-id="add-files"><PlusIcon/><span>{menuCopy.files}</span><span/></button>
+          <button className="menu-row" type="button" role="menuitem" data-od-id="add-goal"><ShieldIcon/><span><strong>{menuCopy.goal}</strong><small>{menuCopy.goalDescription}</small></span><span/></button>
+          <button className="menu-row" type="button" role="menuitem" data-od-id="add-plan"><ShieldIcon/><span><strong>{menuCopy.plan}</strong><small>{menuCopy.planDescription}</small></span><span/></button>
+          <div className="menu-group-label">{menuCopy.plugins}</div>
+          <button className="menu-row" type="button" role="menuitem" onClick={() => { closeMenus(false); onOpenContextEditor?.() }} data-od-id="add-context-editor"><ContextIcon/><span><strong>{menuCopy.contextEditor}</strong><small>整理当前会话上下文</small></span><span/></button>
         </div>
       ) : null}
 
       {approvalOpen ? (
         <div className="popover is-approval" role="menu" aria-label="操作批准方式" data-od-id="approval-menu">
-          <div className="popover-title"><span>How should assistant actions be approved?</span><span className="menu-link">Learn more</span></div>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="approval-ask"><ShieldIcon/><span><strong>Ask for approval</strong><small>Always ask to edit external files and use the internet</small></span><span/></button>
-          <button className="menu-row" type="button" role="menuitem" aria-selected="true" data-od-id="approval-auto"><ShieldIcon/><span><strong>{interfaceCopy.approval}</strong><small>Only ask for actions detected as potentially unsafe</small></span><span>✓</span></button>
-          <button className="menu-row is-danger" type="button" role="menuitem" data-od-id="approval-full"><ShieldIcon/><span><strong>Full access</strong><small>Unrestricted access to the internet and any file on your computer</small></span><span/></button>
+          <div className="popover-title"><span>{menuCopy.approvalTitle}</span><span className="menu-link">{menuCopy.learnMore}</span></div>
+          <button className="menu-row" type="button" role="menuitem" data-od-id="approval-ask"><ShieldIcon/><span><strong>{menuCopy.ask}</strong><small>{menuCopy.askDescription}</small></span><span/></button>
+          <button className="menu-row" type="button" role="menuitem" aria-selected="true" data-od-id="approval-auto"><ShieldIcon/><span><strong>{interfaceCopy.approval}</strong><small>{menuCopy.autoDescription}</small></span><span>✓</span></button>
+          <button className="menu-row is-danger" type="button" role="menuitem" data-od-id="approval-full"><ShieldIcon/><span><strong>{menuCopy.full}</strong><small>{menuCopy.fullDescription}</small></span><span/></button>
         </div>
       ) : null}
 

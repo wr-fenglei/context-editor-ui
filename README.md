@@ -1,106 +1,80 @@
 # context-editor-ui
 
-Conversation UI design system for messages, tool calls, subagents, code objects, message actions, the composer and the Context Editor
+面向对话交互的独立设计系统, 覆盖消息, 工具调用, 子代理, 代码块, 消息操作, 输入框和上下文编辑
 
-An independent design system with clear message hierarchy, restrained surfaces and borders, consistent interaction feedback, and light and dark themes
+通过清晰的消息层级, 克制的背景与描边, 统一的交互反馈呈现设计效果, 支持浅色与深色主题
 
-[Preview the design system](https://wr-fenglei.github.io/context-editor-ui/)
+[预览设计系统](https://wr-fenglei.github.io/context-editor-ui/)
 
-## What is included
+## 内容
 
-- One integrated conversation example
-- Shared conversation components plus standalone ProfileTags and AvatarGroup components
-- One configuration source for tokens, parameters and demo content
-- One stylesheet for component visuals and spec layout
-- Specification pages for foundations, messages, tool calls, subagents, the composer, Context Editor, ProfileTags and AvatarGroup
-- A skill entry and concise design constraints
+- 完整的对话界面集成示例
+- 对话组件, 个人资料标签和头像组
+- 基础规范及各组件的独立规范页
+- 统一的设计变量, 参数, 示例内容和样式
+- 设计约束和技能使用说明
 
-## Source of truth
+## 文件职责
 
-- `system/design-system.config.js` owns tokens, rules, parameters and demo data
-- `system/styles.css` owns component visuals, responsive layout and interaction states
-- `system/Icons.js` owns shared icon geometry
-- `system/components/<component>/<component>.js` owns component structure
-- `system/interactions.js` owns shared copy and status behavior
-- `DESIGN.md` owns non-code design constraints and integration boundaries
-- `SKILL.md` tells the agent how to apply the system
-- `system/components/<component>/spec.html` contains mounts and templates only, never copied design values
+- `system/design-system.config.js`: 设计变量, 规范, 参数和示例数据
+- `system/styles.css`: 组件视觉, 响应式布局和交互状态
+- `system/Icons.js`: 共享图标
+- `system/components/<组件>/<组件>.js`: 组件结构
+- `system/interactions.js`: 共享复制行为和状态反馈
+- `DESIGN.md`: 设计约束和集成边界
+- `SKILL.md`: 代理应用本系统的方式
+- `system/components/<组件>/spec.html`: 规范页模板和组件挂载点, 不保存设计数值副本
+- `manifest.json`: 系统标识和文件入口
 
-## Project structure
+## 页面入口
 
-```text
-.
-├── index.html
-├── DESIGN.md
-├── SKILL.md
-├── manifest.json
-└── system/
-    ├── design-system.config.js
-    ├── styles.css
-    ├── interactions.js
-    ├── Icons.js
-    ├── app.html
-    ├── foundations.html
-    └── components/
-        ├── MessageBubble/
-        │   ├── MessageBubble.js
-        │   └── spec.html
-        ├── ToolCall/
-        │   ├── ToolCall.js
-        │   └── spec.html
-        ├── SubagentCall/
-        │   ├── SubagentCall.js
-        │   └── spec.html
-        ├── Composer/
-        │   ├── Composer.js
-        │   └── spec.html
-        └── ContextEditor/
-            ├── ContextEditor.js
-            └── spec.html
-```
+- `index.html`: 设计系统概览
+- `system/app.html`: 对话界面集成示例
+- `system/foundations.html`: 基础规范
+- `system/components/MessageBubble/spec.html`: 消息组件
+- `system/components/Composer/spec.html`: 输入框组件
+- `system/components/AvatarGroup/spec.html`: 头像组
+- `system/components/ProfileTags/spec.html`: 个人资料标签
+- `system/components/ToolCall/spec.html`: 工具调用
+- `system/components/SubagentCall/spec.html`: 子代理调用
+- `system/components/ContextEditor/spec.html`: 上下文编辑
 
-## Local preview
+## 本地预览
 
-Run a local server from the repository root because the integrated example loads shared JSX files and CDN dependencies
+集成示例需要加载共享组件文件和远程依赖, 请在仓库根目录启动本地服务
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Open these entries
+打开 [本地首页](http://localhost:8000/), 从组件目录进入对应页面
 
-- Overview: `http://localhost:8000/`
-- Integrated example: `http://localhost:8000/system/app.html`
-- Foundations: `http://localhost:8000/system/foundations.html`
+## 修改流程
 
-## Change workflow
+1. 在 `system/design-system.config.js` 修改设计变量, 规范或示例数据
+2. 在对应组件文件修改结构和图标
+3. 在 `system/styles.css` 修改视觉和响应式布局
+4. 在 `system/interactions.js` 修改复制与状态反馈
+5. 验证对应规范页, 然后检查集成示例
 
-1. Change tokens, rules or demo data in `system/design-system.config.js`
-2. Change structure or icons in the matching `system/components/<component>/<component>.js`
-3. Change visual or responsive behavior in `system/styles.css`
-4. Change copy or status behavior in `system/interactions.js`
-5. Verify the matching `system/components/<component>/spec.html`
-6. Verify the integrated page
+不要在集成页或规范页中添加组件的行内样式覆盖
 
-Do not repair components with inline CSS in `system/app.html` or spec templates
+## 作为技能使用
 
-## Use as a skill
-
-For a local project, ask the agent to read this repository before implementing conversation UI
+在本地项目中, 可要求代理先阅读本仓库再实现对话界面
 
 ```text
-Read DESIGN.md and SKILL.md, then use the matching shared component and tokens
+阅读 DESIGN.md 和 SKILL.md, 使用对应的共享组件与设计变量
 ```
 
-To expose it as a personal skill, link or copy this repository to the skills directory as `context-editor-ui`, then restart or refresh skill discovery
+如需作为个人技能使用, 将仓库链接或复制到技能目录, 保留名称 `context-editor-ui`, 然后重启或刷新技能发现
 
-## Profile components
+## 个人资料组件
 
-- Personal profile tags: `system/components/ProfileTags/spec.html`
-- Avatar group: `system/components/AvatarGroup/spec.html`
-- Both expose DOM factories on `window`, bind the shared configuration and stylesheet, and keep their required images in `system/assets`
-- These are static display components, with no implicit navigation or account actions
+资料标签和头像组通过 `window` 暴露用于创建页面元素的函数, 使用共享配置与样式, 图片保存在 `system/assets`
 
-## Avatar assets
+两项组件均为静态展示, 不包含隐含的页面跳转或账号操作
 
-Three 120 x 120 PNG portraits are displayed at 40 CSS pixels with circular cropping, overlapping layout and an opaque theme background
+## 头像资源
+
+三张 120 × 120 像素的头像以 40 像素显示, 使用圆形裁切, 重叠排列和不透明主题底色

@@ -1,94 +1,93 @@
 # context-editor-ui
 
-## 1 Scope
+## 1 范围
 
-- 覆盖个人资料标签与头像组, 以及 conversation 中的 user message, assistant message, worked summary, tool call, subagent call, code object, message actions, composer 和 Context Editor
-- Context Editor 必须像原生消息流的一部分, 不形成 dashboard, inspector, sidebar 或独立品牌 surface
+- 覆盖资料标签, 头像组, 用户消息, 助手回复, 处理过程, 工具调用, 子代理, 代码块, 消息操作, 输入框和上下文编辑
+- 上下文编辑融入消息流, 不形成仪表盘, 检查面板, 侧栏或独立品牌界面
 - `system/app.html` 是完整集成示例, 不拥有组件样式或参数
-- `index.html` 是设计系统概览, 汇总集成示例与全部规范页
+- `index.html` 是设计系统概览, 汇总集成示例和规范页
 
-## 2 Source of truth
+## 2 数据与实现来源
 
-- `system/design-system.config.js` 是 token, voice, component rules, parameters 和 demo copy 的唯一数据来源
-- `system/styles.css` 是组件视觉, responsive layout 和 interaction state 的唯一实现来源
-- `system/components/<组件>/<组件>.js` 是组件结构的唯一实现来源, `system/Icons.js` 是共享图标几何
-- `system/interactions.js` 是 copy 和 status 行为的唯一实现来源
-- `system/components/<组件>/spec.html` 只提供模板和真实组件挂载点, 不保存尺寸, 颜色或规范副本
-- `manifest.json` 保留 design-system id 和入口映射
+- `system/design-system.config.js` 统一保存设计变量, 表达规则, 组件规范, 参数和示例文案
+- `system/styles.css` 统一实现组件视觉, 响应式布局和交互状态
+- `system/components/<组件>/<组件>.js` 定义组件结构, `system/Icons.js` 定义共享图标
+- `system/interactions.js` 定义共享复制行为和状态反馈
+- 规范页仅提供模板和组件挂载点, 不保存尺寸, 颜色或规范副本
+- `manifest.json` 保留系统标识和入口映射
 
-## 3 Visual foundations
+## 3 视觉基础
 
-- Canvas 保持纯白, assistant message 保持无框
-- User message 右对齐并使用低对比 surface bubble
-- Tool call 使用 muted outline icon 与文字行, 只有展开内容获得 surface
-- Subagent 使用轻描边 task pill, lifecycle text 位于 pill 外
-- Composer 是消息流中唯一持续 elevated 的对象, sticky dock 必须透明
-- Display 与 body 使用系统 UI stack, mono 只用于 code, command 和 path
-- Accent blue (#3a83f7) 用于 focus 与 UI 状态, link 使用同色相的可读深色变体, violet 用于 effort 与 skill metadata
-- Shadow 只用于 composer 和真实 popover, message object 保持 flat
+- 浅色主题使用白色画布, 助手正文保持无框
+- 用户消息右对齐, 气泡使用低对比背景
+- 工具调用使用弱化的线框图标和文字行, 展开输出才显示背景
+- 子代理使用细描边的任务标签, 状态文字位于标签外
+- 输入框通过阴影保持层级, 外层固定区域保持透明
+- 标题和正文使用系统界面字体, 等宽字体仅用于代码, 命令和路径
+- 强调蓝色用于聚焦和界面状态, 链接使用同色相的可读变体, 紫色用于思考深度和功能提示
+- 阴影仅用于输入框和弹出面板, 消息内容保持平面展示
 
-## 4 Conversation structure
+## 4 对话结构
 
-- Reading column, gutter, turn gap, message gap 和 bubble geometry 全部读取配置 token
-- User bubble 在窄屏扩大可用宽度, assistant body 仍保持无框
-- Worked summary 使用原生 `details`, child event 按发生顺序排列
-- Code 和 path 必须换行, 不允许水平滚动或隐藏溢出
-- Mobile 必须重新分配控件宽度, 不通过压缩造成重叠
+- 阅读栏宽, 边距, 轮次间距, 消息间距和气泡尺寸均读取共享设计变量
+- 窄屏下扩大用户气泡的可用宽度, 助手正文保持无框
+- 处理过程使用原生 `details` 元素, 子事件按发生顺序排列
+- 代码和路径允许换行, 不出现水平滚动或隐藏溢出
+- 窄屏重新分配控件宽度, 避免压缩导致重叠
 
-## 5 Component rules
+## 5 组件规范
 
-- ProfileTags 与 AvatarGroup 作为可复用基础组件提供独立规范页, 不强行插入对话消息流
-- 两项组件复用 shared / light / dark 语义 token, 资产保存在 system/assets
-- 标签与头像组默认为静态展示, 不添加无定义的交互
+- 资料标签和头像组提供独立规范页, 不强行插入对话流
+- 两项组件使用共享的浅色与深色设计变量, 图片保存在 `system/assets`
+- 标签和头像默认为静态展示, 不添加无定义的交互
+- 消息身份通过对齐, 背景和留白表达
+- 消息操作可发现, 视觉上弱于正文
+- 工具状态包含文字, 不只依赖图标或颜色
+- 错误色仅用于真实错误, 警告不改变整行的语义颜色
+- 子代理任务名使用简短的动作和对象, 状态单独表达
+- 输入区无内框, 占位文字与正文使用不同的语义颜色
+- 打开面板的按钮显示选中背景, 关闭后恢复默认状态
+- 添加, 批准方式和模型菜单支持点击外部关闭, 退出键关闭及焦点返回
 
-- Message identity 由 alignment, surface 和 whitespace 表达
-- Message actions 始终可发现, 但显著度低于正文
-- Tool state 同时包含文字, 不能只依赖 icon 或颜色
-- Tool error 仅用于真实错误, warning 不改变整行语义颜色
-- Subagent task 使用短动词加对象, lifecycle 单独表达
-- Composer textarea 无内框, placeholder 与正文使用不同 semantic role
-- Composer open trigger 使用 selected surface, 关闭后恢复默认状态
-- Add, approval 和 model menu 支持 outside click, Escape 和 focus return
+## 6 上下文边界
 
-## 6 Context boundary
+- 待处理内容不属于工作草稿
+- 工作草稿是当前已确认的上下文
+- 上下文编辑入口位于消息操作, 工具行或输入框中
+- 不在助手正文中插入独立控制面板
+- 确认后工作草稿成为下一条消息的上下文, 待处理内容保持不变
 
-- Pending input 是未处理 input, 不是 work draft 内容
-- Work draft 是当前唯一有效的 confirmed context
-- Context Editor 入口只能作为 message action, tool row 或 composer accessory
-- 不在 assistant body 中插入独立 control panel
-- Confirm 后工作草稿成为下一条消息的上下文, pending input 保持不变
+## 7 交互与可访问性
 
-## 7 Interaction and accessibility
+- 控件定义默认, 悬停, 键盘聚焦, 按下和禁用状态
+- 点击区域使用配置中的可访问性尺寸
+- 悬停不降低文字或图标的对比度
+- 键盘焦点必须可见, 文本输入区不使用浏览器默认蓝框
+- 减少动态效果时取消过渡, 仍通过文字表达状态
+- 窄屏不出现重叠, 裁切或水平滚动
 
-- 每个 control 必须定义 default, hover, focus-visible, pressed 和 disabled
-- 所有交互 target 使用配置中的 accessibility 尺寸
-- Hover 不降低文字或图标对比度
-- Focus 必须可见, textarea 不使用浏览器默认蓝框
-- Reduced motion 下取消 transition, 状态仍由文字表达
-- Narrow width 不允许 overlap, clipping 或 horizontal scroll
-
-## 8 Theme and visual roles
+## 8 主题与视觉角色
 
 - 本项目是面向对话交互的独立设计系统
-- Light 使用白色画布和浅灰表面, dark 使用深色画布和低对比表面
+- 浅色使用白色画布和浅灰表面, 深色使用深色画布和低对比表面
 - 两种主题保持一致的消息层级, 控件布局和交互反馈
-- 组件使用语义颜色, 区分正文, 辅助信息, 强调内容与状态
-- 设计说明以组件效果, 行为和使用场景为主
+- 组件使用语义颜色区分正文, 辅助信息, 强调内容与状态
+- 名称保留 context-editor-ui, 说明文字统一使用中文, 代码标识和模型名称保留原名
 
-## 9 Change workflow
+## 9 修改流程
 
-1. 数据, token 或规范变化先修改 `system/design-system.config.js`
-2. 结构或 icon 变化修改对应 `system/components/<组件>/<组件>.js`
-3. 视觉或 responsive state 变化修改 `system/styles.css`
-4. Behavior 变化修改 `system/interactions.js` 或对应组件
-5. 在对应 `system/components/<组件>/spec.html` 验证后, 再检查 `system/app.html`
-6. 禁止在组件 spec 页或 `system/app.html` 中添加组件覆盖值
+1. 数据, 设计变量和规范在 `system/design-system.config.js` 中修改
+2. 结构和图标在对应组件文件中修改
+3. 视觉和响应式状态在 `system/styles.css` 中修改
+4. 行为在 `system/interactions.js` 或对应组件中修改
+5. 先验证对应规范页, 再检查 `system/app.html`
+6. 不在规范页或集成页中添加组件样式覆盖值
 
-## 10 Acceptance
+## 10 验收
 
-- 配置, 组件 spec 页和集成页使用同一 token 与 demo 数据
-- Message, tool, subagent, code, composer 和 Context Editor 可在独立规范页核对
-- Composer 可输入, 发送并操作全部 menu
-- Context Editor 可纳入, 排除, 排序, 并入, 添加和确认
-- Light 与 dark UI 均保持可读对比度, 无裁切或状态缺失
-- 所有本地引用有效, 所有组件使用一致的 token 和设计规范
+- 配置, 规范页和集成页使用同一份设计变量和示例数据
+- 各组件可在独立规范页核对
+- 输入框支持输入, 发送和菜单操作
+- 上下文编辑支持纳入, 排除, 排序, 并入, 添加和确认
+- 浅色与深色均有可读对比度, 无裁切或状态缺失
+- 本地引用有效, 组件使用一致的设计变量和规范
