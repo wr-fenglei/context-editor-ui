@@ -6,7 +6,7 @@
       surface: '面向对话交互的独立设计系统',
       lightLabel: '白色画布',
       darkLabel: '深色画布',
-      principles: '清晰的消息层级, 克制的表面与描边, 统一的交互反馈',
+      principles: '层级清晰, 交互一致',
       description: '为消息阅读, 内容输入和上下文编辑提供一致的界面体验'
     },
     tokens: {
