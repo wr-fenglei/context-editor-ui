@@ -17,6 +17,8 @@
     },
     tokens: {
       shared: {
+        '--spec-columns': 'minmax(150px, .32fr) minmax(0, .68fr)',
+        '--spec-column-gap': 'var(--space-5)',
         '--profile-tag-icon-size': '13px',
         '--profile-tag-leading': '1.45',
         '--profile-tag-padding-block': 'var(--space-1)',
