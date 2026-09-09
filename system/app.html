@@ -30,13 +30,38 @@
     function App() {
       const editor = useContextEditor(contextDemo.draft, contextDemo.pending)
       const [sent, setSent] = React.useState([])
+      const threadRef = React.useRef(null)
+      const dockRef = React.useRef(null)
 
       const send = (text) => setSent((items) => [...items, text])
+
+      React.useEffect(() => {
+        if (!sent.length) return
+        let cancelled = false, frame
+        const thread = threadRef.current
+        const turns = Array.from(thread.querySelectorAll(':scope > .motion-presence'))
+        // Measure after all entering turns settle and the cleared input has resized
+        Promise.all(turns.map(ContextEditorUIMotion.settled)).then(() => {
+          if (cancelled) return
+          frame = requestAnimationFrame(() => {
+            const message = thread.lastElementChild
+            const dock = dockRef.current
+            if (cancelled || !message || !dock) return
+            const gap = parseFloat(ContextEditorUI.tokenValue('--space-4'))
+            const distance = message.getBoundingClientRect().bottom + gap - dock.getBoundingClientRect().top
+            if (distance > 0) window.scrollBy({
+              top: distance,
+              behavior: ContextEditorUIMotion.duration('--motion-layout') ? 'smooth' : 'instant'
+            })
+          })
+        })
+        return () => { cancelled = true; cancelAnimationFrame(frame) }
+      }, [sent.length])
 
       return (
         <main className="conversation-app" data-od-id="conversation-app">
           <div className="conversation-column">
-            <section className="thread" aria-label="对话消息" data-od-id="conversation-thread">
+            <section ref={threadRef} className="thread" aria-label="对话消息" data-od-id="conversation-thread">
               <p className="time-divider" data-od-id="time-divider">{demo.time}</p>
 
               <article className="turn" data-od-id="user-turn">
@@ -80,7 +105,7 @@
               ))}
             </section>
 
-            <div className="composer-dock" data-od-id="composer-dock">
+            <div ref={dockRef} className="composer-dock" data-od-id="composer-dock">
               <div id="composer-root">
                 <Composer onSend={send} onOpenContextEditor={editor.openEditor} onToggleContextEditor={editor.toggleEditor} includedCount={editor.includedCount} pendingCount={editor.pending.length} editorOpen={editor.open}/>
               </div>
