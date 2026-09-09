@@ -17,6 +17,13 @@
     },
     tokens: {
       shared: {
+        '--profile-tag-icon-size': '13px',
+        '--profile-tag-leading': '1.45',
+        '--profile-tag-padding-block': 'var(--space-1)',
+        '--profile-tag-padding-inline': 'var(--space-2)',
+        '--avatar-group-size': 'var(--space-6)',
+        '--avatar-group-overlap': 'var(--space-2)',
+
         '--font-display': '-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif',
         '--font-body': '-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif',
         '--font-mono': 'ui-monospace, "SFMono-Regular", "SF Mono", "Cascadia Code", "Noto Sans Mono CJK SC", Menlo, Monaco, Consolas, monospace',
@@ -203,6 +210,167 @@
       ]
     },
     components: {
+      profileTags: {
+        "eyebrow": "Component 06",
+        "title": "个人资料标签",
+        "lede": "带图标或纯文字的资料标签, 使用系统 surface、文字和圆角, 窄屏自然换行",
+        "source": "system/components/ProfileTags/ProfileTags.js",
+        "rulesIntro": "仅保留选定的系统风格, 标签用于展示资料, 不添加无定义的点击行为",
+        "rules": [
+          [
+            "内容",
+            "文字必须独立说明含义, 装饰图标不重复朗读"
+          ],
+          [
+            "布局",
+            "标签随容器换行, 长文本允许折行"
+          ],
+          [
+            "样式",
+            "绑定 surface、fg-secondary、border-soft 与 radius-inline"
+          ],
+          [
+            "来源",
+            "保留用户选定的图标几何, 当前数据是导入示例资料"
+          ]
+        ],
+        "parameters": [
+          {
+            "label": "字号",
+            "tokens": [
+              "--text-sm"
+            ]
+          },
+          {
+            "label": "图标尺寸",
+            "tokens": [
+              "--profile-tag-icon-size"
+            ]
+          },
+          {
+            "label": "圆角",
+            "tokens": [
+              "--radius-inline"
+            ]
+          },
+          {
+            "label": "内边距",
+            "tokens": [
+              "--profile-tag-padding-block",
+              "--profile-tag-padding-inline"
+            ],
+            "separator": " / "
+          },
+          {
+            "label": "标签间距",
+            "tokens": [
+              "--space-2"
+            ]
+          }
+        ],
+        "demo": {
+          "label": "示例个人资料",
+          "items": [
+            {
+              "text": "女性",
+              "icon": "profile-female.svg"
+            },
+            {
+              "text": "IP 重庆"
+            },
+            {
+              "text": "已实名",
+              "icon": "profile-identity.svg"
+            },
+            {
+              "text": "重庆大学",
+              "icon": "profile-school.svg"
+            },
+            {
+              "text": "互联网"
+            },
+            {
+              "text": "Steam·8487h",
+              "icon": "profile-steam.svg"
+            }
+          ]
+        }
+      },
+      avatarGroup: {
+        "eyebrow": "Component 07",
+        "title": "头像组",
+        "lede": "24px 圆形头像以 8px 重叠排列, 使用画布色描边区分相邻成员",
+        "source": "system/components/AvatarGroup/AvatarGroup.js",
+        "rulesIntro": "仅保留选定的系统风格, 头像图片迁入系统资产目录",
+        "rules": [
+          [
+            "头像",
+            "沿用选定的三个原始位图, 圆形裁切属于该组件的展示语义"
+          ],
+          [
+            "布局",
+            "按输入顺序重叠, 内容超出容器时换行"
+          ],
+          [
+            "可访问性",
+            "每个头像提供文字描述, 不将静态图片伪装成按钮"
+          ],
+          [
+            "适用范围",
+            "只展示头像集合, 不推断成员姓名、在线状态或人数之外的信息"
+          ]
+        ],
+        "parameters": [
+          {
+            "label": "头像尺寸",
+            "tokens": [
+              "--avatar-group-size"
+            ]
+          },
+          {
+            "label": "重叠距离",
+            "tokens": [
+              "--avatar-group-overlap"
+            ]
+          },
+          {
+            "label": "圆角",
+            "tokens": [
+              "--radius-pill"
+            ]
+          },
+          {
+            "label": "描边颜色",
+            "tokens": [
+              "--bg"
+            ]
+          }
+        ],
+        "demo": {
+          "label": "示例头像组",
+          "items": [
+            {
+              "src": "avatar-group-1.jpg",
+              "alt": "导入示例头像 1",
+              "width": 320,
+              "height": 480
+            },
+            {
+              "src": "avatar-group-2.jpg",
+              "alt": "导入示例头像 2",
+              "width": 320,
+              "height": 480
+            },
+            {
+              "src": "avatar-group-3.jpg",
+              "alt": "导入示例头像 3",
+              "width": 320,
+              "height": 480
+            }
+          ]
+        }
+      },
+
       messages: {
         eyebrow: 'Component 01', title: '消息组件',
         lede: 'User bubble, worked summary, assistant prose, code object 和 message actions 共用同一套组件实现',

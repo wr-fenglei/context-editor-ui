@@ -2,7 +2,7 @@
 
 ## 1 Scope
 
-- 只覆盖 conversation 中的 user message, assistant message, worked summary, tool call, subagent call, code object, message actions, composer 和 Context Editor
+- 覆盖用户选定的个人资料标签与头像组, 以及 conversation 中的 user message, assistant message, worked summary, tool call, subagent call, code object, message actions, composer 和 Context Editor
 - Context Editor 必须像原生消息流的一部分, 不形成 dashboard, inspector, sidebar 或独立品牌 surface
 - `system/app.html` 是完整集成示例, 不拥有组件样式或参数
 - `index.html` 是设计系统概览, 汇总集成示例与全部规范页
@@ -36,6 +36,10 @@
 - Mobile 必须重新分配控件宽度, 不通过压缩造成重叠
 
 ## 5 Component rules
+
+- ProfileTags 与 AvatarGroup 作为可复用基础组件提供独立规范页, 不强行插入对话消息流
+- 两项组件复用 shared / light / dark 语义 token, 资产保存在 system/assets
+- 标签与头像组默认为静态展示, 不添加无定义的交互
 
 - Message identity 由 alignment, surface 和 whitespace 表达
 - Message actions 始终可发现, 但显著度低于正文

@@ -7,10 +7,10 @@ This is a screenshot-derived, unofficial implementation and does not represent a
 ## What is included
 
 - One integrated conversation example
-- Six component implementations shared by specs and the integrated page
+- Shared conversation components plus standalone ProfileTags and AvatarGroup components
 - One configuration source for tokens, parameters, evidence and demo content
 - One stylesheet for component visuals and spec layout
-- Six specification pages for foundations, messages, tool calls, subagents, the composer and the Context Editor
+- Specification pages for foundations, messages, tool calls, subagents, the composer, Context Editor, ProfileTags and AvatarGroup
 - A skill entry and concise design constraints
 
 ## Source of truth
@@ -91,3 +91,10 @@ Read DESIGN.md and SKILL.md, then use the matching shared component and tokens
 ```
 
 To expose it as a personal skill, link or copy this repository to the skills directory as `context-editor-ui`, then restart or refresh skill discovery
+
+## Selected profile components
+
+- Personal profile tags: `system/components/ProfileTags/spec.html`
+- Avatar group: `system/components/AvatarGroup/spec.html`
+- Both expose DOM factories on `window`, bind the shared configuration and stylesheet, and keep their required images in `system/assets`
+- These are static display components, with no implicit navigation or account actions
