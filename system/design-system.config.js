@@ -89,12 +89,15 @@
         '--ease-standard': 'cubic-bezier(.22, 1, .36, 1)'
       },
       light: {
-        '--profile-icon-design': '#a65dc5',
-        '--profile-icon-tech': '#3a7bd5',
-        '--profile-icon-reading': '#b57a24',
-        '--profile-icon-travel': '#278c85',
-        '--profile-icon-sport': '#d16c42',
-        '--profile-icon-music': '#c45982',
+        '--profile-tag-bg': '#fff7ed',
+        '--profile-tag-border': '#f0e3d5',
+        '--profile-tag-fg': '#493d36',
+        '--profile-icon-design': '#e15b50',
+        '--profile-icon-tech': '#d97706',
+        '--profile-icon-reading': '#b88b15',
+        '--profile-icon-travel': '#648b36',
+        '--profile-icon-sport': '#ea6c2d',
+        '--profile-icon-music': '#d74f86',
 
         '--palette-light-canvas': '#ffffff',
         '--palette-light-foreground': '#1a1c1f',
@@ -151,12 +154,15 @@
         '--focus-color': 'var(--accent)'
       },
       dark: {
-        '--profile-icon-design': '#c68de2',
-        '--profile-icon-tech': '#7baef2',
-        '--profile-icon-reading': '#dcb364',
-        '--profile-icon-travel': '#6fc5b8',
-        '--profile-icon-sport': '#e6a07c',
-        '--profile-icon-music': '#df8fb1',
+        '--profile-tag-bg': '#332a24',
+        '--profile-tag-border': '#514136',
+        '--profile-tag-fg': '#f6e9da',
+        '--profile-icon-design': '#ff8a70',
+        '--profile-icon-tech': '#ffbb57',
+        '--profile-icon-reading': '#e8c65a',
+        '--profile-icon-travel': '#a5ca63',
+        '--profile-icon-sport': '#ff9955',
+        '--profile-icon-music': '#f484a5',
 
         '--bg': '#181818',
         '--surface': 'color-mix(in oklch, var(--bg) 88%, #ffffff)',
@@ -250,11 +256,11 @@
           ],
           [
             "样式",
-            "使用统一的背景色, 辅助文字色, 细描边和圆角"
+            "暖白底色搭配深棕文字和浅米色描边, 深色主题使用暖灰棕底色"
           ],
           [
             "图标",
-            "图标为 13px, 与文字垂直居中, 按标签主题使用不同颜色, 文字独立说明含义"
+            "图标为 13 像素, 采用珊瑚红, 琥珀橙, 金黄, 草绿和玫红配色, 与文字垂直居中"
           ]
         ],
         "parameters": [
