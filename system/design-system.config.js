@@ -453,14 +453,20 @@
         eyebrow: '组件 04', title: '输入框组件',
         lede: '将多行输入, 上下文入口和底部工具组合在同一输入区域, 面板紧邻对应按钮',
         source: 'system/components/Composer/Composer.js',
-        interface: { placeholder: '输入你想做的事', approval: '自动批准', effort: '深度' },
+        interface: { placeholder: '输入你想做的事', effort: '深度' },
         menus: {
           add: '添加', files: '文件和文件夹', goal: '目标', goalDescription: '设定目标并持续推进',
           plan: '计划模式', planDescription: '开启计划模式', plugins: '插件', contextEditor: '上下文编辑',
-          approvalTitle: '如何批准助手的操作?', learnMore: '了解详情', ask: '每次询问',
-          askDescription: '编辑外部文件和访问网络前始终询问',
-          autoDescription: '仅在检测到操作可能存在风险时询问',
-          full: '完全访问', fullDescription: '允许访问网络和电脑上的所有文件'
+          learnMore: '了解详情'
+        },
+        approvalMenu: {
+          title: '如何批准助手的操作?', initialValue: 'auto',
+          help: '每次询问会在操作前请求确认, 自动批准仅在检测到潜在风险时询问, 完全访问允许直接执行操作',
+          items: [
+            { value: 'ask', label: '每次询问', description: '编辑外部文件和访问网络前始终询问' },
+            { value: 'auto', label: '自动批准', description: '仅在检测到操作可能存在风险时询问' },
+            { value: 'full', label: '完全访问', description: '允许访问网络和电脑上的所有文件', danger: true }
+          ]
         },
         modelMenu: {
           title: '选择模型',
@@ -483,6 +489,7 @@
           ['悬停', '保持完整点击区域, 悬停背景使用紧凑的胶囊形状'],
           ['聚焦', '输入区聚焦时不显示蓝框, 输入框描边颜色保持不变'],
           ['工具面板', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 点击外部或按退出键可关闭, 关闭后焦点返回按钮'],
+          ['批准方式', '点击选项后同步按钮文字与勾号, 关闭面板并返回焦点, 再次打开保留当前选择, 支持方向键和确认键操作'],
           ['模型选择', '模型以单列选项展示, 勾号表示当前选择, 悬停只高亮当前行, 选择后关闭面板并同步按钮文字']
         ],
         parameters: [

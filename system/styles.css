@@ -230,11 +230,13 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .model-option-check svg { width: 16px; height: 16px; }
 @media (pointer: coarse) { .model-option { min-height: var(--control-target); } }
 .popover-title { display: flex; justify-content: space-between; gap: var(--space-4); padding: var(--space-2) var(--space-3); color: var(--muted); }
-.menu-link { text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+.mode-button.is-danger { color: var(--danger); }
+.approval-help { margin: 0; padding: 0 var(--space-3) var(--space-3); color: var(--muted); font-size: var(--text-sm); }
+.menu-link { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
 .menu-group-label { padding: var(--space-3) var(--space-3) var(--space-1); color: var(--muted); font-size: var(--text-sm); }
 .menu-row { width: 100%; min-height: var(--control-target); display: grid; grid-template-columns: 20px minmax(0, 1fr) auto; gap: var(--space-3); align-items: center; padding: var(--space-2) var(--space-3); border: 0; border-radius: var(--radius-control); background: transparent; color: var(--fg); text-align: left; }
-.menu-row:hover, .menu-row[aria-selected="true"] { background: var(--popover-selected-bg); }
-.popover.is-approval:has(.menu-row:hover) .menu-row[aria-selected="true"]:not(:hover) { background: transparent; }
+.menu-row:hover, .menu-row[aria-checked="true"] { background: var(--popover-selected-bg); }
+.popover.is-approval:has(.menu-row:hover) .menu-row[aria-checked="true"]:not(:hover) { background: transparent; }
 .menu-row.is-danger, .menu-row.is-danger svg, .menu-row.is-danger small { color: var(--danger); }
 .menu-divider { height: 1px; margin: var(--space-1) var(--space-3); background: var(--border-soft); }
 .menu-row svg { width: 19px; height: 19px; color: var(--muted); }
