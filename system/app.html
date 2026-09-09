@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="对话消息, 工具调用, subagent, 输入框与 Context Editor 集成示例">
+  <title>对话界面集成示例 - context-editor-ui</title>
+  <script src="design-system.config.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="Icons.js"></script>
+  <script type="text/babel" src="components/MessageBubble/MessageBubble.js"></script>
+  <script type="text/babel" src="components/ToolCall/ToolCall.js"></script>
+  <script type="text/babel" src="components/SubagentCall/SubagentCall.js"></script>
+  <script type="text/babel" src="components/Composer/Composer.js"></script>
+  <script type="text/babel" src="components/ContextEditor/ContextEditor.js"></script>
+  <script type="text/babel">
+    const demo = ContextEditorUIConfig.integratedDemo
+    const contextDemo = ContextEditorUIConfig.components.contextEditor.demo
+
+    function App() {
+      const editor = useContextEditor(contextDemo.draft, contextDemo.pending)
+      const [sent, setSent] = React.useState([])
+
+      const send = (text) => setSent((items) => [...items, text])
+
+      return (
+        <main className="conversation-app" data-od-id="conversation-app">
+          <div className="conversation-column">
+            <section className="thread" aria-label="对话消息" data-od-id="conversation-thread">
+              <p className="time-divider" data-od-id="time-divider">{demo.time}</p>
+
+              <article className="turn" data-od-id="user-turn">
+                <MessageBubble showMeta={true}>{demo.user}</MessageBubble>
+              </article>
+
+              <article className="turn" data-od-id="assistant-turn">
+                <WorkedSummary duration={demo.duration}>
+                  <p className="process-copy">{demo.process}</p>
+                  <div className="tool-stack">
+                    <SubagentCall task={demo.task} status="started working"/>
+                    <ToolCall kind="web" label={demo.toolWeb}/>
+                    <ToolCall kind="command" label={demo.toolCommand} expandable/>
+                    <button className="tool-row tool-row-button" type="button" onClick={editor.openEditor} data-od-id="tool-context-editor">
+                      <ContextIcon/>
+                      <span className="tool-label">Opened Context Editor</span>
+                      <span className="tool-chevron" aria-hidden="true"/>
+                    </button>
+                    <SubagentCall task={demo.task} status="finished"/>
+                    <ToolOutput outputId="command-output">{demo.output}</ToolOutput>
+                  </div>
+                </WorkedSummary>
+
+                <AssistantMessage messageId="assistant-message">
+                  {demo.assistant.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                  <CodeObject label={demo.codeLabel} codeId="message-contract">{demo.code}</CodeObject>
+                </AssistantMessage>
+
+                <MessageActions targetId="assistant-message" onEditContext={editor.openEditor}/>
+                <p className="live-copy-status" data-live-status role="status" aria-live="polite"></p>
+              </article>
+
+              {editor.open ? (
+                <article className="turn" data-od-id="context-editor-turn">
+                  <ContextEditor {...editor.editorProps}/>
+                </article>
+              ) : null}
+
+              {sent.map((text, index) => (
+                <article className="turn" key={`${text}-${index}`} data-od-id="sent-user-turn">
+                  <div className="message-row is-user"><div className="user-message">{text}</div></div>
+                  <div className="user-meta is-visible"><span>刚刚</span></div>
+                </article>
+              ))}
+            </section>
+
+            <div className="composer-dock" data-od-id="composer-dock">
+              <div id="composer-root">
+                <Composer onSend={send} onOpenContextEditor={editor.openEditor} includedCount={editor.includedCount} pendingCount={editor.pending.length} editorOpen={editor.open}/>
+              </div>
+            </div>
+          </div>
+        </main>
+      )
+    }
+
+    ReactDOM.createRoot(document.getElementById('app')).render(<App/>)
+  </script>
+  <script src="interactions.js"></script>
+</body>
+</html>

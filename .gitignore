@@ -1,0 +1,8 @@
+.DS_Store
+.od-skills/
+.recovery/
+.file-versions/
+*.artifact.json
+.env
+.env.*
+!.env.example

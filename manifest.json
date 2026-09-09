@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "user:context-editor-ui",
+  "name": "context-editor-ui",
+  "category": "Developer",
+  "surface": "responsive-web",
+  "description": "截图复测的 conversation UI system, 聚焦 message, tool call, subagent, composer, Context Editor 与可追溯 light/dark role",
+  "files": {
+    "design": "DESIGN.md",
+    "skill": "SKILL.md",
+    "specs": "index.html",
+    "uiKit": "system/app.html",
+    "home": "index.html",
+    "config": "system/design-system.config.js",
+    "styles": "system/styles.css",
+    "icons": "system/Icons.js",
+    "componentScripts": "system/components",
+    "interaction": "system/interactions.js"
+  }
+}

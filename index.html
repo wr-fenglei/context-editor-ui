@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="context-editor-ui: 截图驱动的非官方复原系统">
+  <title>context-editor-ui</title>
+  <script src="system/design-system.config.js"></script>
+  <link rel="stylesheet" href="system/styles.css">
+</head>
+<body>
+  <main class="review-shell" data-od-id="home">
+    <header class="review-head">
+      <div>
+        <p class="eyebrow">context-editor-ui</p>
+        <h1 data-od-id="home-title"></h1>
+        <p class="lede" data-od-id="home-lede"></p>
+      </div>
+      <p data-od-id="home-evidence"></p>
+    </header>
+
+    <section class="review-section" data-od-id="home-integration">
+      <div class="section-head"><h2>集成示例</h2><p>一条完整对话, 把消息, 工具调用, subagent, 输入框与 Context Editor 串在一起</p></div>
+      <div class="spec-index-grid">
+        <a class="spec-index-card" href="system/app.html" data-od-id="home-app"><code>system/app.html</code><strong>对话界面集成示例</strong><span>消息, 工具调用, subagent, 输入框与 Context Editor 的完整对话</span><span class="spec-index-arrow">打开 ›</span></a>
+      </div>
+    </section>
+
+    <section class="review-section" data-od-id="home-specs">
+      <div class="section-head"><h2>组件规范</h2><p>每个页面直接渲染 system/ 中的真实组件, 规范与参数读取同一份配置</p></div>
+      <div class="spec-index-grid" id="spec-index-grid"></div>
+    </section>
+
+    <section class="review-section" data-od-id="home-themes">
+      <div class="section-head"><h2>Light 与 dark</h2><p data-od-id="home-dark-note"></p></div>
+      <div class="grid-2">
+        <div class="theme-board" data-theme="light"><div class="theme-label"><strong>Light</strong><span data-od-id="home-light-status"></span></div><div class="message-pair"><div class="user-message">Measured user surface</div><p>Assistant 正文保持无框</p></div></div>
+        <div class="theme-board" data-theme="dark"><div class="theme-label"><strong>Dark</strong><span data-od-id="home-dark-status"></span></div><div class="message-pair"><div class="user-message">Derived user surface</div><p>Component neutrals need evidence</p></div></div>
+      </div>
+    </section>
+
+    <footer class="review-foot" data-od-id="home-footer"></footer>
+  </main>
+  <script>
+    const config = ContextEditorUIConfig
+    const pages = [
+      { id: 'foundations', href: 'system/foundations.html', code: 'system/design-system.config.js', title: '基础规范', description: '颜色, 字体, 间距, 主题状态' },
+      { id: 'messages', href: 'system/components/MessageBubble/spec.html', code: 'system/components/MessageBubble/MessageBubble.js', title: config.components.messages.title, description: config.components.messages.lede },
+      { id: 'tools', href: 'system/components/ToolCall/spec.html', code: 'system/components/ToolCall/ToolCall.js', title: config.components.tools.title, description: config.components.tools.lede },
+      { id: 'subagents', href: 'system/components/SubagentCall/spec.html', code: 'system/components/SubagentCall/SubagentCall.js', title: config.components.subagents.title, description: config.components.subagents.lede },
+      { id: 'composer', href: 'system/components/Composer/spec.html', code: 'system/components/Composer/Composer.js', title: config.components.composer.title, description: config.components.composer.lede },
+      { id: 'context-editor', href: 'system/components/ContextEditor/spec.html', code: 'system/components/ContextEditor/ContextEditor.js', title: config.components.contextEditor.title, description: config.components.contextEditor.lede }
+    ]
+    document.querySelector('[data-od-id="home-title"]').textContent = config.meta.name
+    document.querySelector('[data-od-id="home-lede"]').textContent = `${config.meta.surface} · Light ${config.meta.lightStatus} / Dark ${config.meta.darkStatus}`
+    document.querySelector('[data-od-id="home-evidence"]').textContent = config.meta.evidence
+    document.querySelector('[data-od-id="home-dark-note"]').textContent = config.boundaries.dark
+    document.querySelector('[data-od-id="home-light-status"]').textContent = config.meta.lightStatus
+    document.querySelector('[data-od-id="home-dark-status"]').textContent = config.meta.darkStatus
+    document.querySelector('[data-od-id="home-footer"]').textContent = config.meta.nonClaim
+    document.getElementById('spec-index-grid').innerHTML = pages.map((page) => `<a class="spec-index-card" href="${page.href}" data-od-id="spec-index-${page.id}"><code>${page.code}</code><strong>${page.title}</strong><span>${page.description}</span><span class="spec-index-arrow">查看规范 ›</span></a>`).join('')
+  </script>
+</body>
+</html>

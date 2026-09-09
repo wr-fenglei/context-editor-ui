@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Subagent 调用 - context-editor-ui</title>
+  <script src="../../design-system.config.js"></script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="review-shell" data-od-id="subagents-preview">
+    <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title data-od-id="subagents-title"></h1><p class="lede" data-config-lede></p></div><p data-config-source></p></header>
+    <section class="review-section" data-od-id="subagents-demo"><div class="section-head"><h2>组件示例</h2><p>直接渲染共享 subagent 和 tool 组件</p></div><div class="stage component-demo" id="subagents-demo-root"></div></section>
+    <section class="review-section" data-od-id="subagents-rules"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
+    <section class="review-section" data-od-id="subagents-parameters"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
+    <footer class="review-foot" data-config-footer></footer>
+  </main>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="../../Icons.js"></script>
+  <script type="text/babel" src="../ToolCall/ToolCall.js"></script>
+  <script type="text/babel" src="./SubagentCall.js"></script>
+  <script type="text/babel">
+    const demo = ContextEditorUIConfig.components.subagents.demo
+    ReactDOM.createRoot(document.getElementById('subagents-demo-root')).render(<div className="demo-tool-stack"><SubagentCall task={demo.task} status={demo.started} /><ToolCall kind="web" label={demo.tool} /><SubagentCall task={demo.task} status={demo.finished} /></div>)
+    ContextEditorUI.renderComponentPage('subagents')
+  </script>
+</body>
+</html>

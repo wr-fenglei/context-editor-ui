@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>输入框 - context-editor-ui</title>
+  <script src="../../design-system.config.js"></script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main class="review-shell" data-od-id="composer-preview">
+    <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title data-od-id="composer-title"></h1><p class="lede" data-config-lede></p></div><p data-config-source></p></header>
+    <section class="review-section" data-od-id="composer-demo"><div class="section-head"><h2>组件示例</h2><p>输入, 发送和 menu 状态均使用共享交互</p></div><div class="composer-preview-shell"><div id="composer-root"></div></div><p class="live-copy-status" data-live-status role="status" aria-live="polite"></p></section>
+    <section class="review-section" data-od-id="composer-rules"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
+    <section class="review-section" data-od-id="composer-parameters"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
+    <footer class="review-foot" data-config-footer></footer>
+  </main>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="../../Icons.js"></script>
+  <script type="text/babel" src="./Composer.js"></script>
+  <script type="text/babel">
+    function ComposerPreview() {
+      const [editorOpen, setEditorOpen] = React.useState(false)
+      const [sent, setSent] = React.useState(0)
+      return <Composer includedCount={3} pendingCount={2} editorOpen={editorOpen} onOpenContextEditor={() => setEditorOpen((value) => !value)} onSend={() => setSent((value) => value + 1)} />
+    }
+    ReactDOM.createRoot(document.getElementById('composer-root')).render(<ComposerPreview />)
+    ContextEditorUI.renderComponentPage('composer')
+  </script>
+  <script src="../../interactions.js"></script>
+</body>
+</html>
