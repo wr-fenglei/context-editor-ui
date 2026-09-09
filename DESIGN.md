@@ -11,7 +11,7 @@
 
 - `system/design-system.config.js` 统一保存设计变量, 表达规则, 组件规范, 参数和示例文案
 - `system/styles.css` 统一实现组件视觉, 响应式布局和交互状态
-- `system/components/<组件>/<组件>.js` 定义组件结构, `system/Icons.js` 定义共享图标
+- `system/components/<组件>/<组件>.js` 定义组件结构, `system/icon-set.js` 统一定义图标轮廓, `system/Icons.js` 提供对话组件的图标接口
 - `system/interactions.js` 定义共享复制行为和状态反馈
 - 规范页仅提供模板和组件挂载点, 不保存尺寸, 颜色或规范副本
 - `manifest.json` 保留系统标识和入口映射

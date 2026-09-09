@@ -18,7 +18,8 @@
 
 - `system/design-system.config.js`: 设计变量, 规范, 参数和示例数据
 - `system/styles.css`: 组件视觉, 响应式布局和交互状态
-- `system/Icons.js`: 共享图标
+- `system/icon-set.js`: 统一图标轮廓及静态渲染
+- `system/Icons.js`: 对话组件的图标接口
 - `system/components/<组件>/<组件>.js`: 组件结构
 - `system/interactions.js`: 共享复制行为和状态反馈
 - `DESIGN.md`: 设计约束和集成边界
@@ -78,3 +79,7 @@ python3 -m http.server 8000
 ## 头像资源
 
 三张 120 × 120 像素的头像以 40 像素显示, 使用圆形裁切, 重叠排列和不透明主题底色
+
+## 图标
+
+全站使用统一的圆角线框图标, 基础规范页提供整套图标预览, 图标轮廓来自 Lucide, 许可见 `THIRD_PARTY_NOTICES.md`

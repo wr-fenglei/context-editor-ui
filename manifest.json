@@ -15,6 +15,7 @@
     "styles": "system/styles.css",
     "icons": "system/Icons.js",
     "componentScripts": "system/components",
-    "interaction": "system/interactions.js"
+    "interaction": "system/interactions.js",
+    "iconData": "system/icon-set.js"
   }
 }

@@ -22,13 +22,13 @@ function AssistantMessage({ children, messageId = 'assistant-message' }) {
 }
 
 function WorkedSummary({ duration = '1 分 38 秒', children, open = true }) {
-  return <details className="worked" open={open} data-od-id="worked-summary"><summary>已处理 {duration}</summary><div className="work-log">{children}</div></details>
+  return <details className="worked" open={open} data-od-id="worked-summary"><summary>已处理 {duration}<ChevronDownIcon className="summary-chevron"/></summary><div className="work-log">{children}</div></details>
 }
 
 function CodeObject({ label, codeId, children }) {
   return (
     <div className="code-object" data-od-id="code-object">
-      <div className="code-head"><span className="code-label"><span aria-hidden="true">‹/›</span>{label}</span><div className="code-actions"><CopyButton targetId={codeId} label="复制代码" odId="copy-code-action"/></div></div>
+      <div className="code-head"><span className="code-label"><CodeIcon/>{label}</span><div className="code-actions"><CopyButton targetId={codeId} label="复制代码" odId="copy-code-action"/></div></div>
       <pre id={codeId}>{children}</pre>
     </div>
   )

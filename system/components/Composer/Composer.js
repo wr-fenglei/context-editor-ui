@@ -93,7 +93,7 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
           <button ref={approvalTriggerRef} className={`mode-button${currentApproval.danger ? ' is-danger' : ''}`} id="approval-trigger" type="button" aria-haspopup="menu" aria-expanded={approvalOpen} onClick={() => toggle(setApprovalOpen, approvalOpen)} data-od-id="approval-trigger"><ShieldIcon/><span>{currentApproval.label}</span></button>
         </div>
         <div className="composer-right">
-          <button ref={modelTriggerRef} className="model-button" id="model-trigger" title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><span aria-hidden="true">⌄</span></button>
+          <button ref={modelTriggerRef} className="model-button" id="model-trigger" title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><ChevronDownIcon className="model-chevron"/></button>
           <button className="icon-button" type="button" aria-label="语音输入" data-od-id="microphone-button"><MicIcon/></button>
           <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" onClick={send} data-od-id="send-button"><SendIcon/></button>
         </div>
@@ -117,7 +117,7 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
             <button key={item.value} className={`menu-row${item.danger ? ' is-danger' : ''}`} type="button" role="menuitemradio"
                     aria-checked={selectedApproval === item.value} onClick={() => selectApproval(item.value)} data-od-id={`approval-${item.value}`}>
               <ShieldIcon/><span><strong>{item.label}</strong><small>{item.description}</small></span>
-              <span aria-hidden="true">{selectedApproval === item.value ? '✓' : ''}</span>
+              <span className="approval-check" aria-hidden="true">{selectedApproval === item.value ? <CheckIcon/> : null}</span>
             </button>
           ))}
         </div>

@@ -5,7 +5,11 @@
     list.className = 'profile-tags'; list.dataset.odId = id; list.setAttribute('aria-label', label)
     items.forEach((item, index) => {
       const tag = document.createElement('li'); tag.className = 'profile-tag'; tag.dataset.odId = `${id}-${index + 1}`
-      if (item.icon) {
+      if (item.iconName) {
+        const icon = ContextEditorUIIcons.create(item.iconName, { className: 'profile-tag-glyph', size: 13 })
+        if (item.tone) icon.dataset.tone = item.tone
+        tag.append(icon)
+      } else if (item.icon) {
         const icon = document.createElement('span'); icon.className = 'profile-tag-icon'; icon.setAttribute('aria-hidden', 'true')
         if (item.tone) icon.dataset.tone = item.tone
         icon.style.setProperty('--profile-icon', `url("${new URL(item.icon, assets).href}")`); tag.append(icon)

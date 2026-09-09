@@ -11,6 +11,8 @@
     },
     tokens: {
       shared: {
+        '--icon-stroke': '1.8',
+        '--icon-grid-size': '24px',
         '--model-menu-width': '256px',
         '--model-option-height': '28px',
         '--spec-columns': 'minmax(150px, .32fr) minmax(0, .68fr)',
@@ -60,7 +62,7 @@
         '--message-user-padding-block': '12px',
         '--message-user-padding-inline': '16px',
         '--message-action-icon-size': '19px',
-        '--message-action-stroke': '1.5px',
+        '--message-action-stroke': 'var(--icon-stroke)',
         '--tool-icon-size': '18px',
         '--tool-row-gap': '8px',
         '--tool-stack-gap': '12px',
@@ -200,6 +202,7 @@
       }
     },
     foundations: {
+      icons: [{"name": "copy", "label": "复制"}, {"name": "thumbs-up", "label": "有帮助"}, {"name": "thumbs-down", "label": "没有帮助"}, {"name": "git-branch", "label": "创建分支"}, {"name": "plus", "label": "添加"}, {"name": "shield-check", "label": "批准方式"}, {"name": "mic", "label": "语音输入"}, {"name": "arrow-up", "label": "发送"}, {"name": "square-pen", "label": "上下文编辑"}, {"name": "file-text", "label": "文件"}, {"name": "text-cursor-input", "label": "选中文本"}, {"name": "target", "label": "指令"}, {"name": "sticky-note", "label": "备注"}, {"name": "trash-2", "label": "删除"}, {"name": "arrow-up", "label": "上移"}, {"name": "arrow-down", "label": "下移"}, {"name": "check", "label": "确认"}, {"name": "chevron-down", "label": "展开"}, {"name": "chevron-right", "label": "进入"}, {"name": "globe", "label": "网页"}, {"name": "square-terminal", "label": "命令"}, {"name": "blocks", "label": "工具"}, {"name": "code-xml", "label": "代码"}, {"name": "bot", "label": "子代理"}, {"name": "palette", "label": "设计"}, {"name": "cpu", "label": "科技"}, {"name": "book-open", "label": "阅读"}, {"name": "plane", "label": "旅行"}, {"name": "dumbbell", "label": "运动"}, {"name": "music-2", "label": "音乐"}],
       colors: [
         { label: '用户消息背景', token: '--palette-user-surface' },
         { label: '正文颜色', token: '--palette-light-foreground' },
@@ -284,12 +287,12 @@
         "demo": {
           "label": "示例个人资料",
           "items": [
-            { "text": "设计", "icon": "profile-design.svg", "tone": "design" },
-            { "text": "科技", "icon": "profile-tech.svg", "tone": "tech" },
-            { "text": "阅读", "icon": "profile-reading.svg", "tone": "reading" },
-            { "text": "旅行", "icon": "profile-travel.svg", "tone": "travel" },
-            { "text": "运动", "icon": "profile-sport.svg", "tone": "sport" },
-            { "text": "音乐", "icon": "profile-music.svg", "tone": "music" }
+            { "text": "设计", "iconName": "palette", "tone": "design" },
+            { "text": "科技", "iconName": "cpu", "tone": "tech" },
+            { "text": "阅读", "iconName": "book-open", "tone": "reading" },
+            { "text": "旅行", "iconName": "plane", "tone": "travel" },
+            { "text": "运动", "iconName": "dumbbell", "tone": "sport" },
+            { "text": "音乐", "iconName": "music-2", "tone": "music" }
           ]
         }
       },
@@ -597,10 +600,21 @@
     root.innerHTML = `
       <header class="review-head"><div><p class="eyebrow">基础规范</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
       <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>颜色用于区分画布, 内容表面, 强调信息和操作状态</p></div><div class="stage">${colorRows}</div></section>
+      <section class="review-section" id="icons" data-od-id="foundation-icons"><div class="section-head"><h2>图标规范</h2><p>统一的圆角线框, 24 × 24 网格, 线宽 ${escapeHtml(tokenValue('--icon-stroke'))}, 随主题和操作状态切换颜色</p></div><div class="icon-catalog" id="icon-catalog"></div></section>
       <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>消息使用系统界面字体, 等宽字体仅用于代码, 命令和路径</p></div><div class="stage">${typeRows}</div></section>
       <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">用户气泡宽度上限为 ${escapeHtml(tokenValue('--message-user-max-width'))}</div><div class="turn-block">助手消息在阅读栏内保持无框</div></div></div></div></section>
       <section class="review-section" data-od-id="foundation-themes"><div class="section-head"><h2>浅色与深色</h2><p>${escapeHtml(config.boundaries.dark)}</p></div><div class="grid-2"><div class="theme-board" data-theme="light"><div class="theme-label"><strong>浅色</strong><span>${escapeHtml(config.meta.lightLabel)}</span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>助手正文保持无框</p></div></div><div class="theme-board" data-theme="dark"><div class="theme-label"><strong>深色</strong><span>${escapeHtml(config.meta.darkLabel)}</span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div></div></section>
       <footer class="review-foot">${escapeHtml(config.meta.description)}</footer>`
+    const catalog = document.getElementById('icon-catalog')
+    config.foundations.icons.forEach((item) => {
+      const sample = document.createElement('div')
+      sample.className = 'icon-sample'
+      sample.append(ContextEditorUIIcons.create(item.name, { size: 24 }))
+      const label = document.createElement('span')
+      label.textContent = item.label
+      sample.append(label)
+      catalog.append(sample)
+    })
   }
   const applyThemeFromLocation = () => {
     const theme = new URLSearchParams(window.location.search).get('theme')
