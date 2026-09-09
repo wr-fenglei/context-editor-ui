@@ -66,11 +66,6 @@
         '--tool-output-padding': '16px',
         '--tool-output-font-size': '12px',
         '--subagent-mark-size': '16px',
-        '--subagent-pill-min-height': '34px',
-        '--subagent-pill-padding-block': '5px',
-        '--subagent-pill-padding-inline': '10px',
-        '--subagent-pill-gap': '6px',
-        '--subagent-pill-border-width': '1px',
         '--composer-padding-top': '14px',
         '--composer-border-width': '1px',
         '--composer-text-size': '14px',
@@ -112,8 +107,10 @@
         '--palette-skill': '#924ff7',
         '--palette-diff-added': '#00a240',
         '--palette-diff-removed': '#ba2623',
-        '--palette-agent-blue': '#5ea3f6',
-        '--palette-agent-green': '#96da7f',
+        '--palette-agent-blue': '#5687ca',
+        '--palette-agent-green': '#6b934d',
+        '--palette-agent-rose': '#c96589',
+        '--palette-agent-amber': '#b67e28',
         '--bg': 'var(--palette-light-canvas)',
         '--surface': 'var(--palette-user-surface)',
         '--surface-selected': 'var(--palette-selected-surface)',
@@ -144,8 +141,6 @@
         '--tool-call-fg': 'var(--muted)',
         '--tool-output-bg': 'var(--surface)',
         '--tool-output-fg': '#5b5d5f',
-        '--subagent-pill-bg': 'var(--bg)',
-        '--subagent-pill-border': 'var(--border-soft)',
         '--code-object-bg': 'var(--surface)',
         '--composer-bg': 'var(--bg)',
         '--composer-border': 'var(--border)',
@@ -154,6 +149,10 @@
         '--focus-color': 'var(--accent)'
       },
       dark: {
+        '--palette-agent-blue': '#83b3f0',
+        '--palette-agent-green': '#aad37e',
+        '--palette-agent-rose': '#ec91b4',
+        '--palette-agent-amber': '#e6b767',
         '--profile-tag-bg': '#332a24',
         '--profile-tag-border': '#514136',
         '--profile-tag-fg': '#f6e9da',
@@ -198,8 +197,6 @@
         '--tool-call-fg': 'var(--muted)',
         '--tool-output-bg': 'var(--surface)',
         '--tool-output-fg': 'var(--fg-secondary)',
-        '--subagent-pill-bg': 'var(--bg)',
-        '--subagent-pill-border': 'var(--border)',
         '--code-object-bg': 'var(--surface)',
         '--composer-bg': 'var(--bg)',
         '--composer-border': 'var(--border)',
@@ -441,25 +438,25 @@
         ]
       },
       subagents: {
-        overview: '任务标签, 进度状态, 时间顺序',
+        overview: '彩色标记, 子代理名称, 进度状态',
         eyebrow: '组件 03', title: '子代理调用组件',
-        lede: '任务标签和状态文字按时间顺序排列, 开始与完成状态清晰可读, 不增加卡片外框',
+        lede: '固定图标搭配不同颜色和名称, 与工具调用对齐, 按时间顺序显示进度',
         source: 'system/components/SubagentCall/SubagentCall.js',
-        demo: { task: '查看项目概况', tool: '已阅读项目笔记', started: '开始处理', finished: '已完成' },
+        demo: { agents: [{ name: '资料助手', tone: 'rose' }, { name: '整理助手', tone: 'amber' }, { name: '检查助手', tone: 'green' }], tool: '已阅读项目笔记' },
         rulesIntro: '子代理的进度作为事件显示在对话中',
         rules: [
-          ['任务标签', '带细描边的胶囊标签包含 13px 子代理标记和简短任务名, 图文间距为 6px, 垂直居中'],
-          ['任务状态', '开始处理, 处理中或已完成等状态独立显示在标签外'],
-          ['时间顺序', '开始与完成状态可以出现在同一轮对话中'],
-          ['详情', '默认只显示任务名和状态, 需要时才展开详情']
+          ['行内布局', '图标, 名称和状态直接排列, 无边框与背景, 图标为 16px, 图文间距为 8px, 与工具调用的文字起点对齐'],
+          ['身份区分', '使用固定图标形状, 通过颜色与名称区分子代理, 同一名称在开始和完成时保持同色'],
+          ['任务状态', '名称后显示开始处理, 处理中或已完成, 状态不只依赖颜色表达'],
+          ['换行', '长名称自然换行, 后续文字与首行文字对齐, 状态词保持完整']
         ],
         parameters: [
           { label: '子代理标记', tokens: ['--subagent-mark-size'] },
-          { label: '标签高度下限', tokens: ['--subagent-pill-min-height'] },
-          { label: '标签内边距', tokens: ['--subagent-pill-padding-block', '--subagent-pill-padding-inline'], separator: ' × ' },
-          { label: '标签内容间距', tokens: ['--subagent-pill-gap'] },
-          { label: '标签描边', tokens: ['--subagent-pill-border-width'] },
-          { label: '事件间距', tokens: ['--tool-stack-gap'] }
+          { label: '图文间距', tokens: ['--tool-row-gap'] },
+          { label: '事件间距', tokens: ['--tool-stack-gap'] },
+          { label: '玫瑰色标记', tokens: ['--palette-agent-rose'] },
+          { label: '琥珀色标记', tokens: ['--palette-agent-amber'] },
+          { label: '草绿色标记', tokens: ['--palette-agent-green'] }
         ]
       },
       composer: {
@@ -557,7 +554,7 @@
       user: '帮我整理本周的项目进展, 并把待确认事项加入上下文',
       duration: '1 分 38 秒',
       process: '我会先查看项目笔记, 再整理进展和待确认事项',
-      task: '查看项目概况',
+      agents: [{ name: '资料助手', tone: 'rose' }, { name: '整理助手', tone: 'amber' }],
       toolWeb: '已阅读项目笔记',
       toolCommand: '已执行命令',
       output: '$ rg -n "done|pending" notes\n找到 3 组任务\n上下文草稿已就绪',
@@ -568,7 +565,7 @@
     voice: {
       assistant: '先给判断, 再给动作和可验证结果',
       tool: '使用过去时或进行时的短动作加对象',
-      subagent: '任务名简短明确, 状态单独显示',
+      subagent: '名称与颜色保持一致, 状态紧随名称显示',
       contextEditor: '明确区分待处理内容与已确认的工作草稿'
     },
     boundaries: {

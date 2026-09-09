@@ -63,11 +63,13 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .tool-row-button:hover { color: var(--fg); }
 .tool-output { margin: 0; padding: var(--tool-output-padding); border: 1px solid var(--border); border-radius: var(--radius-message); background: var(--tool-output-bg); color: var(--tool-output-fg); font: var(--tool-output-font-size)/1.65 var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; }
 
-.subagent-line { --agent-color: var(--palette-agent-blue); min-width: 0; display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; color: var(--muted); }
+.subagent-line { --agent-color: var(--palette-agent-blue); min-width: 0; display: flex; align-items: flex-start; gap: var(--tool-row-gap); color: var(--tool-call-fg); }
 .subagent-line[data-tone="green"] { --agent-color: var(--palette-agent-green); }
-.agent-pill { min-height: var(--subagent-pill-min-height); display: inline-flex; align-items: center; gap: var(--subagent-pill-gap); padding: var(--subagent-pill-padding-block) var(--subagent-pill-padding-inline); border: var(--subagent-pill-border-width) solid var(--subagent-pill-border); border-radius: var(--radius-pill); background: var(--subagent-pill-bg); color: var(--muted); }
-.agent-mark { width: var(--subagent-mark-size); height: var(--subagent-mark-size); color: color-mix(in oklch, var(--agent-color) 68%, var(--fg)); }
-.agent-status { color: var(--muted); }
+.subagent-line[data-tone="rose"] { --agent-color: var(--palette-agent-rose); }
+.subagent-line[data-tone="amber"] { --agent-color: var(--palette-agent-amber); }
+.agent-mark { width: var(--subagent-mark-size); height: var(--subagent-mark-size); margin-top: calc((1lh - var(--subagent-mark-size)) / 2); color: var(--agent-color); }
+.agent-copy { min-width: 0; overflow-wrap: anywhere; }
+.agent-status { white-space: nowrap; }
 
 .code-object { overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius-message); background: var(--code-object-bg); }
 .code-head { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); padding: var(--space-3) var(--space-4); }

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="对话消息, 工具调用, 子代理, 输入框与上下文编辑集成示例">
   <title>对话界面集成示例 - context-editor-ui</title>
-  <script src="design-system.config.js?v=thin-icons-1"></script>
+  <script src="design-system.config.js?v=inline-agents-1"></script>
   <script src="motion-runtime.js?v=motion-system-1"></script>
   <script src="icon-set.js?v=thin-icons-1"></script>
-  <link rel="stylesheet" href="styles.css?v=soft-confirm-1">
+  <link rel="stylesheet" href="styles.css?v=inline-agents-1">
 </head>
 <body>
   <div id="app"></div>
@@ -20,7 +20,7 @@
   <script type="text/babel" src="MotionPresence.js?v=motion-system-1"></script>
   <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=motion-system-1"></script>
   <script type="text/babel" src="components/ToolCall/ToolCall.js?v=motion-system-1"></script>
-  <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=unified-icons-1"></script>
+  <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=inline-agents-1"></script>
   <script type="text/babel" src="components/Composer/Composer.js?v=motion-system-1"></script>
   <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=motion-system-1"></script>
   <script type="text/babel">
@@ -72,15 +72,17 @@
                 <WorkedSummary duration={demo.duration}>
                   <p className="process-copy">{demo.process}</p>
                   <div className="tool-stack">
-                    <SubagentCall task={demo.task} status="started working"/>
+                    <SubagentCall name={demo.agents[0].name} tone={demo.agents[0].tone} status="started working"/>
                     <ToolCall kind="web" label={demo.toolWeb}/>
+                    <SubagentCall {...demo.agents[0]} status="finished"/>
+                    <SubagentCall {...demo.agents[1]} status="started working"/>
                     <ToolCall kind="command" label={demo.toolCommand} expandable output={demo.output} outputId="command-output"/>
                     <button className="tool-row tool-row-button" type="button" onClick={editor.openEditor} data-od-id="tool-context-editor">
                       <ContextIcon/>
                       <span className="tool-label">已打开上下文编辑区</span>
                       <ChevronDownIcon className="tool-chevron"/>
                     </button>
-                    <SubagentCall task={demo.task} status="finished"/>
+                    <SubagentCall {...demo.agents[1]} status="finished"/>
                   </div>
                 </WorkedSummary>
 
