@@ -101,9 +101,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
   border-radius: var(--radius-message);
   background: var(--code-object-bg);
   overflow: hidden;
-  transition: border-color var(--motion-base) var(--ease-standard), box-shadow var(--motion-base) var(--ease-standard);
 }
-.context-editor.is-attention { border-color: var(--accent); box-shadow: var(--focus-ring); }
 
 .context-editor-head { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-5); border-bottom: 1px solid var(--border-soft); }
 .context-editor-mark { width: 32px; height: 32px; flex: 0 0 32px; display: grid; place-items: center; border: 1px solid var(--border); border-radius: var(--radius-control); color: var(--muted); }

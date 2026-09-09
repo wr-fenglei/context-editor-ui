@@ -5,10 +5,10 @@ function KindIcon({ kind }) {
   return <NoteIcon/>
 }
 
-function ContextEditor({ editorRef, draft, pending, includedCount, attention, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
+function ContextEditor({ editorRef, draft, pending, includedCount, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
   React.useLayoutEffect(() => { ContextEditorUIMotion.layout(editorRef.current) }, [draft, pending])
   return (
-    <section ref={editorRef} className={`context-editor${attention ? ' is-attention' : ''}`} aria-label="上下文编辑" data-od-id="context-editor">
+    <section ref={editorRef} className="context-editor" aria-label="上下文编辑" data-od-id="context-editor">
       <header className="context-editor-head">
         <span className="context-editor-mark" aria-hidden="true"><ContextIcon/></span>
         <div className="context-editor-heading">
@@ -93,10 +93,8 @@ function useContextEditor(initialDraft, initialPending) {
   const [draft, setDraft] = React.useState(initialDraft)
   const [pending, setPending] = React.useState(initialPending)
   const [open, setOpen] = React.useState(true)
-  const [attention, setAttention] = React.useState(false)
   const [status, setStatus] = React.useState('')
   const [newItem, setNewItem] = React.useState('')
-  const attentionTimer = React.useRef(null)
   const removing = React.useRef(new Set())
   const editorRef = React.useRef(null)
   const [openRequest, setOpenRequest] = React.useState(0)
@@ -106,9 +104,6 @@ function useContextEditor(initialDraft, initialPending) {
   const openEditor = () => {
     setOpen(true)
     setOpenRequest((request) => request + 1)
-    setAttention(true)
-    clearTimeout(attentionTimer.current)
-    attentionTimer.current = setTimeout(() => setAttention(false), 1400)
   }
   const collapseEditor = () => {
     const trigger = document.querySelector('[data-od-id="composer-context-accessory"], [data-demo-context-toggle]')
@@ -119,7 +114,6 @@ function useContextEditor(initialDraft, initialPending) {
     if (open) collapseEditor()
     else openEditor()
   }
-  React.useEffect(() => () => clearTimeout(attentionTimer.current), [])
 
   // Wait for the card to reach its final height before computing the scroll target
   React.useEffect(() => {
@@ -191,11 +185,11 @@ function useContextEditor(initialDraft, initialPending) {
   const confirmDraft = () => setStatus(`已确认 ${includedCount} 项工作草稿 · 待处理 ${pending.length} 项保持不变`)
 
   return {
-    draft, pending, includedCount, open, attention, status, newItem,
+    draft, pending, includedCount, open, status, newItem,
     setOpen, setNewItem, openEditor, toggleEditor, toggleItem, removeDraft, removePending,
     move, merge, mergeAll, addPending, confirmDraft,
     editorProps: {
-      editorRef, draft, pending, includedCount, attention, status, newItem,
+      editorRef, draft, pending, includedCount, status, newItem,
       onNewItem: setNewItem, onToggle: toggleItem, onRemoveDraft: removeDraft,
       onRemovePending: removePending, onMove: move, onMerge: merge, onMergeAll: mergeAll,
       onAddPending: addPending, onConfirm: confirmDraft, onCollapse: collapseEditor
