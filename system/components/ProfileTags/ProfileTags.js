@@ -7,6 +7,7 @@
       const tag = document.createElement('li'); tag.className = 'profile-tag'; tag.dataset.odId = `${id}-${index + 1}`
       if (item.icon) {
         const icon = document.createElement('span'); icon.className = 'profile-tag-icon'; icon.setAttribute('aria-hidden', 'true')
+        if (item.tone) icon.dataset.tone = item.tone
         icon.style.setProperty('--profile-icon', `url("${new URL(item.icon, assets).href}")`); tag.append(icon)
       }
       const text = document.createElement('span'); text.textContent = item.text; tag.append(text); list.append(tag)

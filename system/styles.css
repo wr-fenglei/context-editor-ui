@@ -383,3 +383,10 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .avatar-group { display:flex; flex-wrap:wrap; align-items:center; gap:var(--space-1) 0; margin:0; padding:0 0 0 var(--avatar-group-overlap); list-style:none; min-width:0; }
 .avatar-group-item { flex:0 0 var(--avatar-group-size); width:var(--avatar-group-size); height:var(--avatar-group-size); margin-left:calc(-1 * var(--avatar-group-overlap)); }
 .avatar-group-item img { display:block; width:100%; height:100%; object-fit:cover; background:var(--surface); border:1px solid var(--bg); border-radius:var(--radius-pill); }
+
+.profile-tag-icon[data-tone="design"] { color:var(--profile-icon-design); }
+.profile-tag-icon[data-tone="tech"] { color:var(--profile-icon-tech); }
+.profile-tag-icon[data-tone="reading"] { color:var(--profile-icon-reading); }
+.profile-tag-icon[data-tone="travel"] { color:var(--profile-icon-travel); }
+.profile-tag-icon[data-tone="sport"] { color:var(--profile-icon-sport); }
+.profile-tag-icon[data-tone="music"] { color:var(--profile-icon-music); }

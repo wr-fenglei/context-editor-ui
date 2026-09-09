@@ -86,6 +86,13 @@
         '--ease-standard': 'cubic-bezier(.2, .8, .2, 1)'
       },
       light: {
+        '--profile-icon-design': '#a65dc5',
+        '--profile-icon-tech': '#3a7bd5',
+        '--profile-icon-reading': '#b57a24',
+        '--profile-icon-travel': '#278c85',
+        '--profile-icon-sport': '#d16c42',
+        '--profile-icon-music': '#c45982',
+
         '--palette-light-canvas': '#ffffff',
         '--palette-light-foreground': '#1a1c1f',
         '--palette-user-foreground': '#0d0d0d',
@@ -141,6 +148,13 @@
         '--focus-color': 'var(--accent)'
       },
       dark: {
+        '--profile-icon-design': '#c68de2',
+        '--profile-icon-tech': '#7baef2',
+        '--profile-icon-reading': '#dcb364',
+        '--profile-icon-travel': '#6fc5b8',
+        '--profile-icon-sport': '#e6a07c',
+        '--profile-icon-music': '#df8fb1',
+
         '--bg': '#181818',
         '--surface': 'color-mix(in oklch, var(--bg) 88%, #ffffff)',
         '--surface-selected': 'color-mix(in oklch, var(--bg) 82%, #ffffff)',
@@ -230,7 +244,7 @@
           ],
           [
             "图标",
-            "图标与文字垂直居中, 使用一致的尺寸和间距"
+            "图标为 13px, 与文字垂直居中, 按标签主题使用不同颜色, 文字独立说明含义"
           ]
         ],
         "parameters": [
@@ -270,28 +284,12 @@
         "demo": {
           "label": "示例个人资料",
           "items": [
-            {
-              "text": "女性",
-              "icon": "profile-female.svg"
-            },
-            {
-              "text": "所在地 重庆"
-            },
-            {
-              "text": "已实名",
-              "icon": "profile-identity.svg"
-            },
-            {
-              "text": "重庆大学",
-              "icon": "profile-school.svg"
-            },
-            {
-              "text": "互联网"
-            },
-            {
-              "text": "游戏时长 8487 小时",
-              "icon": "profile-steam.svg"
-            }
+            { "text": "设计", "icon": "profile-design.svg", "tone": "design" },
+            { "text": "科技", "icon": "profile-tech.svg", "tone": "tech" },
+            { "text": "阅读", "icon": "profile-reading.svg", "tone": "reading" },
+            { "text": "旅行", "icon": "profile-travel.svg", "tone": "travel" },
+            { "text": "运动", "icon": "profile-sport.svg", "tone": "sport" },
+            { "text": "音乐", "icon": "profile-music.svg", "tone": "music" }
           ]
         }
       },
