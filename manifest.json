@@ -17,6 +17,8 @@
     "componentScripts": "system/components",
     "interaction": "system/interactions.js",
     "iconData": "system/icon-set.js",
+    "iconAtlas": "system/assets/icons/atlas.png",
+    "iconSlices": "system/assets/icons/atlas.json",
     "motion": "system/motion-runtime.js",
     "motionPresence": "system/MotionPresence.js"
   }

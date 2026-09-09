@@ -18,7 +18,7 @@
 
 - `system/design-system.config.js`: 设计变量, 规范, 参数和示例数据
 - `system/styles.css`: 组件视觉, 响应式布局和交互状态
-- `system/icon-set.js`: 统一图标轮廓及静态渲染
+- `system/icon-set.js`: 图标图集索引, 切图坐标及静态渲染
 - `system/Icons.js`: 对话组件的图标接口
 - `system/components/<组件>/<组件>.js`: 组件结构
 - `system/interactions.js`: 共享复制行为和状态反馈
@@ -84,7 +84,11 @@ python3 -m http.server 8000
 
 ## 图标
 
-全站使用统一的圆角线框图标, 基础规范页提供整套图标预览, 图标轮廓来自 Lucide, 许可见 `THIRD_PARTY_NOTICES.md`
+全站使用 Codex 内置生图工具生成的透明图标图集, 30 个图形保存在 `system/assets/icons/atlas.png`, 基础规范页提供预览和下载入口
+
+`atlas.json` 保存按实际轮廓归一的切图坐标, 页面通过透明遮罩取出图标并继承主题颜色, 原始图片保持完整, 生成提示词见 `system/assets/icons/prompt.txt`
+
+子代理, 工具调用与消息操作统一使用 16 像素, 个人资料标签使用 13 像素, 箭头和复选标记按控件空间缩放, 图标尺寸不改变按钮的点击区域
 
 ## 动效
 

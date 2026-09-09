@@ -1,11 +1,5 @@
-function Icon({ name, children, size = 18, className = '', strokeWidth }) {
-  return (
-    <svg viewBox="0 0 24 24" width={size} height={size} className={`ui-icon ${className}`}
-         fill="none" stroke="currentColor" strokeWidth={strokeWidth || 1.8}
-         strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
-      {name ? ContextEditorUIIcons.nodes[name].map(([tag, attrs], index) => React.createElement(tag, { ...attrs, key: index })) : children}
-    </svg>
-  )
+function Icon({ name, size = 16, className = '' }) {
+  return <span className={`ui-icon ${className}`} data-icon={name} style={ContextEditorUIIcons.style(name, size)} aria-hidden="true"/>
 }
 
 function CopyIcon(props) { return <Icon name="copy" {...props}/> }

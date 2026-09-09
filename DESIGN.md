@@ -11,7 +11,7 @@
 
 - `system/design-system.config.js` 统一保存设计变量, 表达规则, 组件规范, 参数和示例文案
 - `system/styles.css` 统一实现组件视觉, 响应式布局和交互状态
-- `system/components/<组件>/<组件>.js` 定义组件结构, `system/icon-set.js` 统一定义图标轮廓, `system/Icons.js` 提供对话组件的图标接口
+- `system/components/<组件>/<组件>.js` 定义组件结构, `system/icon-set.js` 统一定义图标图集和切图坐标, `system/Icons.js` 提供对话组件的图标接口
 - `system/interactions.js` 定义共享复制行为和状态反馈
 - `system/motion-runtime.js` 定义共享动效, `system/MotionPresence.js` 管理进入与退出
 - 规范页仅提供模板和组件挂载点, 不保存尺寸, 颜色或规范副本
@@ -45,6 +45,7 @@
 - 消息身份通过对齐, 背景和留白表达
 - 消息操作可发现, 视觉上弱于正文
 - 工具状态包含文字, 不只依赖图标或颜色
+- 子代理, 工具调用和消息操作图标统一为 16 像素, 切图范围按轮廓归一, 使用透明遮罩随主题变色
 - 错误色仅用于真实错误, 警告不改变整行的语义颜色
 - 子代理任务名使用简短的动作和对象, 状态单独表达
 - 输入区无内框, 占位文字与正文使用不同的语义颜色

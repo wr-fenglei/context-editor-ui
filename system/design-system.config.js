@@ -11,8 +11,6 @@
     },
     tokens: {
       shared: {
-        '--icon-stroke': '1.8',
-        '--icon-grid-size': '24px',
         '--model-menu-width': '256px',
         '--model-option-height': '28px',
         '--spec-columns': 'minmax(150px, .32fr) minmax(0, .68fr)',
@@ -61,14 +59,13 @@
         '--message-user-max-width-phone': '92%',
         '--message-user-padding-block': '12px',
         '--message-user-padding-inline': '16px',
-        '--message-action-icon-size': '19px',
-        '--message-action-stroke': 'var(--icon-stroke)',
-        '--tool-icon-size': '18px',
+        '--message-action-icon-size': '16px',
+        '--tool-icon-size': '16px',
         '--tool-row-gap': '8px',
         '--tool-stack-gap': '12px',
         '--tool-output-padding': '16px',
         '--tool-output-font-size': '12px',
-        '--subagent-mark-size': '13px',
+        '--subagent-mark-size': '16px',
         '--subagent-pill-min-height': '34px',
         '--subagent-pill-padding-block': '5px',
         '--subagent-pill-padding-inline': '10px',
@@ -212,7 +209,7 @@
         { label: '展开与条目排序', token: '--motion-layout', description: '高度和位置连续变化, 保持阅读顺序' },
         { label: '面板退出', token: '--motion-exit', description: '退出时立即停止交互, 动画结束后移除' }
       ],
-      icons: [{"name": "copy", "label": "复制"}, {"name": "thumbs-up", "label": "有帮助"}, {"name": "thumbs-down", "label": "没有帮助"}, {"name": "git-branch", "label": "创建分支"}, {"name": "plus", "label": "添加"}, {"name": "shield-check", "label": "批准方式"}, {"name": "mic", "label": "语音输入"}, {"name": "arrow-up", "label": "发送"}, {"name": "square-pen", "label": "上下文编辑"}, {"name": "file-text", "label": "文件"}, {"name": "text-cursor-input", "label": "选中文本"}, {"name": "target", "label": "指令"}, {"name": "sticky-note", "label": "备注"}, {"name": "trash-2", "label": "删除"}, {"name": "arrow-up", "label": "上移"}, {"name": "arrow-down", "label": "下移"}, {"name": "check", "label": "确认"}, {"name": "chevron-down", "label": "展开"}, {"name": "chevron-right", "label": "进入"}, {"name": "globe", "label": "网页"}, {"name": "square-terminal", "label": "命令"}, {"name": "blocks", "label": "工具"}, {"name": "code-xml", "label": "代码"}, {"name": "bot", "label": "子代理"}, {"name": "palette", "label": "设计"}, {"name": "cpu", "label": "科技"}, {"name": "book-open", "label": "阅读"}, {"name": "plane", "label": "旅行"}, {"name": "dumbbell", "label": "运动"}, {"name": "music-2", "label": "音乐"}],
+      icons: [{"name": "copy", "label": "复制"}, {"name": "thumbs-up", "label": "有帮助"}, {"name": "thumbs-down", "label": "没有帮助"}, {"name": "git-branch", "label": "创建分支"}, {"name": "plus", "label": "添加"}, {"name": "shield-check", "label": "批准方式"}, {"name": "mic", "label": "语音输入"}, {"name": "arrow-up", "label": "发送"}, {"name": "square-pen", "label": "上下文编辑"}, {"name": "file-text", "label": "文件"}, {"name": "text-cursor-input", "label": "选中文本"}, {"name": "target", "label": "指令"}, {"name": "sticky-note", "label": "备注"}, {"name": "trash-2", "label": "删除"}, {"name": "arrow-up", "label": "上移"}, {"name": "arrow-down", "label": "下移"}, {"name": "check", "label": "确认"}, {"name": "chevron-down", "label": "展开"}, {"name": "chevron-right", "label": "进入"}, {"name": "globe", "label": "网页"}, {"name": "square-terminal", "label": "命令"}, {"name": "blocks", "label": "工具"}, {"name": "code-xml", "label": "代码"}, {"name": "bot", "label": "子代理"}, {"name": "palette", "label": "设计"}, {"name": "cpu", "label": "科技"}, {"name": "book-open", "label": "阅读"}, {"name": "plane", "label": "旅行"}, {"name": "dumbbell", "label": "运动"}, {"name": "music-2", "label": "音乐"}, {"name": "share", "label": "分享"}],
       colors: [
         { label: '用户消息背景', token: '--palette-user-surface' },
         { label: '正文颜色', token: '--palette-light-foreground' },
@@ -409,7 +406,7 @@
           { label: '用户消息内边距', tokens: ['--message-user-padding-block', '--message-user-padding-inline'], separator: ' × ' },
           { label: '对话轮次间距', tokens: ['--turn-gap'] },
           { label: '消息间距', tokens: ['--message-gap'] },
-          { label: '操作图标尺寸 / 描边', tokens: ['--message-action-icon-size', '--message-action-stroke'], separator: ' / ' }
+          { label: '操作图标尺寸', tokens: ['--message-action-icon-size'] }
         ]
       },
       tools: {
@@ -611,7 +608,7 @@
     root.innerHTML = `
       <header class="review-head"><div><p class="eyebrow">基础规范</p><h1 data-od-id="foundations-title">颜色, 字体与几何</h1><p class="lede">通过颜色, 字体, 间距与圆角建立一致的视觉层级</p></div><p>${escapeHtml(config.meta.principles)}</p></header>
       <section class="review-section" data-od-id="foundation-colors"><div class="section-head"><h2>颜色角色</h2><p>颜色用于区分画布, 内容表面, 强调信息和操作状态</p></div><div class="stage">${colorRows}</div></section>
-      <section class="review-section" id="icons" data-od-id="foundation-icons"><div class="section-head"><h2>图标规范</h2><p>统一的圆角线框, 24 × 24 网格, 线宽 ${escapeHtml(tokenValue('--icon-stroke'))}, 随主题和操作状态切换颜色</p></div><div class="icon-catalog" id="icon-catalog"></div></section>
+      <section class="review-section" id="icons" data-od-id="foundation-icons"><div class="section-head"><h2>图标库</h2><p>统一的圆角轮廓与视觉留白, 常用图标以 16 像素显示, 随主题和操作状态切换颜色</p></div><div class="icon-catalog" id="icon-catalog"></div><div class="icon-library-links"><a href="assets/icons/atlas.png" download="context-editor-ui-icons.png">下载图标图集</a><a href="assets/icons/atlas.json" download="context-editor-ui-icons.json">下载切图坐标</a></div></section>
       <section class="review-section" id="motion" data-od-id="foundation-motion"><div class="section-head"><h2>动效规范</h2><p>动效用于表达状态和位置变化, 开启减少动态效果后立即切换, 不影响操作结果</p></div><div class="parameter-grid">${config.foundations.motion.map((item) => `<div class="parameter-card"><strong>${escapeHtml(tokenValue(item.token))}</strong><span>${escapeHtml(item.label)}</span><span>${escapeHtml(item.description)}</span></div>`).join('')}</div></section>
       <section class="review-section" data-od-id="foundation-typography"><div class="section-head"><h2>字体层级</h2><p>消息使用系统界面字体, 等宽字体仅用于代码, 命令和路径</p></div><div class="stage">${typeRows}</div></section>
       <section class="review-section" data-od-id="foundation-spacing"><div class="section-head"><h2>间距与几何</h2><p>阅读栏宽与消息间距共同控制内容密度和阅读节奏</p></div><div class="stage">${spacingRows}</div><div class="stage is-surface foundation-geometry"><div class="column-diagram"><div class="turn-diagram"><div class="bubble-diagram">用户气泡宽度上限为 ${escapeHtml(tokenValue('--message-user-max-width'))}</div><div class="turn-block">助手消息在阅读栏内保持无框</div></div></div></div></section>
