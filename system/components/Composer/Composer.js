@@ -1,5 +1,8 @@
 function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, includedCount = 0, pendingCount = 0, editorOpen = false }) {
   const interfaceCopy = window.ContextEditorUIConfig.components.composer.interface
+  const modelMenu = window.ContextEditorUIConfig.components.composer.modelMenu
+  const [selectedModel, setSelectedModel] = React.useState(modelMenu.initialValue)
+  const currentModel = modelMenu.items.find((item) => item.value === selectedModel)
   const [value, setValue] = React.useState('')
   const [addOpen, setAddOpen] = React.useState(false)
   const [approvalOpen, setApprovalOpen] = React.useState(false)
@@ -31,6 +34,24 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
     element.style.height = `${Math.min(element.scrollHeight, window.innerHeight * 0.42)}px`
   }, [value])
 
+  const selectModel = (value) => {
+    setSelectedModel(value)
+    closeMenus(true)
+  }
+  const onModelKeyDown = (event) => {
+    const keys = ['ArrowDown', 'ArrowUp', 'Home', 'End']
+    if (!keys.includes(event.key)) return
+    event.preventDefault()
+    const options = Array.from(event.currentTarget.querySelectorAll('[role="menuitemradio"]'))
+    const index = options.indexOf(document.activeElement)
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? options.length - 1 :
+      (index + (event.key === 'ArrowDown' ? 1 : -1) + options.length) % options.length
+    options[next]?.focus()
+  }
+  React.useEffect(() => {
+    if (modelOpen) rootRef.current?.querySelector('.model-option[aria-checked="true"]')?.focus({ preventScroll: true })
+  }, [modelOpen])
+
   const ready = value.trim().length > 0
   const send = () => { const text = value.trim(); if (!text) return; onSend?.(text); setValue('') }
   const toggle = (setter, current) => { closeMenus(false); setter(!current) }
@@ -58,7 +79,7 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
           <button ref={approvalTriggerRef} className="mode-button" id="approval-trigger" type="button" aria-haspopup="menu" aria-expanded={approvalOpen} onClick={() => toggle(setApprovalOpen, approvalOpen)} data-od-id="approval-trigger"><ShieldIcon/><span>{interfaceCopy.approval}</span></button>
         </div>
         <div className="composer-right">
-          <button ref={modelTriggerRef} className="model-button" id="model-trigger" type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{interfaceCopy.model}</span><span className="effort">{interfaceCopy.effort}</span><span aria-hidden="true">⌄</span></button>
+          <button ref={modelTriggerRef} className="model-button" id="model-trigger" title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><span aria-hidden="true">⌄</span></button>
           <button className="icon-button" type="button" aria-label="语音输入" data-od-id="microphone-button"><MicIcon/></button>
           <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" onClick={send} data-od-id="send-button"><SendIcon/></button>
         </div>
@@ -84,12 +105,15 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
       ) : null}
 
       {modelOpen ? (
-        <div className="popover is-model" role="menu" aria-label="模型设置" data-od-id="model-menu">
-          <button className="menu-row" type="button" role="menuitem" data-od-id="model-row"><span/><span>Model</span><span className="menu-value">{interfaceCopy.model}&nbsp; ›</span></button>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="effort-row"><span/><span>Effort</span><span className="menu-value">{interfaceCopy.effort}&nbsp; ›</span></button>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="speed-row"><span/><span>Speed</span><span className="menu-value">Standard&nbsp; ›</span></button>
-          <div className="menu-divider"/>
-          <button className="menu-row" type="button" role="menuitem" data-od-id="advanced-row"><span/><span>Advanced</span><span className="menu-value">⌃</span></button>
+        <div className="popover is-model" role="menu" aria-label={modelMenu.title} data-od-id="model-menu" onKeyDown={onModelKeyDown}>
+          <div className="model-menu-title">{modelMenu.title}</div>
+          {modelMenu.items.map((item) => (
+            <button key={item.value} className="model-option" type="button" role="menuitemradio" aria-checked={selectedModel === item.value}
+                    onClick={() => selectModel(item.value)} data-od-id={`model-option-${item.value}`}>
+              <span className="model-option-copy"><span>{item.label}</span>{item.description ? <small>{item.description}</small> : null}</span>
+              <span className="model-option-check" aria-hidden="true">{selectedModel === item.value ? <CheckIcon/> : null}</span>
+            </button>
+          ))}
         </div>
       ) : null}
       </div>

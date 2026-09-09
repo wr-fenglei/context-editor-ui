@@ -17,6 +17,8 @@
     },
     tokens: {
       shared: {
+        '--model-menu-width': '256px',
+        '--model-option-height': '28px',
         '--spec-columns': 'minmax(150px, .32fr) minmax(0, .68fr)',
         '--spec-column-gap': 'var(--space-5)',
         '--profile-tag-icon-size': '13px',
@@ -450,7 +452,20 @@
         eyebrow: 'Component 04', title: '输入框组件',
         lede: 'Textarea, accessory, bottom bar, menus 和 send state 全部来自集成页使用的同一个 Composer',
         source: 'system/components/Composer/Composer.js',
-        interface: { placeholder: 'Do anything', approval: 'Approve for me', model: '5.6 Sol', effort: 'Ultra' },
+        interface: { placeholder: 'Do anything', approval: 'Approve for me', effort: 'Ultra' },
+        modelMenu: {
+          title: 'Select model',
+          initialValue: 'gpt-6-astra',
+          items: [
+            { value: 'default', label: 'Default', description: 'Recommended set of models' },
+            { value: 'gpt-6-astra', label: 'GPT-6 Astra' },
+            { value: 'gpt-5.6-sol', label: 'GPT-5.6 Sol' },
+            { value: 'gpt-5.6-terra', label: 'GPT-5.6 Terra' },
+            { value: 'gpt-5.6-luna', label: 'GPT-5.6 Luna' },
+            { value: 'gpt-5.5', label: 'GPT-5.5' },
+            { value: 'gpt-5.3-codex-spark', label: 'GPT-5.3 Codex Spark' }
+          ]
+        },
         rulesIntro: 'Composer 是对话中唯一持续 elevated 的对象, 外层 sticky dock 必须透明',
         rules: [
           ['Textarea', '无内框, placeholder 使用 muted role, 正文使用 foreground'],
@@ -458,7 +473,8 @@
           ['Bottom bar', '左侧 add 和 approval, 右侧 model, effort, microphone 和 send'],
           ['Hover', '保持完整 target, 可见 hover surface 使用紧凑 pill'],
           ['Focus', 'Textarea 不出现蓝框, composer border 颜色保持不变'],
-          ['Menus', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 支持 outside click, Escape 和 focus return']
+          ['Menus', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 支持 outside click, Escape 和 focus return'],
+          ['Model selection', '模型列表按参考图展示, 勾号表示当前选择, hover 只高亮当前行, 选择后关闭面板并同步按钮文字']
         ],
         parameters: [
           { label: 'minimum height', tokens: ['--composer-min-height'] },
