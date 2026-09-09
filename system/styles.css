@@ -134,7 +134,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .context-check .ui-icon { width: 12px; height: 12px; }
 .context-kind { width: 18px; height: 18px; flex: 0 0 18px; color: var(--muted); }
 .context-kind .ui-icon { width: 18px; height: 18px; }
-.context-item.is-excluded .context-item-title { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--border); }
+.context-item.is-excluded .context-item-title { color: var(--muted); }
 
 .context-icon-button { width: 34px; height: 34px; display: grid; place-items: center; padding: 0; border: 0; border-radius: var(--radius-control); background: transparent; color: var(--muted); }
 .context-icon-button:hover:not(:disabled) { background: var(--bg); color: var(--fg); }
