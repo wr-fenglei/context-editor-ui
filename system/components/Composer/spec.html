@@ -19,12 +19,12 @@
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
   <script type="text/babel" src="../../Icons.js"></script>
-  <script type="text/babel" src="./Composer.js"></script>
+  <script type="text/babel" src="./Composer.js?v=context-toggle-1"></script>
   <script type="text/babel">
     function ComposerPreview() {
       const [editorOpen, setEditorOpen] = React.useState(false)
       const [sent, setSent] = React.useState(0)
-      return <Composer includedCount={3} pendingCount={2} editorOpen={editorOpen} onOpenContextEditor={() => setEditorOpen((value) => !value)} onSend={() => setSent((value) => value + 1)} />
+      return <Composer includedCount={3} pendingCount={2} editorOpen={editorOpen} onOpenContextEditor={() => setEditorOpen(true)} onToggleContextEditor={() => setEditorOpen((value) => !value)} onSend={() => setSent((value) => value + 1)} />
     }
     ReactDOM.createRoot(document.getElementById('composer-root')).render(<ComposerPreview />)
     ContextEditorUI.renderComponentPage('composer')

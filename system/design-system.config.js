@@ -454,7 +454,7 @@
         rulesIntro: 'Composer 是对话中唯一持续 elevated 的对象, 外层 sticky dock 必须透明',
         rules: [
           ['Textarea', '无内框, placeholder 使用 muted role, 正文使用 foreground'],
-          ['Context accessory', '上下文入口只显示已确认与待处理数量, 不改变 composer 高度'],
+          ['Context accessory', '上下文入口显示已确认与待处理数量, 点击切换展开与收起, 展开时滚动到卡片, 不改变 composer 高度'],
           ['Bottom bar', '左侧 add 和 approval, 右侧 model, effort, microphone 和 send'],
           ['Hover', '保持完整 target, 可见 hover surface 使用紧凑 pill'],
           ['Focus', 'Textarea 不出现蓝框, composer border 颜色保持不变'],

@@ -1,4 +1,4 @@
-function Composer({ onSend, onOpenContextEditor, includedCount = 0, pendingCount = 0, editorOpen = false }) {
+function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, includedCount = 0, pendingCount = 0, editorOpen = false }) {
   const interfaceCopy = window.ContextEditorUIConfig.components.composer.interface
   const [value, setValue] = React.useState('')
   const [addOpen, setAddOpen] = React.useState(false)
@@ -38,7 +38,7 @@ function Composer({ onSend, onOpenContextEditor, includedCount = 0, pendingCount
   return (
     <div className="composer" data-od-id="conversation-composer" ref={rootRef}>
       <div className="context-accessory-row">
-        <button className="context-accessory" type="button" aria-expanded={editorOpen} onClick={() => { closeMenus(false); onOpenContextEditor?.() }} data-od-id="composer-context-accessory">
+        <button className="context-accessory" type="button" aria-expanded={editorOpen} onClick={() => { closeMenus(false); (onToggleContextEditor || onOpenContextEditor)?.() }} data-od-id="composer-context-accessory">
           <ContextIcon/>
           <span className="context-accessory-label">上下文</span>
           <span className="context-accessory-count"><b>{includedCount}</b> 已确认</span>

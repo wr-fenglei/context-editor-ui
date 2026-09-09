@@ -18,8 +18,8 @@
   <script type="text/babel" src="components/MessageBubble/MessageBubble.js"></script>
   <script type="text/babel" src="components/ToolCall/ToolCall.js"></script>
   <script type="text/babel" src="components/SubagentCall/SubagentCall.js"></script>
-  <script type="text/babel" src="components/Composer/Composer.js"></script>
-  <script type="text/babel" src="components/ContextEditor/ContextEditor.js"></script>
+  <script type="text/babel" src="components/Composer/Composer.js?v=context-toggle-1"></script>
+  <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=context-toggle-1"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.integratedDemo
     const contextDemo = ContextEditorUIConfig.components.contextEditor.demo
@@ -82,7 +82,7 @@
 
             <div className="composer-dock" data-od-id="composer-dock">
               <div id="composer-root">
-                <Composer onSend={send} onOpenContextEditor={editor.openEditor} includedCount={editor.includedCount} pendingCount={editor.pending.length} editorOpen={editor.open}/>
+                <Composer onSend={send} onOpenContextEditor={editor.openEditor} onToggleContextEditor={editor.toggleEditor} includedCount={editor.includedCount} pendingCount={editor.pending.length} editorOpen={editor.open}/>
               </div>
             </div>
           </div>

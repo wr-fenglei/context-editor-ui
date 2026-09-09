@@ -108,6 +108,10 @@ function useContextEditor(initialDraft, initialPending) {
     clearTimeout(attentionTimer.current)
     attentionTimer.current = setTimeout(() => setAttention(false), 1400)
   }
+  const toggleEditor = () => {
+    if (open) setOpen(false)
+    else openEditor()
+  }
   React.useEffect(() => () => clearTimeout(attentionTimer.current), [])
 
   // Wait for React to mount the card, including a reopen after collapse
@@ -157,7 +161,7 @@ function useContextEditor(initialDraft, initialPending) {
 
   return {
     draft, pending, includedCount, open, attention, status, newItem,
-    setOpen, setNewItem, openEditor, toggleItem, removeDraft, removePending,
+    setOpen, setNewItem, openEditor, toggleEditor, toggleItem, removeDraft, removePending,
     move, merge, mergeAll, addPending, confirmDraft,
     editorProps: {
       editorRef, draft, pending, includedCount, attention, status, newItem,
