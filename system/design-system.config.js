@@ -68,11 +68,11 @@
         '--tool-stack-gap': '12px',
         '--tool-output-padding': '16px',
         '--tool-output-font-size': '12px',
-        '--subagent-mark-size': '16px',
+        '--subagent-mark-size': '13px',
         '--subagent-pill-min-height': '34px',
         '--subagent-pill-padding-block': '5px',
         '--subagent-pill-padding-inline': '10px',
-        '--subagent-pill-gap': '8px',
+        '--subagent-pill-gap': '6px',
         '--subagent-pill-border-width': '1px',
         '--composer-padding-top': '14px',
         '--composer-border-width': '1px',
@@ -435,7 +435,7 @@
         demo: { task: '查看项目概况', tool: '已阅读项目笔记', started: '开始处理', finished: '已完成' },
         rulesIntro: '子代理的进度作为事件显示在对话中',
         rules: [
-          ['任务标签', '带细描边的胶囊标签包含子代理标记和简短任务名'],
+          ['任务标签', '带细描边的胶囊标签包含 13px 子代理标记和简短任务名, 图文间距为 6px, 垂直居中'],
           ['任务状态', '开始处理, 处理中或已完成等状态独立显示在标签外'],
           ['时间顺序', '开始与完成状态可以出现在同一轮对话中'],
           ['详情', '默认只显示任务名和状态, 需要时才展开详情']
