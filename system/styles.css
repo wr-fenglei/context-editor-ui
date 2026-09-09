@@ -85,6 +85,13 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .icon-button.compact { width: 36px; height: 36px; }
 .assistant-actions .icon-button.compact { width: 32px; color: var(--source-meta); }
 .assistant-actions .icon-button.compact:hover, .assistant-actions .icon-button.compact:focus-visible { color: var(--fg); }
+.copy-control { position: relative; display: inline-flex; flex: 0 0 auto; }
+.copy-control .copy-success-icon { display: none; }
+.copy-control[data-copy-state="success"] .copy-default-icon { display: none; }
+.copy-control[data-copy-state="success"] .copy-success-icon { display: block; }
+.copy-control[data-copy-feedback]::after { position: absolute; z-index: 30; bottom: calc(100% + var(--space-1)); left: 0; width: max-content; max-width: calc(100vw - var(--space-8)); padding: var(--space-1) var(--space-2); border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--popover-bg); color: var(--fg); font: var(--text-sm)/1.4 var(--font-body); content: attr(data-copy-feedback); pointer-events: none; }
+.user-meta .copy-control::after, .code-actions .copy-control::after { right: 0; left: auto; }
+.user-meta:has(.copy-control[data-copy-state]) { opacity: 1; }
 
 /* ─── Context Editor (inline conversation object) ──────────────── */
 .context-editor {

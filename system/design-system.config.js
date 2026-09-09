@@ -392,7 +392,8 @@
           ['User message', '右对齐浅灰 bubble, hover 或 keyboard focus 时显示时间和复制操作'],
           ['Assistant message', '保持无框正文, link 与 inline code 才获得局部强调'],
           ['Worked summary', '使用原生 details, 展开内容按发生顺序排列'],
-          ['Message actions', '复制, 赞, 踩和分支使用低显著度 outline icon']
+          ['Message actions', '复制, 赞, 踩和分支使用低显著度 outline icon'],
+          ['Copy feedback', '复制成功在原按钮旁显示已复制并切换为勾号, 2 秒后恢复, 失败也在原处提示']
         ],
         parameters: [
           { label: 'message radius', tokens: ['--radius-message'] },

@@ -4,12 +4,37 @@
     const status = statusElement()
     if (status) status.textContent = message
   }
-  const copyText = async (text, message) => {
+  const feedbackTimers = new WeakMap()
+  const copyRequests = new WeakMap()
+  const showCopyFeedback = (button, message, success) => {
+    const control = button?.closest('.copy-control')
+    if (!control) { setStatus(message); return }
+    clearTimeout(feedbackTimers.get(control))
+    control.dataset.copyFeedback = message
+    control.dataset.copyState = success ? 'success' : 'error'
+    let announcement = document.getElementById('copy-announcement')
+    if (!announcement) {
+      announcement = document.createElement('span')
+      announcement.id = 'copy-announcement'
+      announcement.className = 'sr-only'
+      announcement.setAttribute('role', 'status')
+      announcement.setAttribute('aria-live', 'polite')
+      document.body.append(announcement)
+    }
+    announcement.textContent = `${button.getAttribute('aria-label')}: ${message}`
+    feedbackTimers.set(control, setTimeout(() => {
+      delete control.dataset.copyFeedback
+      delete control.dataset.copyState
+    }, success ? 2000 : 4000))
+  }
+  const copyText = async (text, message, button) => {
+    const request = {}
+    if (button) copyRequests.set(button, request)
     try {
       await navigator.clipboard.writeText(text)
-      setStatus(message || '已复制')
+      if (!button || copyRequests.get(button) === request) showCopyFeedback(button, message || '已复制', true)
     } catch {
-      setStatus('当前预览环境不支持复制')
+      if (!button || copyRequests.get(button) === request) showCopyFeedback(button, '复制失败, 请重试', false)
     }
   }
 
@@ -19,8 +44,9 @@
     const copyButton = source.closest('[data-copy-target]')
     if (copyButton) {
       const target = document.getElementById(copyButton.dataset.copyTarget)
-      const text = target?.innerText || target?.textContent || ''
-      await copyText(text, '已复制')
+      if (!target) { showCopyFeedback(copyButton, '未找到可复制内容', false); return }
+      const text = target.innerText || target.textContent || ''
+      await copyText(text, '已复制', copyButton)
       return
     }
     const statusButton = source.closest('[data-status-message]')
