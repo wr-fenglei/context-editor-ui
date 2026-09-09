@@ -62,7 +62,6 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
           <button className="icon-button" type="button" aria-label="语音输入" data-od-id="microphone-button"><MicIcon/></button>
           <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" onClick={send} data-od-id="send-button"><SendIcon/></button>
         </div>
-      </div>
 
       {addOpen ? (
         <div className="popover is-add" role="menu" aria-label="添加内容" data-od-id="add-menu">
@@ -93,6 +92,7 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
           <button className="menu-row" type="button" role="menuitem" data-od-id="advanced-row"><span/><span>Advanced</span><span className="menu-value">⌃</span></button>
         </div>
       ) : null}
+      </div>
     </div>
   )
 }

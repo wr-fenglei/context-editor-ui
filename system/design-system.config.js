@@ -458,7 +458,7 @@
           ['Bottom bar', '左侧 add 和 approval, 右侧 model, effort, microphone 和 send'],
           ['Hover', '保持完整 target, 可见 hover surface 使用紧凑 pill'],
           ['Focus', 'Textarea 不出现蓝框, composer border 颜色保持不变'],
-          ['Menus', '支持 outside click, Escape 和 focus return']
+          ['Menus', '面板在底部工具按钮上方展开, 与按钮间隔 8px, 支持 outside click, Escape 和 focus return']
         ],
         parameters: [
           { label: 'minimum height', tokens: ['--composer-min-height'] },
