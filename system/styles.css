@@ -48,7 +48,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .worked { margin-bottom: var(--space-5); }
 .worked > summary { min-height: var(--control-target); display: flex; align-items: center; gap: var(--space-2); padding-bottom: var(--space-2); border-bottom: 1px solid var(--border-soft); color: var(--muted); cursor: pointer; list-style: none; }
 .worked > summary::-webkit-details-marker { display: none; }
-.summary-chevron { width: 14px; height: 14px; transform: rotate(-90deg); transition: transform var(--motion-fast) var(--ease-standard); }
+.summary-chevron { transform: rotate(-90deg); transition: transform var(--motion-fast) var(--ease-standard); }
 .worked[open]:not([data-expanded="false"]) .summary-chevron { transform: rotate(0); }
 .work-log { display: flex; flex-direction: column; gap: var(--space-3); padding: var(--space-4) 0 var(--space-3); }
 .process-copy { color: var(--message-assistant-fg); }
@@ -58,7 +58,6 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .tool-row { min-width: 0; display: flex; gap: var(--tool-row-gap); align-items: center; color: var(--tool-call-fg); }
 .tool-row .ui-icon { width: var(--tool-icon-size); height: var(--tool-icon-size); }
 .tool-label { min-width: 0; flex: 0 1 auto; overflow-wrap: anywhere; }
-.tool-row .tool-chevron { width: 13px; height: 13px; }
 .tool-row-button { width: 100%; padding: 0; border: 0; border-radius: var(--radius-control); background: transparent; text-align: left; font: inherit; }
 .tool-row-button:hover { color: var(--fg); }
 .tool-output { margin: 0; padding: var(--tool-output-padding); border: 1px solid var(--border); border-radius: var(--radius-message); background: var(--tool-output-bg); color: var(--tool-output-fg); font: var(--tool-output-font-size)/1.65 var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -187,7 +186,6 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 .context-accessory-count b { color: var(--fg); font-weight: 600; }
 .context-accessory-sep { color: var(--border); }
 .context-accessory-chevron { display: inline-flex; color: var(--muted); transition: transform var(--motion-fast) var(--ease-standard); }
-.context-accessory-chevron .ui-icon { width: 13px; height: 13px; }
 .context-accessory-chevron.is-open { transform: rotate(180deg); }
 
 .composer-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
@@ -210,7 +208,6 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 #model-trigger::before { inset-inline: -3px; }
 #add-trigger:hover, #approval-trigger:hover, #model-trigger:hover, [data-od-id="microphone-button"]:hover, #add-trigger[aria-expanded="true"], #approval-trigger[aria-expanded="true"], #model-trigger[aria-expanded="true"] { background: transparent; }
 #add-trigger:hover::before, #approval-trigger:hover::before, #model-trigger:hover::before, [data-od-id="microphone-button"]:hover::before, #add-trigger[aria-expanded="true"]::before, #approval-trigger[aria-expanded="true"]::before, #model-trigger[aria-expanded="true"]::before { background: var(--surface); }
-#model-trigger > span:last-child { width: 12px; height: 12px; display: inline-flex; flex: 0 0 12px; align-items: center; justify-content: center; font-size: 0; line-height: 0; }
 #model-trigger > span:last-child::before { width: 7px; height: 7px; border-right: 1.1px solid currentColor; border-bottom: 1.1px solid currentColor; content: ""; transform: translateY(-1px) rotate(45deg); }
 .send-button { position: relative; width: 36px; height: var(--control-target); display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--bg); }
 .send-button::before { position: absolute; width: var(--send-visual-size); height: var(--send-visual-size); border-radius: 50%; background: var(--send-disabled); content: ""; }
@@ -397,7 +394,6 @@ button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visibl
 /* Shared PNG atlas slices across controls, static components and documentation */
 .ui-icon { display: inline-block; flex: 0 0 auto; width: var(--icon-size, 16px); height: var(--icon-size, 16px); vertical-align: middle; background-color: currentColor; mask-image: var(--icon-image); mask-size: var(--icon-mask-size); mask-position: var(--icon-mask-position); mask-repeat: no-repeat; mask-mode: alpha; -webkit-mask-image: var(--icon-image); -webkit-mask-size: var(--icon-mask-size); -webkit-mask-position: var(--icon-mask-position); -webkit-mask-repeat: no-repeat; }
 .code-label .ui-icon { width: 16px; height: 16px; color: var(--muted); }
-.model-chevron { width: 14px; height: 14px; }
 .approval-check { display: inline-flex; width: 16px; }
 .approval-check .ui-icon { width: 16px; height: 16px; color: inherit; }
 .profile-tag-glyph { width: var(--profile-tag-icon-size); height: var(--profile-tag-icon-size); }
@@ -440,3 +436,6 @@ button:disabled::before { pointer-events: none; }
 }
 
 .icon-library-links { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); font-size: var(--text-sm); }
+
+/* Disclosure arrows share one size across summaries, tool rows and menus. */
+.ui-icon[data-icon="chevron-down"], .ui-icon[data-icon="chevron-right"] { width: var(--disclosure-icon-size); height: var(--disclosure-icon-size); }

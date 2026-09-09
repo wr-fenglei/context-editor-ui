@@ -60,6 +60,7 @@
         '--message-user-padding-block': '12px',
         '--message-user-padding-inline': '16px',
         '--message-action-icon-size': '16px',
+        '--disclosure-icon-size': '11px',
         '--tool-icon-size': '16px',
         '--tool-row-gap': '8px',
         '--tool-stack-gap': '12px',
