@@ -1,0 +1,68 @@
+[
+  {
+    "theme": "light",
+    "width": 1280,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(255, 255, 255)",
+    "fg": "rgb(34, 38, 44)",
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(255, 255, 255)",
+    "fg": "rgb(34, 38, 44)",
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(255, 255, 255)",
+    "fg": "rgb(34, 38, 44)",
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 1280,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(24, 27, 32)",
+    "fg": "rgb(238, 240, 243)",
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(24, 27, 32)",
+    "fg": "rgb(238, 240, 243)",
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "overflow": false,
+    "icons": 55,
+    "unloaded": 0,
+    "images": true,
+    "bg": "rgb(24, 27, 32)",
+    "fg": "rgb(238, 240, 243)",
+    "errors": []
+  }
+]

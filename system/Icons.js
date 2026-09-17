@@ -1,5 +1,7 @@
 function Icon({ name, size = 16, className = '' }) {
-  return <span className={`ui-icon ${className}`} data-icon={name} style={ContextEditorUIIcons.style(name, size)} aria-hidden="true"/>
+  const nodes = ContextEditorUIIcons.nodes[name]
+  if (!nodes) throw new Error(`Unknown icon: ${name}`)
+  return <svg className={`ui-icon ${className}`} data-icon={name} style={ContextEditorUIIcons.style(name, size)} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{nodes.map(([tag, attributes], index) => React.createElement(tag, { ...attributes, key: index }))}</svg>
 }
 
 function CopyIcon(props) { return <Icon name="copy" {...props}/> }
@@ -22,7 +24,7 @@ function CheckIcon(props) { return <Icon name="check" {...props}/> }
 function ChevronDownIcon(props) { return <Icon name="chevron-down" {...props}/> }
 function ChevronRightIcon(props) { return <Icon name="chevron-right" {...props}/> }
 function GlobeIcon(props) { return <Icon name="globe" {...props}/> }
-function TerminalIcon(props) { return <Icon name="square-terminal" {...props}/> }
+function TerminalIcon(props) { return <Icon name="command-window" {...props}/> }
 function ToolboxIcon(props) { return <Icon name="blocks" {...props}/> }
 function CodeIcon(props) { return <Icon name="code-xml" {...props}/> }
 function AgentIcon(props) { return <Icon name="bot" {...props}/> }

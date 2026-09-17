@@ -1,0 +1,3098 @@
+[
+  {
+    "path": "system/foundations.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            }
+          ],
+          "headingX": 401
+        }
+      ],
+      "cardGap": 24,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Composer/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ContextEditor/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Button/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ProfileTags/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/MessageBubble/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SubagentCall/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ToolCall/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AvatarGroup/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ReviewPanel/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Panel/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SessionSwitcher/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AnnotationPopover/spec.html",
+    "width": 1600,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/foundations.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            },
+            {
+              "titleWidth": 91,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 401
+            }
+          ],
+          "headingX": 401
+        }
+      ],
+      "cardGap": 24,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ContextEditor/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Composer/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Button/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ProfileTags/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/MessageBubble/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SubagentCall/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ToolCall/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AvatarGroup/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SessionSwitcher/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Panel/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            },
+            {
+              "titleWidth": 64,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 374
+            }
+          ],
+          "headingX": 374
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ReviewPanel/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AnnotationPopover/spec.html",
+    "width": 1600,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            },
+            {
+              "titleWidth": 65,
+              "gap": 16,
+              "stacked": false,
+              "descriptionX": 375
+            }
+          ],
+          "headingX": 375
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/foundations.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": 24,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Button/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Composer/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ContextEditor/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ProfileTags/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ToolCall/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SubagentCall/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/MessageBubble/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AvatarGroup/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Panel/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ReviewPanel/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SessionSwitcher/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AnnotationPopover/spec.html",
+    "width": 390,
+    "theme": "light",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/foundations.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": 24,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ContextEditor/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Button/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Composer/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ProfileTags/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/MessageBubble/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ToolCall/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SubagentCall/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AvatarGroup/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/SessionSwitcher/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/Panel/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/ReviewPanel/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "path": "system/components/AnnotationPopover/spec.html",
+    "width": 390,
+    "theme": "dark",
+    "pass": true,
+    "data": {
+      "lists": [
+        {
+          "rows": [
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            },
+            {
+              "titleWidth": 366,
+              "gap": -366,
+              "stacked": true,
+              "descriptionX": 12
+            }
+          ],
+          "headingX": 12
+        }
+      ],
+      "cardGap": null,
+      "overflow": false
+    },
+    "errors": []
+  }
+]

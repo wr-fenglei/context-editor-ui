@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>文案按钮 - context-editor-ui</title>
+  <script src="../../design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="../../icons.data.js?v=menu-corners-20260917"></script>
+  <script src="../../icon-set.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="../../styles.css?v=menu-corners-20260917">
+</head>
+<body>
+  <main class="review-shell" data-od-id="button-spec">
+    <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title></h1><p class="lede" data-config-lede></p></div><p data-config-summary></p></header>
+    <section class="review-section"><div class="section-head"><h2>组件示例</h2><p>必需决策常显背景, 可选操作悬停显色, 圆角随所在控件选择</p></div><div class="stage" id="component-root"></div></section>
+    <section class="review-section"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
+    <section class="review-section"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
+    <footer class="review-foot"><a href="../../../index.html">返回组件目录</a></footer>
+  </main>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="../../Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="./Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel">
+    function ButtonPreview() {
+      const [status, setStatus] = React.useState('选择按钮查看操作反馈')
+      return <div className="button-preview">
+        <section className="button-preview-group" aria-labelledby="button-required-label">
+          <h3 className="button-preview-label" id="button-required-label">当前流程的必需决策</h3>
+          <div className="button-preview-actions">
+            <Button onClick={() => setStatus('已取消示例操作')}>取消</Button>
+            <Button tone="confirm" onClick={() => setStatus('已确认示例操作')}>确认</Button>
+            <Button tone="danger" onClick={() => setStatus('已删除示例项目')}>删除</Button>
+            <Button disabled onClick={() => setStatus('禁用按钮不应触发操作')}>暂不可用</Button>
+          </div>
+        </section>
+        <section className="button-preview-group" aria-labelledby="button-optional-label">
+          <h3 className="button-preview-label" id="button-optional-label">可选操作</h3>
+          <div className="button-preview-actions">
+            <Button variant="ghost" onClick={() => setStatus('已查看示例内容')}>查看</Button>
+            <Button variant="ghost" tone="merge" onClick={() => setStatus('已并入示例项目')}>并入</Button>
+            <Button variant="ghost" tone="attention" onClick={() => setStatus('已打开重要设置')}>重要设置</Button>
+            <Button variant="ghost" tone="danger" onClick={() => setStatus('已删除可选示例项目')}>可选删除</Button>
+          </div>
+        </section>
+        <section className="button-preview-group" aria-labelledby="button-shape-label">
+          <h3 className="button-preview-label" id="button-shape-label">圆角随所在控件选择</h3>
+          <div className="button-preview-actions">
+            <Button variant="ghost" shape="pill" onClick={() => setStatus('已打开审批设置')}><Icon name="shield-check"/>自动审批</Button>
+            <Button variant="ghost" shape="pill" tone="attention" onClick={() => setStatus('已打开模型设置')}>GPT-6 Astra<Icon name="chevron-down"/></Button>
+            <Button variant="ghost" shape="rounded" onClick={() => setStatus('已打开会话列表')}>消息可见性检查<Icon name="chevron-down"/></Button>
+          </div>
+        </section>
+        <p className="button-preview-feedback" role="status" aria-live="polite">{status}</p>
+      </div>
+    }
+    ContextEditorUI.renderComponentPage('button')
+    ReactDOM.createRoot(document.getElementById('component-root')).render(<ButtonPreview/>)
+  </script>
+</body>
+</html>

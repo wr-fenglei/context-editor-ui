@@ -17,19 +17,19 @@ function MessageBubble({ children, time = '13:40', messageId = 'source-user-mess
   )
 }
 
-function AssistantMessage({ children, messageId = 'assistant-message' }) {
-  return <div className="assistant-message" id={messageId} data-od-id="assistant-message-component">{children}</div>
+function AssistantMessage({ children, title, messageId = 'assistant-message' }) {
+  return <div className="assistant-message" id={messageId} data-od-id="assistant-message-component">{title ? <h2 className="assistant-title">{title}</h2> : null}{children}</div>
 }
 
-function WorkedSummary({ duration = '1 分 38 秒', children, open = true }) {
-  return <details className="worked" data-motion-disclosure="" open={open} data-od-id="worked-summary"><summary>已处理 {duration}<ChevronDownIcon className="summary-chevron"/></summary><div className="disclosure-body"><div className="work-log">{children}</div></div></details>
+function WorkedSummary({ duration = '1 分 38 秒', label, children, open = true }) {
+  return <details className="worked" data-motion-disclosure="" open={open} data-od-id="worked-summary"><summary>{label || `已处理 ${duration}`}<ChevronDownIcon className="summary-chevron"/></summary><div className="disclosure-body"><div className="work-log">{children}</div></div></details>
 }
 
-function CodeObject({ label, codeId, children }) {
+function CodeObject({ label, codeId, children, language = 'auto' }) {
   return (
     <div className="code-object" data-od-id="code-object">
       <div className="code-head"><span className="code-label"><CodeIcon/>{label}</span><div className="code-actions"><CopyButton targetId={codeId} label="复制代码" odId="copy-code-action"/></div></div>
-      <pre id={codeId}>{children}</pre>
+      <pre id={codeId}>{ContextEditorUICode.react(children, { language })}</pre>
     </div>
   )
 }

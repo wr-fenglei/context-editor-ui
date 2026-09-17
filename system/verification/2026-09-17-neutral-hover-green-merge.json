@@ -1,0 +1,3323 @@
+{
+  "summary": {
+    "passed": 195,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "light-1280-mouse/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(246, 247, 248)"
+    },
+    {
+      "name": "light-1280-mouse/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(0, 130, 60)",
+        "mergeAllColor": "rgb(0, 130, 60)",
+        "structure": "rgb(153, 103, 10)"
+      }
+    },
+    {
+      "name": "light-1280-mouse/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 4.931543621923989,
+        "hover": 4.597686094431569
+      }
+    },
+    {
+      "name": "light-1280-mouse/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 90,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 90,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(198, 64, 67)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 90,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-1280-mouse/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100.734375,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100.734375,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(117, 66, 200)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-1280-mouse/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(37, 99, 235)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "50%",
+        "height": 44,
+        "width": 36,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-1280-mouse/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 30,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-1280-mouse/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 30,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-1280-mouse/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-1280-mouse/popover-default-white",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-1280-mouse/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(255, 255, 255)",
+          "body": "rgb(255, 255, 255)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(246, 247, 248)",
+          "body": "rgb(246, 247, 248)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(253, 235, 237)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-320-mouse/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(246, 247, 248)"
+    },
+    {
+      "name": "light-320-mouse/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(0, 130, 60)",
+        "mergeAllColor": "rgb(0, 130, 60)",
+        "structure": "rgb(153, 103, 10)"
+      }
+    },
+    {
+      "name": "light-320-mouse/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 4.931543621923989,
+        "hover": 4.597686094431569
+      }
+    },
+    {
+      "name": "light-320-mouse/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(198, 64, 67)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-320-mouse/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(117, 66, 200)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 110,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-320-mouse/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(37, 99, 235)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "50%",
+        "height": 44,
+        "width": 36,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-320-mouse/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 30,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-320-mouse/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 30,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-320-mouse/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-320-mouse/popover-default-white",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-320-mouse/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(255, 255, 255)",
+          "body": "rgb(255, 255, 255)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(246, 247, 248)",
+          "body": "rgb(246, 247, 248)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(253, 235, 237)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-390-touch/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(246, 247, 248)"
+    },
+    {
+      "name": "light-390-touch/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(0, 130, 60)",
+        "mergeAllColor": "rgb(0, 130, 60)",
+        "structure": "rgb(153, 103, 10)"
+      }
+    },
+    {
+      "name": "light-390-touch/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 4.931543621923989,
+        "hover": 4.597686094431569
+      }
+    },
+    {
+      "name": "light-390-touch/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 44,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(198, 64, 67)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-390-touch/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(117, 66, 200)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 110,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "light-390-touch/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(37, 99, 235)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(246, 247, 248)",
+        "radius": "50%",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-390-touch/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 44,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-390-touch/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(34, 38, 44)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(242, 243, 244)",
+        "radius": "10px",
+        "height": 44,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "light-390-touch/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-390-touch/popover-default-white",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(255, 255, 255)",
+        "head": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "light-390-touch/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(255, 255, 255)",
+          "body": "rgb(255, 255, 255)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(255, 255, 255)",
+          "head": "rgb(255, 255, 255)",
+          "body": "rgb(255, 255, 255)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(234, 242, 255)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(253, 235, 237)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(242, 243, 244)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(0, 130, 60)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(117, 66, 200)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(98, 106, 117)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(246, 247, 248)",
+          "radius": "10px",
+          "height": 44,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-1280-mouse/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(41, 46, 54)"
+    },
+    {
+      "name": "dark-1280-mouse/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(74, 222, 128)",
+        "mergeAllColor": "rgb(74, 222, 128)",
+        "structure": "rgb(234, 193, 107)"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 9.906862369443378,
+        "hover": 7.833967600542646
+      }
+    },
+    {
+      "name": "dark-1280-mouse/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 90,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 90,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(255, 148, 153)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 90,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100.734375,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100.734375,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(196, 164, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(138, 182, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "50%",
+        "height": 44,
+        "width": 36,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 30,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 30,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(24, 27, 32)",
+        "head": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "dark-1280-mouse/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(24, 27, 32)",
+          "body": "rgb(24, 27, 32)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(41, 46, 54)",
+          "body": "rgb(41, 46, 54)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(68, 39, 46)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-320-mouse/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(41, 46, 54)"
+    },
+    {
+      "name": "dark-320-mouse/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(74, 222, 128)",
+        "mergeAllColor": "rgb(74, 222, 128)",
+        "structure": "rgb(234, 193, 107)"
+      }
+    },
+    {
+      "name": "dark-320-mouse/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 9.906862369443378,
+        "hover": 7.833967600542646
+      }
+    },
+    {
+      "name": "dark-320-mouse/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(255, 148, 153)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-320-mouse/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(196, 164, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 110,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-320-mouse/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 36,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(138, 182, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "50%",
+        "height": 44,
+        "width": 36,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-320-mouse/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 30,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-320-mouse/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 30,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-320-mouse/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(24, 27, 32)",
+        "head": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "dark-320-mouse/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(24, 27, 32)",
+          "body": "rgb(24, 27, 32)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(41, 46, 54)",
+          "body": "rgb(41, 46, 54)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(68, 39, 46)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 32,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-390-touch/remove-reference-gray",
+      "pass": true,
+      "detail": "rgb(41, 46, 54)"
+    },
+    {
+      "name": "dark-390-touch/merge-green-separated-from-structure",
+      "pass": true,
+      "detail": {
+        "mergeColor": "rgb(74, 222, 128)",
+        "mergeAllColor": "rgb(74, 222, 128)",
+        "structure": "rgb(234, 193, 107)"
+      }
+    },
+    {
+      "name": "dark-390-touch/merge-text-contrast",
+      "pass": true,
+      "detail": {
+        "default": 9.906862369443378,
+        "hover": 7.833967600542646
+      }
+    },
+    {
+      "name": "dark-390-touch/merge-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/confirm-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 44,
+          "width": 126,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 126,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/approval-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/approval-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(255, 148, 153)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-390-touch/model-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 110,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/model-trigger-transparent-pill",
+      "pass": true,
+      "detail": {
+        "color": "rgb(196, 164, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "9999px",
+        "height": 44,
+        "width": 110,
+        "plateHeight": "32px"
+      }
+    },
+    {
+      "name": "dark-390-touch/add-trigger-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/microphone-button-gray-hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 44,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/send-gray-and-visible-arrow",
+      "pass": true,
+      "detail": {
+        "color": "rgb(138, 182, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(41, 46, 54)",
+        "radius": "50%",
+        "height": 44,
+        "width": 44,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-390-touch/chip-rounded/null",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 44,
+        "width": 165.484375,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-390-touch/chip-rounded/quote-chip",
+      "pass": true,
+      "detail": {
+        "color": "rgb(238, 240, 243)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "plate": "rgb(42, 48, 56)",
+        "radius": "10px",
+        "height": 44,
+        "width": 85.953125,
+        "plateHeight": "30px"
+      }
+    },
+    {
+      "name": "dark-390-touch/popover-default-panel-color",
+      "pass": true,
+      "detail": {
+        "outer": "rgb(24, 27, 32)",
+        "head": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "border": "0px",
+        "within": true
+      }
+    },
+    {
+      "name": "dark-390-touch/popover-hover",
+      "pass": true,
+      "detail": {
+        "rest": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(24, 27, 32)",
+          "body": "rgb(24, 27, 32)",
+          "border": "0px",
+          "within": true
+        },
+        "hover": {
+          "outer": "rgb(24, 27, 32)",
+          "head": "rgb(24, 27, 32)",
+          "body": "rgb(24, 27, 32)",
+          "border": "0px",
+          "within": true
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/saved-note-keeps-default",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/cancel-preserves-note",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/shared-button/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(36, 54, 77)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(68, 39, 46)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(42, 48, 56)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(74, 222, 128)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 54,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 80,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 100,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(196, 164, 255)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "9999px",
+          "height": 44,
+          "width": 122.703125,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/shared-button/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgba(0, 0, 0, 0)",
+          "radius": "10px",
+          "height": 44,
+          "width": 139,
+          "plateHeight": "32px"
+        },
+        "hover": {
+          "color": "rgb(161, 170, 183)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "plate": "rgb(41, 46, 54)",
+          "radius": "10px",
+          "height": 44,
+          "width": 139,
+          "plateHeight": "32px"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/runtime",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

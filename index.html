@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="context-editor-ui: 面向对话交互的独立设计系统">
   <title>context-editor-ui</title>
-  <script src="system/design-system.config.js?v=small-disclosure-1"></script>
-  <script src="system/motion-runtime.js?v=motion-system-1"></script>
-  <link rel="stylesheet" href="system/styles.css?v=quiet-context-1">
+  <script src="system/design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="system/motion-runtime.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="system/styles.css?v=menu-corners-20260917">
 </head>
 <body>
   <main class="review-shell" data-od-id="home">
@@ -23,7 +23,8 @@
     <section class="review-section" data-od-id="home-integration">
       <div class="section-head"><h2>集成示例</h2><p>一条完整对话, 把消息, 工具调用, 子代理, 输入框与上下文编辑串在一起</p></div>
       <div class="spec-index-grid">
-        <a class="spec-index-card" href="system/app.html?v=thin-icons-1" data-od-id="home-app"><strong>对话界面集成示例</strong><span>消息, 工具调用, 子代理, 输入框与上下文编辑的完整对话</span><span class="spec-index-arrow">打开 ›</span></a>
+        <a class="spec-index-card" href="system/examples/workbench.html" data-od-id="home-workbench"><strong>行内工作台</strong><span>会话切换, 行内编辑, 备注浮窗, 评审与上下文协作</span><span class="spec-index-arrow">打开最新示例 ›</span></a>
+        <a class="spec-index-card" href="system/app.html?v=menu-corners-20260917" data-od-id="home-app"><strong>对话界面集成示例</strong><span>消息, 工具调用, 子代理, 输入框与上下文编辑的完整对话</span><span class="spec-index-arrow">打开 ›</span></a>
       </div>
     </section>
 
@@ -35,7 +36,7 @@
     <section class="review-section" data-od-id="home-themes">
       <div class="section-head"><h2>浅色与深色</h2><p data-od-id="home-dark-note"></p></div>
       <div class="grid-2">
-        <div class="theme-board" data-theme="light"><div class="theme-label"><strong>浅色</strong><span data-od-id="home-light-label"></span></div><div class="message-pair"><div class="user-message">浅灰表面区分用户消息</div><p>助手正文保持无框</p></div></div>
+        <div class="theme-board" data-theme="light"><div class="theme-label"><strong>浅色</strong><span data-od-id="home-light-label"></span></div><div class="message-pair"><div class="user-message">浅蓝表面区分用户消息</div><p>助手正文保持无框</p></div></div>
         <div class="theme-board" data-theme="dark"><div class="theme-label"><strong>深色</strong><span data-od-id="home-dark-label"></span></div><div class="message-pair"><div class="user-message">低对比表面区分用户消息</div><p>文字与操作保持清晰可辨</p></div></div>
       </div>
     </section>
@@ -45,14 +46,19 @@
   <script>
     const config = ContextEditorUIConfig
     const pages = [
-      { id: 'foundations', href: 'system/foundations.html', title: '基础规范', description: '颜色, 字体, 间距, 主题状态' },
+      { id: 'button', href: 'system/components/Button/spec.html', title: config.components.button.title, description: config.components.button.lede },
+      { id: 'foundations', href: 'system/foundations.html', title: '基础规范', description: '五级统一规范, 颜色, 字体, 控件和主题状态' },
       { id: 'messages', href: 'system/components/MessageBubble/spec.html', title: config.components.messages.title, description: config.components.messages.lede },
       { id: 'composer', href: 'system/components/Composer/spec.html', title: config.components.composer.title, description: config.components.composer.lede },
       { id: 'avatarGroup', href: 'system/components/AvatarGroup/spec.html', title: config.components.avatarGroup.title, description: config.components.avatarGroup.lede },
       { id: 'profileTags', href: 'system/components/ProfileTags/spec.html', title: config.components.profileTags.title, description: config.components.profileTags.lede },
       { id: 'tools', href: 'system/components/ToolCall/spec.html', title: config.components.tools.title, description: config.components.tools.lede },
       { id: 'subagents', href: 'system/components/SubagentCall/spec.html', title: config.components.subagents.title, description: config.components.subagents.lede },
-      { id: 'context-editor', href: 'system/components/ContextEditor/spec.html', title: config.components.contextEditor.title, description: config.components.contextEditor.lede }
+      { id: 'context-editor', href: 'system/components/ContextEditor/spec.html', title: config.components.contextEditor.title, description: config.components.contextEditor.lede },
+      { id: 'panel', href: 'system/components/Panel/spec.html', title: config.components.panel.title, description: config.components.panel.lede },
+      { id: 'sessionSwitcher', href: 'system/components/SessionSwitcher/spec.html', title: config.components.sessionSwitcher.title, description: config.components.sessionSwitcher.lede },
+      { id: 'reviewPanel', href: 'system/components/ReviewPanel/spec.html', title: config.components.reviewPanel.title, description: config.components.reviewPanel.lede },
+      { id: 'annotation', href: 'system/components/AnnotationPopover/spec.html', title: config.components.annotation.title, description: config.components.annotation.lede }
     ]
     document.querySelector('[data-od-id="home-title"]').textContent = config.meta.name
     document.querySelector('[data-od-id="home-lede"]').textContent = config.meta.surface
@@ -61,7 +67,7 @@
     document.querySelector('[data-od-id="home-light-label"]').textContent = config.meta.lightLabel
     document.querySelector('[data-od-id="home-dark-label"]').textContent = config.meta.darkLabel
     document.querySelector('[data-od-id="home-footer"]').textContent = config.meta.description
-    document.getElementById('spec-index-grid').innerHTML = pages.map((page) => `<a class="spec-index-card" href="${page.href}?v=thin-icons-1" data-od-id="spec-index-${page.id}"><strong>${page.title}</strong><span>${page.description}</span><span class="spec-index-arrow">查看规范 ›</span></a>`).join('')
+    document.getElementById('spec-index-grid').innerHTML = pages.map((page) => `<a class="spec-index-card" href="${page.href}?v=menu-corners-20260917" data-od-id="spec-index-${page.id}"><strong>${page.title}</strong><span>${page.description}</span><span class="spec-index-arrow">查看规范 ›</span></a>`).join('')
   </script>
 </body>
 </html>

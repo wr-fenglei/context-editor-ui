@@ -1,175 +1,47 @@
-// Generated PNG atlas, normalized slice bounds in assets/icons/atlas.json
+// Shared Lucide nodes for static and React components
 (() => {
-  const atlas = new URL('assets/icons/atlas.png?v=thin-icons-1', document.currentScript.src).href
-  const width = 1374, height = 1145
-  const frames = {
-  "copy": [
-    54.5,
-    71.0,
-    155
-  ],
-  "thumbs-up": [
-    277.0,
-    68.0,
-    153
-  ],
-  "thumbs-down": [
-    507.0,
-    85.0,
-    150
-  ],
-  "git-branch": [
-    717.0,
-    67.0,
-    157
-  ],
-  "plus": [
-    954.0,
-    81.0,
-    139
-  ],
-  "shield-check": [
-    1160.0,
-    70.0,
-    162
-  ],
-  "mic": [
-    48.0,
-    288.0,
-    161
-  ],
-  "arrow-up": [
-    280.0,
-    293.0,
-    149
-  ],
-  "square-pen": [
-    499.5,
-    290.0,
-    152
-  ],
-  "file-text": [
-    721.0,
-    289.0,
-    155
-  ],
-  "text-cursor-input": [
-    951.0,
-    297.0,
-    144
-  ],
-  "target": [
-    1166.0,
-    294.0,
-    153
-  ],
-  "sticky-note": [
-    52.0,
-    501.0,
-    160
-  ],
-  "trash-2": [
-    277.0,
-    503.0,
-    160
-  ],
-  "check": [
-    512.0,
-    506.0,
-    141
-  ],
-  "chevron-down": [
-    724.0,
-    509.0,
-    148
-  ],
-  "chevron-right": [
-    952.0,
-    512.0,
-    143
-  ],
-  "globe": [
-    1160.0,
-    503.0,
-    159
-  ],
-  "square-terminal": [
-    53.0,
-    719.0,
-    158
-  ],
-  "blocks": [
-    282.0,
-    722.5,
-    150
-  ],
-  "code-xml": [
-    492.0,
-    712.0,
-    170
-  ],
-  "bot": [
-    720.5,
-    721.0,
-    152
-  ],
-  "palette": [
-    944.0,
-    716.0,
-    168
-  ],
-  "cpu": [
-    1159.5,
-    717.0,
-    165
-  ],
-  "book-open": [
-    47.0,
-    929.5,
-    173
-  ],
-  "plane": [
-    273.0,
-    928.0,
-    161
-  ],
-  "dumbbell": [
-    490.0,
-    918.0,
-    177
-  ],
-  "music-2": [
-    721.0,
-    933.0,
-    146
-  ],
-  "arrow-down": [
-    952.5,
-    938.0,
-    142
-  ],
-  "share": [
-    1175.0,
-    931.0,
-    148
-  ]
-}
-  const style = (name, size = 16) => {
-    const [x, y, side] = frames[name] || frames['square-pen']
-    return {
-      '--icon-size': `${size}px`,
-      '--icon-image': `url("${atlas}")`,
-      '--icon-mask-size': `${width / side * 100}% ${height / side * 100}%`,
-      '--icon-mask-position': `${x / (width - side) * 100}% ${y / (height - side) * 100}%`
-    }
-  }
+  const assets = new URL('assets/', document.currentScript.src)
+  const nodes = window.ContextEditorUIIconData
+  const style = (name, size = 16) => ({ '--icon-size': `${size}px` })
   const create = (name, { className = '', size = 16 } = {}) => {
-    const icon = document.createElement('span')
-    icon.className = `ui-icon ${className}`
-    icon.dataset.icon = name
-    icon.setAttribute('aria-hidden', 'true')
-    Object.entries(style(name, size)).forEach(([key, value]) => icon.style.setProperty(key, value))
+    if (!nodes[name]) throw new Error(`Unknown icon: ${name}`)
+    const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+    const attributes = { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '1.5', 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'aria-hidden': 'true', class: `ui-icon ${className}`, 'data-icon': name, 'data-lucide': name }
+    Object.entries(attributes).forEach(([key, value]) => icon.setAttribute(key, value))
+    icon.style.setProperty('--icon-size', `${size}px`)
+    nodes[name].forEach(([tag, attributes]) => {
+      const child = document.createElementNS('http://www.w3.org/2000/svg', tag)
+      Object.entries(attributes).forEach(([key, value]) => child.setAttribute(key, value))
+      icon.append(child)
+    })
     return icon
   }
-  window.ContextEditorUIIcons = { frames, style, create, atlas }
+  const createIcons = () => document.querySelectorAll('i[data-lucide]').forEach((placeholder) => {
+    placeholder.replaceWith(create(placeholder.dataset.lucide, { className: placeholder.className }))
+  })
+  const catalog = window.ContextEditorUIConfig.agents
+  const aliases = { rose: 'lavender', green: 'cyan', mint: 'cyan' }
+  const agentAsset = (tone = 'blue') => new URL(`agents/${aliases[tone] || tone}.png?v=components-20260917`, assets).href
+  const identities = new Map()
+  let pool = []
+  const nextTone = () => {
+    if (!pool.length) {
+      pool = catalog.map(item => item.id)
+      for (let i = pool.length - 1; i > 0; i--) {
+        const value = new Uint32Array(1); crypto.getRandomValues(value)
+        const j = value[0] % (i + 1)
+        ;[pool[i], pool[j]] = [pool[j], pool[i]]
+      }
+    }
+    return pool.pop()
+  }
+  const agentIdentity = (name, preferred) => {
+    if (!identities.has(name)) {
+      const tone = aliases[preferred] || preferred || nextTone()
+      identities.set(name, { tone, src: agentAsset(tone) })
+    }
+    return identities.get(name)
+  }
+  window.ContextEditorUIIcons = { nodes, style, create, createIcons, agentAsset, agentIdentity }
+  window.lucide = { createIcons }
 })()

@@ -1,14 +1,22 @@
-function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, includedCount = 0, pendingCount = 0, editorOpen = false }) {
+function Composer({ onSend, onBeforeSend, onOpenContextEditor, onToggleContextEditor, includedCount = 0, pendingCount = 0, draftDirty = false, editorOpen = false, value: controlledValue, defaultValue = '', onValueChange, accessory, placeholder, inputRef, active = true, idPrefix, approvalValue, onApprovalChange, modelValue, onModelChange }) {
   const interfaceCopy = window.ContextEditorUIConfig.components.composer.interface
   const menuCopy = window.ContextEditorUIConfig.components.composer.menus
   const approvalMenu = window.ContextEditorUIConfig.components.composer.approvalMenu
-  const [selectedApproval, setSelectedApproval] = React.useState(approvalMenu.initialValue)
+  const [internalApproval, setInternalApproval] = React.useState(approvalMenu.initialValue)
+  const selectedApproval = approvalValue ?? internalApproval
+  const setSelectedApproval = value => { setInternalApproval(value); onApprovalChange?.(value) }
   const currentApproval = approvalMenu.items.find((item) => item.value === selectedApproval)
   const [approvalHelpOpen, setApprovalHelpOpen] = React.useState(false)
   const modelMenu = window.ContextEditorUIConfig.components.composer.modelMenu
-  const [selectedModel, setSelectedModel] = React.useState(modelMenu.initialValue)
+  const [internalModel, setInternalModel] = React.useState(modelMenu.initialValue)
+  const selectedModel = modelValue ?? internalModel
+  const setSelectedModel = value => { setInternalModel(value); onModelChange?.(value) }
   const currentModel = modelMenu.items.find((item) => item.value === selectedModel)
-  const [value, setValue] = React.useState('')
+  const [internalValue, setInternalValue] = React.useState(defaultValue)
+  const value = controlledValue ?? internalValue
+  const setValue = next => { if (controlledValue === undefined) setInternalValue(next); onValueChange?.(next) }
+  const instanceId = React.useId()
+  const controlId = name => `${idPrefix ?? instanceId}-${name}`
   const [addOpen, setAddOpen] = React.useState(false)
   const [approvalOpen, setApprovalOpen] = React.useState(false)
   const [modelOpen, setModelOpen] = React.useState(false)
@@ -26,19 +34,23 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
   }
 
   React.useEffect(() => {
+    if (!active || !(addOpen || approvalOpen || modelOpen)) return
     const onDocClick = (event) => { if (rootRef.current && !rootRef.current.contains(event.target)) closeMenus(false) }
     const onKey = (event) => { if (event.key === 'Escape') closeMenus(true) }
     document.addEventListener('click', onDocClick)
     document.addEventListener('keydown', onKey)
     return () => { document.removeEventListener('click', onDocClick); document.removeEventListener('keydown', onKey) }
-  }, [addOpen, approvalOpen, modelOpen])
+  }, [active, addOpen, approvalOpen, modelOpen])
+
+  React.useEffect(() => { if (!active) closeMenus(false) }, [active])
 
   React.useEffect(() => {
+    if (!active) return
     const element = textareaRef.current
     if (!element) return
     element.style.height = 'auto'
     element.style.height = `${Math.min(element.scrollHeight, window.innerHeight * 0.42)}px`
-  }, [value])
+  }, [value, active])
 
   const selectModel = (value) => {
     setSelectedModel(value)
@@ -67,33 +79,39 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
   }, [approvalOpen])
 
   const ready = value.trim().length > 0
-  const send = () => { const text = value.trim(); if (!text) return; onSend?.(text); setValue('') }
+  const send = () => {
+    const text = value.trim()
+    if (!text || onBeforeSend?.(text) === false) return
+    if (onSend?.(text, { model: currentModel.value, modelLabel: currentModel.label, approval: currentApproval.value }) === false) return
+    setValue('')
+  }
   const toggle = (setter, current) => { closeMenus(false); setter(!current) }
 
   return (
-    <div className="composer" data-od-id="conversation-composer" ref={rootRef}>
+    <div className="composer" data-component="Composer" data-od-id="conversation-composer" ref={rootRef}>
       <div className="context-accessory-row">
         <button className="context-accessory" type="button" aria-expanded={editorOpen} onClick={() => { closeMenus(false); (onToggleContextEditor || onOpenContextEditor)?.() }} data-od-id="composer-context-accessory">
           <ContextIcon/>
-          <span className="context-accessory-label">上下文</span>
           <span className="context-accessory-count"><b>{includedCount}</b> 已确认</span>
           <span className="context-accessory-sep" aria-hidden="true">·</span>
           <span className="context-accessory-count"><b>{pendingCount}</b> 待处理</span>
           <span className={`context-accessory-chevron${editorOpen ? ' is-open' : ''}`} aria-hidden="true"><ChevronDownIcon/></span>
         </button>
+        {draftDirty ? <span className="context-draft-state">草稿未确认</span> : null}
+        {accessory}
       </div>
 
-      <textarea ref={textareaRef} rows="1" placeholder={interfaceCopy.placeholder} aria-label="消息输入" value={value}
+      <textarea ref={element => { textareaRef.current = element; if (inputRef) inputRef.current = element }} rows="1" placeholder={placeholder ?? interfaceCopy.placeholder} aria-label="消息输入" value={value}
                 onChange={(event) => setValue(event.target.value)}
-                onKeyDown={(event) => { if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); send() } }} data-od-id="composer-input"/>
+                onKeyDown={(event) => { if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); send() } }} data-od-id="composer-input"/>
 
       <div className="composer-bar">
         <div className="composer-left">
-          <button ref={addTriggerRef} className="icon-button" id="add-trigger" type="button" aria-label="添加" aria-haspopup="menu" aria-expanded={addOpen} onClick={() => toggle(setAddOpen, addOpen)} data-od-id="add-trigger"><ComposerPlusIcon/></button>
-          <button ref={approvalTriggerRef} className={`mode-button${currentApproval.danger ? ' is-danger' : ''}`} id="approval-trigger" type="button" aria-haspopup="menu" aria-expanded={approvalOpen} onClick={() => toggle(setApprovalOpen, approvalOpen)} data-od-id="approval-trigger"><ShieldIcon/><span>{currentApproval.label}</span></button>
+          <button ref={addTriggerRef} className="icon-button" id={controlId('add-trigger')} type="button" aria-label="添加" aria-haspopup="menu" aria-expanded={addOpen} onClick={() => toggle(setAddOpen, addOpen)} data-od-id="add-trigger"><ComposerPlusIcon/></button>
+          <button ref={approvalTriggerRef} className={`mode-button${currentApproval.danger ? ' is-danger' : ''}`} id={controlId('approval-trigger')} type="button" aria-label={currentApproval.label} title={currentApproval.label} aria-haspopup="menu" aria-expanded={approvalOpen} onClick={() => toggle(setApprovalOpen, approvalOpen)} data-od-id="approval-trigger"><ShieldIcon/><span>{currentApproval.label}</span></button>
         </div>
         <div className="composer-right">
-          <button ref={modelTriggerRef} className="model-button" id="model-trigger" title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><ChevronDownIcon className="model-chevron"/></button>
+          <button ref={modelTriggerRef} className="model-button" id={controlId('model-trigger')} title={currentModel.label} type="button" aria-haspopup="menu" aria-expanded={modelOpen} onClick={() => toggle(setModelOpen, modelOpen)} data-od-id="model-trigger"><span className="model-name">{currentModel.label}</span><span className="effort">{interfaceCopy.effort}</span><ChevronDownIcon className="model-chevron"/></button>
           <button className="icon-button" type="button" aria-label="语音输入" data-od-id="microphone-button"><MicIcon/></button>
           <button className={`send-button${ready ? ' is-ready' : ''}`} type="button" aria-label="发送消息" disabled={!ready} onClick={send} data-od-id="send-button"><SendIcon/></button>
         </div>
@@ -134,4 +152,8 @@ function Composer({ onSend, onOpenContextEditor, onToggleContextEditor, included
   )
 }
 
-Object.assign(window, { Composer })
+function ComposerHint() {
+  return <p className="composer-hint">{ContextEditorUIConfig.components.composer.interface.sendHint}</p>
+}
+
+Object.assign(window, { Composer, ComposerHint })

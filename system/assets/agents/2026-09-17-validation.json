@@ -1,0 +1,77 @@
+{
+  "lavender": {
+    "source": "/Users/fenglei/.codex/generated_images/01a0ad39-df2f-7b71-a3bb-5238d996ca3f/exec-0182a0c5-36ed-4231-80e0-4a886e6653ab.png",
+    "original": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/lavender-original.png",
+    "asset": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/lavender.png",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      33,
+      21,
+      1206,
+      1230
+    ],
+    "transparent_pixels": 928473,
+    "opaque_pixels": 802,
+    "total_pixels": 1572516,
+    "alpha_at_least_250_pixels": 628483,
+    "mostly_opaque_fraction_of_visible": 0.976
+  },
+  "amber": {
+    "source": "/Users/fenglei/.codex/generated_images/01a0ad39-df2f-7b71-a3bb-5238d996ca3f/exec-675479fe-c939-4d5d-b287-2edf535661ab.png",
+    "original": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/amber-original.png",
+    "asset": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/amber.png",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      23,
+      1216,
+      1254
+    ],
+    "transparent_pixels": 837830,
+    "opaque_pixels": 1694,
+    "total_pixels": 1572516,
+    "alpha_at_least_250_pixels": 701608,
+    "mostly_opaque_fraction_of_visible": 0.955
+  },
+  "mint": {
+    "source": "/Users/fenglei/.codex/generated_images/01a0ad39-df2f-7b71-a3bb-5238d996ca3f/exec-ff7e3e6f-d344-4ec1-94cf-c37af2e98b83.png",
+    "original": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/mint-original.png",
+    "asset": "/Users/fenglei/Documents/Codex/2026-09-09/dd/work/agent-art-20260917/mint.png",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      37,
+      7,
+      1238,
+      1254
+    ],
+    "transparent_pixels": 751305,
+    "opaque_pixels": 1575,
+    "total_pixels": 1572516,
+    "alpha_at_least_250_pixels": 796889,
+    "mostly_opaque_fraction_of_visible": 0.97
+  }
+}

@@ -1,0 +1,7078 @@
+{
+  "summary": {
+    "passed": 370,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "light-1280-mouse/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(34, 38, 44)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(34, 38, 44)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(220, 233, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(234, 242, 255)",
+          "color": "rgb(36, 95, 185)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(220, 233, 255)",
+          "color": "rgb(36, 95, 185)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(253, 235, 237)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(251, 220, 223)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(249, 230, 191)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(153, 103, 10)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(249, 230, 191)",
+          "color": "rgb(153, 103, 10)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(233, 221, 248)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(251, 220, 223)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(233, 221, 248)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/hover-keeps-size-and-color/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/optional-click",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-1280-mouse/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-1280-mouse/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-1280-mouse/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-1280-mouse/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-1280-mouse/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-1280-mouse/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-1280-mouse/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-1280-mouse/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-1280-mouse/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-1280-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-1280-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-320-mouse/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(34, 38, 44)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(34, 38, 44)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(220, 233, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(234, 242, 255)",
+          "color": "rgb(36, 95, 185)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(220, 233, 255)",
+          "color": "rgb(36, 95, 185)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(253, 235, 237)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(251, 220, 223)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(249, 230, 191)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(153, 103, 10)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(249, 230, 191)",
+          "color": "rgb(153, 103, 10)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(233, 221, 248)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(251, 220, 223)",
+          "color": "rgb(198, 64, 67)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(233, 221, 248)",
+          "color": "rgb(117, 66, 200)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/hover-keeps-size-and-color/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(232, 235, 239)",
+          "color": "rgb(98, 106, 117)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/optional-click",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-320-mouse/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-320-mouse/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-320-mouse/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-320-mouse/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-320-mouse/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-320-mouse/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-320-mouse/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-320-mouse/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-320-mouse/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 32,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 32,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-320-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-320-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-390-touch/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-390-touch/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "light-390-touch/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/optional-click",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 44,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(242, 243, 244)",
+          "color": "rgb(146, 154, 164)",
+          "radius": 10,
+          "height": 44,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "light-390-touch/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-390-touch/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-390-touch/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "light-390-touch/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-390-touch/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(233, 221, 248)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-390-touch/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(117, 66, 200)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "light-390-touch/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(232, 235, 239)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-390-touch/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(251, 220, 223)",
+        "color": "rgb(198, 64, 67)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "light-390-touch/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(98, 106, 117)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(153, 103, 10)",
+        "radius": 10,
+        "height": 44,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "radius": 10,
+        "height": 44,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "light-390-touch/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "light-390-touch/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-1280-mouse/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(238, 240, 243)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(238, 240, 243)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(45, 68, 97)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(36, 54, 77)",
+          "color": "rgb(138, 182, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(45, 68, 97)",
+          "color": "rgb(138, 182, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 39, 46)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(87, 49, 58)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(76, 60, 37)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(234, 193, 107)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(76, 60, 37)",
+          "color": "rgb(234, 193, 107)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 54, 92)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(87, 49, 58)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 54, 92)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/hover-keeps-size-and-color/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/optional-click",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-1280-mouse/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100.734375,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 90,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-1280-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-1280-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-320-mouse/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/取消",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(238, 240, 243)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(238, 240, 243)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "取消",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(45, 68, 97)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/确认",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(36, 54, 77)",
+          "color": "rgb(138, 182, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(45, 68, 97)",
+          "color": "rgb(138, 182, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "确认",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 39, 46)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(87, 49, 58)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "删除",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/暂不可用",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/查看",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(76, 60, 37)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/并入",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(234, 193, 107)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(76, 60, 37)",
+          "color": "rgb(234, 193, 107)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "并入",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/重要设置",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 54, 92)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "重要设置",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 32,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/可选删除",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(87, 49, 58)",
+          "color": "rgb(255, 148, 153)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "可选删除",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 32,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/自动审批",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 9999,
+          "height": 32,
+          "width": 100,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "自动审批",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 32,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(68, 54, 92)",
+          "color": "rgb(196, 164, 255)",
+          "radius": 9999,
+          "height": 32,
+          "width": 122.703125,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "GPT-6 Astra",
+          "variant": "ghost",
+          "shape": "pill"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/hover-keeps-size-and-color/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "before": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(53, 61, 72)",
+          "color": "rgb(161, 170, 183)",
+          "radius": 10,
+          "height": 32,
+          "width": 139,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": false,
+          "text": "消息可见性检查",
+          "variant": "ghost",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/optional-click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 32,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-320-mouse/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-320-mouse/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-320-mouse/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-320-mouse/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-320-mouse/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-320-mouse/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-320-mouse/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-320-mouse/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-320-mouse/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 32,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 32,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-320-mouse/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-320-mouse/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-390-touch/default/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/取消",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "取消",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/确认",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "删除",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/暂不可用",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": true,
+        "text": "暂不可用",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/查看",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/并入",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/重要设置",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "重要设置",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/可选删除",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 10,
+        "height": 44,
+        "width": 80,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "可选删除",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/自动审批",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 100,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动审批",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/GPT-6 Astra",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 122.703125,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra",
+        "variant": "ghost",
+        "shape": "pill"
+      }
+    },
+    {
+      "name": "dark-390-touch/default/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/shape-and-target/消息可见性检查",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/optional-click",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/disabled-does-not-act",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/keyboard-focus-visible-without-fill",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "solid",
+        "outlineWidth": "1px",
+        "disabled": false,
+        "text": "查看",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/ghost-disabled-style",
+      "pass": true,
+      "detail": {
+        "ghostDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgba(0, 0, 0, 0)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 44,
+          "width": 54,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "查看",
+          "variant": "ghost",
+          "shape": "rounded"
+        },
+        "softDisabled": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "surface": "rgb(42, 48, 56)",
+          "color": "rgb(121, 132, 147)",
+          "radius": 10,
+          "height": 44,
+          "width": 80,
+          "plateHeight": 32,
+          "outline": "none",
+          "outlineWidth": "3px",
+          "disabled": true,
+          "text": "暂不可用",
+          "variant": "soft",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "name": "dark-390-touch/button-page-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/approval-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-390-touch/approval-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-390-touch/approval-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "自动批准"
+      }
+    },
+    {
+      "name": "dark-390-touch/approval-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/model-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-390-touch/model-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(68, 54, 92)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-390-touch/model-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(196, 164, 255)",
+        "radius": 9999,
+        "height": 44,
+        "width": 110,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "GPT-6 Astra深度"
+      }
+    },
+    {
+      "name": "dark-390-touch/model-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/session-default",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/session-hover",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(53, 61, 72)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/session-expanded-transparent",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 139,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "消息可见性检查",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/session-escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/full-access-transparent-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-390-touch/full-access-hover-red",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(87, 49, 58)",
+        "color": "rgb(255, 148, 153)",
+        "radius": 9999,
+        "height": 44,
+        "width": 44,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "完全访问"
+      }
+    },
+    {
+      "name": "dark-390-touch/optional-context/.context-editor-collapse",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(161, 170, 183)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "收起",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/optional-context/.context-merge",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 44,
+        "width": 54,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "并入",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/optional-context/.context-merge-all",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgba(0, 0, 0, 0)",
+        "color": "rgb(234, 193, 107)",
+        "radius": 10,
+        "height": 44,
+        "width": 132,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "全部并入工作草稿",
+        "variant": "ghost",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/required-confirm",
+      "pass": true,
+      "detail": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "surface": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "radius": 10,
+        "height": 44,
+        "width": 126,
+        "plateHeight": 32,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "disabled": false,
+        "text": "确认工作草稿",
+        "variant": "soft",
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "dark-390-touch/workbench-overflow",
+      "pass": true
+    },
+    {
+      "name": "dark-390-touch/runtime",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

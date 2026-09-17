@@ -1,0 +1,314 @@
+[
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(246, 247, 248)",
+      "bodyBackground": "rgb(246, 247, 248)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "read",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": "0px",
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "commentLabel": "备注",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "edit",
+    "pass": true,
+    "detail": {
+      "headerBorder": "0px",
+      "commentBorder": null,
+      "headBackground": "rgb(34, 38, 44)",
+      "bodyBackground": "rgb(34, 38, 44)",
+      "padding": "4px",
+      "radius": "16px",
+      "within": true,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "save",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "cancel",
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  }
+]

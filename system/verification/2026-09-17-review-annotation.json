@@ -1,0 +1,454 @@
+[
+  {
+    "name": "light/1024/check",
+    "pass": true
+  },
+  {
+    "name": "light/1024/opening-is-clean",
+    "pass": true
+  },
+  {
+    "name": "light/1024/cancel",
+    "pass": true
+  },
+  {
+    "name": "light/1024/light-editor-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "expected": "#e3e6e9",
+      "outline": "none",
+      "shadow": "none"
+    }
+  },
+  {
+    "name": "light/1024/review-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "light/1024/save-clears-check",
+    "pass": true
+  },
+  {
+    "name": "light/1024/undo",
+    "pass": true
+  },
+  {
+    "name": "light/1024/draft-switch",
+    "pass": true
+  },
+  {
+    "name": "light/1024/empty-disabled",
+    "pass": true
+  },
+  {
+    "name": "light/1024/stored-draft-is-dirty",
+    "pass": true
+  },
+  {
+    "name": "light/1024/cancel-all-is-clean",
+    "pass": true
+  },
+  {
+    "name": "light/1024/copy-markdown",
+    "pass": true
+  },
+  {
+    "name": "light/1024/insert-markdown",
+    "pass": true
+  },
+  {
+    "name": "light/1024/discuss-portal",
+    "pass": true
+  },
+  {
+    "name": "light/1024/review-no-overflow",
+    "pass": true
+  },
+  {
+    "name": "light/1024/unsaved-status",
+    "pass": true
+  },
+  {
+    "name": "light/1024/close-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "light/1024/note-cancel",
+    "pass": true
+  },
+  {
+    "name": "light/1024/annotation-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "light/1024/note-save",
+    "pass": true
+  },
+  {
+    "name": "light/1024/inactive-hides-portal",
+    "pass": true
+  },
+  {
+    "name": "light/1024/inactive-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "light/1024/popup-in-viewport",
+    "pass": true,
+    "detail": {
+      "x": 189,
+      "y": 21.171875,
+      "width": 360,
+      "height": 275.546875
+    }
+  },
+  {
+    "name": "light/1024/delete-annotation",
+    "pass": true
+  },
+  {
+    "name": "light/1024/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/320/check",
+    "pass": true
+  },
+  {
+    "name": "light/320/opening-is-clean",
+    "pass": true
+  },
+  {
+    "name": "light/320/cancel",
+    "pass": true
+  },
+  {
+    "name": "light/320/light-editor-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "expected": "#e3e6e9",
+      "outline": "none",
+      "shadow": "none"
+    }
+  },
+  {
+    "name": "light/320/review-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "light/320/save-clears-check",
+    "pass": true
+  },
+  {
+    "name": "light/320/undo",
+    "pass": true
+  },
+  {
+    "name": "light/320/draft-switch",
+    "pass": true
+  },
+  {
+    "name": "light/320/empty-disabled",
+    "pass": true
+  },
+  {
+    "name": "light/320/stored-draft-is-dirty",
+    "pass": true
+  },
+  {
+    "name": "light/320/cancel-all-is-clean",
+    "pass": true
+  },
+  {
+    "name": "light/320/copy-markdown",
+    "pass": true
+  },
+  {
+    "name": "light/320/insert-markdown",
+    "pass": true
+  },
+  {
+    "name": "light/320/discuss-portal",
+    "pass": true
+  },
+  {
+    "name": "light/320/review-no-overflow",
+    "pass": true
+  },
+  {
+    "name": "light/320/unsaved-status",
+    "pass": true
+  },
+  {
+    "name": "light/320/close-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "light/320/note-cancel",
+    "pass": true
+  },
+  {
+    "name": "light/320/annotation-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "light/320/note-save",
+    "pass": true
+  },
+  {
+    "name": "light/320/inactive-hides-portal",
+    "pass": true
+  },
+  {
+    "name": "light/320/inactive-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "light/320/popup-in-viewport",
+    "pass": true,
+    "detail": {
+      "x": 16,
+      "y": 83.25,
+      "width": 288,
+      "height": 316.546875
+    }
+  },
+  {
+    "name": "light/320/delete-annotation",
+    "pass": true
+  },
+  {
+    "name": "light/320/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/1024/check",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/opening-is-clean",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/cancel",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/light-editor-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "expected": "#363e49",
+      "outline": "none",
+      "shadow": "none"
+    }
+  },
+  {
+    "name": "dark/1024/review-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/save-clears-check",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/undo",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/draft-switch",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/empty-disabled",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/stored-draft-is-dirty",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/cancel-all-is-clean",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/copy-markdown",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/insert-markdown",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/discuss-portal",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/review-no-overflow",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/unsaved-status",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/close-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/note-cancel",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/annotation-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/note-save",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/inactive-hides-portal",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/inactive-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/popup-in-viewport",
+    "pass": true,
+    "detail": {
+      "x": 189,
+      "y": 21.171875,
+      "width": 360,
+      "height": 275.546875
+    }
+  },
+  {
+    "name": "dark/1024/delete-annotation",
+    "pass": true
+  },
+  {
+    "name": "dark/1024/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/320/check",
+    "pass": true
+  },
+  {
+    "name": "dark/320/opening-is-clean",
+    "pass": true
+  },
+  {
+    "name": "dark/320/cancel",
+    "pass": true
+  },
+  {
+    "name": "dark/320/light-editor-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "expected": "#363e49",
+      "outline": "none",
+      "shadow": "none"
+    }
+  },
+  {
+    "name": "dark/320/review-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "dark/320/save-clears-check",
+    "pass": true
+  },
+  {
+    "name": "dark/320/undo",
+    "pass": true
+  },
+  {
+    "name": "dark/320/draft-switch",
+    "pass": true
+  },
+  {
+    "name": "dark/320/empty-disabled",
+    "pass": true
+  },
+  {
+    "name": "dark/320/stored-draft-is-dirty",
+    "pass": true
+  },
+  {
+    "name": "dark/320/cancel-all-is-clean",
+    "pass": true
+  },
+  {
+    "name": "dark/320/copy-markdown",
+    "pass": true
+  },
+  {
+    "name": "dark/320/insert-markdown",
+    "pass": true
+  },
+  {
+    "name": "dark/320/discuss-portal",
+    "pass": true
+  },
+  {
+    "name": "dark/320/review-no-overflow",
+    "pass": true
+  },
+  {
+    "name": "dark/320/unsaved-status",
+    "pass": true
+  },
+  {
+    "name": "dark/320/close-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "dark/320/note-cancel",
+    "pass": true
+  },
+  {
+    "name": "dark/320/annotation-ime-guard",
+    "pass": true
+  },
+  {
+    "name": "dark/320/note-save",
+    "pass": true
+  },
+  {
+    "name": "dark/320/inactive-hides-portal",
+    "pass": true
+  },
+  {
+    "name": "dark/320/inactive-preserves-draft",
+    "pass": true
+  },
+  {
+    "name": "dark/320/popup-in-viewport",
+    "pass": true,
+    "detail": {
+      "x": 16,
+      "y": 83.25,
+      "width": 288,
+      "height": 316.546875
+    }
+  },
+  {
+    "name": "dark/320/delete-annotation",
+    "pass": true
+  },
+  {
+    "name": "dark/320/errors",
+    "pass": true,
+    "detail": []
+  }
+]

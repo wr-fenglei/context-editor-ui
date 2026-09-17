@@ -4,10 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>上下文编辑 - context-editor-ui</title>
-  <script src="../../design-system.config.js?v=small-disclosure-1"></script>
-  <script src="../../motion-runtime.js?v=motion-system-1"></script>
-  <script src="../../icon-set.js?v=thin-icons-1"></script>
-  <link rel="stylesheet" href="../../styles.css?v=quiet-context-1">
+  <script src="../../design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="../../motion-runtime.js?v=menu-corners-20260917"></script>
+  <script src="../../icons.data.js?v=menu-corners-20260917"></script>
+  <script src="../../icon-set.js?v=menu-corners-20260917"></script>
+  <script src="../../code-format.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="../../styles.css?v=menu-corners-20260917">
 </head>
 <body>
   <main class="review-shell" data-od-id="context-editor-preview">
@@ -20,14 +22,15 @@
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
-  <script type="text/babel" src="../../Icons.js?v=generated-icons-1"></script>
-  <script type="text/babel" src="../../MotionPresence.js?v=motion-system-1"></script>
-  <script type="text/babel" src="./ContextEditor.js?v=quiet-context-1"></script>
+  <script type="text/babel" src="../../Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Button/Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../../MotionPresence.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="./ContextEditor.js?v=menu-corners-20260917"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.components.contextEditor.demo
     function ContextEditorPreview() {
       const editor = useContextEditor(demo.draft, demo.pending)
-      return <><button className="context-demo-toggle" data-demo-context-toggle="" aria-expanded={editor.open} onClick={editor.toggleEditor}>{editor.open ? '收起上下文编辑' : '展开上下文编辑'}</button><MotionPresence show={editor.open}><ContextEditor {...editor.editorProps}/></MotionPresence></>
+      return <><Button className="context-demo-toggle" variant="ghost" tone="neutral" data-demo-context-toggle="" aria-expanded={editor.open} onClick={editor.toggleEditor}>{editor.open ? '收起上下文编辑' : '展开上下文编辑'}</Button><MotionPresence show={editor.open}><ContextEditor {...editor.editorProps}/></MotionPresence></>
     }
     ReactDOM.createRoot(document.getElementById('context-editor-demo-root')).render(<ContextEditorPreview />)
     ContextEditorUI.renderComponentPage('contextEditor')

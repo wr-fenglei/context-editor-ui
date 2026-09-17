@@ -1,0 +1,538 @@
+[
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 320,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 390,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1024,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "light",
+    "width": 1600,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1600,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1600,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "light",
+    "width": 1600,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 294,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 320,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 364,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 390,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1024,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "width": 1600,
+    "state": "initial",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1600,
+    "state": "dirty",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1600,
+    "state": "confirmed",
+    "pass": true,
+    "detail": {
+      "titles": [
+        "工作草稿",
+        "待处理"
+      ],
+      "noHints": true,
+      "footerChildren": 1,
+      "footerText": "确认工作草稿",
+      "buttonText": "确认工作草稿",
+      "aligned": true,
+      "buttonWidth": 126,
+      "footerWidth": 678,
+      "overflow": false
+    }
+  },
+  {
+    "theme": "dark",
+    "width": 1600,
+    "state": "runtime",
+    "pass": true,
+    "errors": []
+  }
+]

@@ -1,11 +1,10 @@
-const agentTones = ['rose', 'amber', 'green', 'blue']
 function SubagentCall({ name, task, status = 'started working', tone }) {
   const label = name || task || '子代理'
-  const identityTone = tone || agentTones[Array.from(label).reduce((sum, char) => sum + char.codePointAt(0), 0) % agentTones.length]
+  const identity = ContextEditorUIIcons.agentIdentity(label, tone)
   const statusLabel = { 'started working': '开始处理', working: '处理中', finished: '已完成' }[status] || status
   return (
-    <div className="subagent-line" data-tone={identityTone} data-agent-name={label} data-od-id={`subagent-${status.replaceAll(' ', '-')}`}>
-      <AgentIcon className="agent-mark"/>
+    <div className="subagent-line" data-tone={identity.tone} data-agent-name={label} data-od-id={`subagent-${status.replaceAll(' ', '-')}`}>
+      <img className="agent-mark" src={identity.src} alt="" aria-hidden="true"/>
       <span className="agent-copy"><span className="agent-name">{label}</span>{' '}<span className="agent-status">{statusLabel}</span></span>
     </div>
   )

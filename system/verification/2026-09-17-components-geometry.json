@@ -1,0 +1,3592 @@
+[
+  {
+    "name": "light/320/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 266,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 302,
+        "bottom": 435.96875,
+        "left": 266
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/320/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/320/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/320/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 266,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 302,
+        "bottom": 435.96875,
+        "left": 266
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/320/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/390/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 336,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 372,
+        "bottom": 435.96875,
+        "left": 336
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/390/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/390/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/390/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 336,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 372,
+        "bottom": 435.96875,
+        "left": 336
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/390/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/640/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 582,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 618,
+        "bottom": 420.171875,
+        "left": 582
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/640/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/640/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/640/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/640/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 582,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 618,
+        "bottom": 420.171875,
+        "left": 582
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/640/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/640/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/640/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/640/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/640/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/740/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 668,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 704,
+        "bottom": 420.171875,
+        "left": 668
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/740/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/740/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/740/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 668,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 704,
+        "bottom": 420.171875,
+        "left": 668
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/740/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/1024/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 354.28125,
+      "sendBox": {
+        "x": 810,
+        "y": 309.28125,
+        "width": 36,
+        "height": 44,
+        "top": 309.28125,
+        "right": 846,
+        "bottom": 353.28125,
+        "left": 810
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1024/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/1024/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/1024/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/1024/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 354.28125,
+      "sendBox": {
+        "x": 810,
+        "y": 309.28125,
+        "width": 36,
+        "height": 44,
+        "top": 309.28125,
+        "right": 846,
+        "bottom": 353.28125,
+        "left": 810
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1024/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1024/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1024/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1024/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/1024/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/390/touch/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 450.96875,
+      "sendBox": {
+        "x": 328,
+        "y": 405.96875,
+        "width": 44,
+        "height": 44,
+        "top": 405.96875,
+        "right": 372,
+        "bottom": 449.96875,
+        "left": 328
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/touch/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/390/touch/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/390/touch/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/390/touch/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 450.96875,
+      "sendBox": {
+        "x": 328,
+        "y": 405.96875,
+        "width": 44,
+        "height": 44,
+        "top": 405.96875,
+        "right": 372,
+        "bottom": 449.96875,
+        "left": 328
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/touch/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/touch/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/touch/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/touch/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/390/touch/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/740/touch/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 435.171875,
+      "sendBox": {
+        "x": 660,
+        "y": 390.171875,
+        "width": 44,
+        "height": 44,
+        "top": 390.171875,
+        "right": 704,
+        "bottom": 434.171875,
+        "left": 660
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/touch/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "light/740/touch/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      }
+    }
+  },
+  {
+    "name": "light/740/touch/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(246, 247, 248)"
+    }
+  },
+  {
+    "name": "light/740/touch/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 435.171875,
+      "sendBox": {
+        "x": 660,
+        "y": 390.171875,
+        "width": 44,
+        "height": 44,
+        "top": 390.171875,
+        "right": 704,
+        "bottom": 434.171875,
+        "left": 660
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(238, 240, 242)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(246, 247, 248)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/touch/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/touch/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/touch/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/740/touch/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(255, 255, 255)",
+      "expected": "rgb(255, 255, 255)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "light/740/touch/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/320/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 266,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 302,
+        "bottom": 435.96875,
+        "left": 266
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/320/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/320/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/320/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 266,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 302,
+        "bottom": 435.96875,
+        "left": 266
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 260,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 274,
+          "rowRight": 274
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/320/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/390/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 336,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 372,
+        "bottom": 435.96875,
+        "left": 336
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/390/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/390/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/390/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 436.96875,
+      "sendBox": {
+        "x": 336,
+        "y": 391.96875,
+        "width": 36,
+        "height": 44,
+        "top": 391.96875,
+        "right": 372,
+        "bottom": 435.96875,
+        "left": 336
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 84.484375,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 106.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/390/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/640/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 582,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 618,
+        "bottom": 420.171875,
+        "left": 582
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/640/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/640/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/640/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/640/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 582,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 618,
+        "bottom": 420.171875,
+        "left": 582
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/640/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/640/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/640/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 572,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 590,
+          "rowRight": 590
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/640/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/640/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/740/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 668,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 704,
+        "bottom": 420.171875,
+        "left": 668
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/740/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/740/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/740/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 421.171875,
+      "sendBox": {
+        "x": 668,
+        "y": 376.171875,
+        "width": 36,
+        "height": 44,
+        "top": 376.171875,
+        "right": 704,
+        "bottom": 420.171875,
+        "left": 668
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/740/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/1024/mouse/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 354.28125,
+      "sendBox": {
+        "x": 810,
+        "y": 309.28125,
+        "width": 36,
+        "height": 44,
+        "top": 309.28125,
+        "right": 846,
+        "bottom": 353.28125,
+        "left": 810
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1024/mouse/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/1024/mouse/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/1024/mouse/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/1024/mouse/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 354.28125,
+      "sendBox": {
+        "x": 810,
+        "y": 309.28125,
+        "width": 36,
+        "height": 44,
+        "top": 309.28125,
+        "right": 846,
+        "bottom": 353.28125,
+        "left": 810
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1024/mouse/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1024/mouse/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1024/mouse/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 628,
+      "rows": [
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        },
+        {
+          "height": 54.484375,
+          "inline": true,
+          "actionsRight": 810,
+          "rowRight": 810
+        }
+      ],
+      "controlSize": "28px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1024/mouse/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/1024/mouse/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/390/touch/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 450.96875,
+      "sendBox": {
+        "x": 328,
+        "y": 405.96875,
+        "width": 44,
+        "height": 44,
+        "top": 405.96875,
+        "right": 372,
+        "bottom": 449.96875,
+        "left": 328
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/touch/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/390/touch/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/390/touch/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/390/touch/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 450.96875,
+      "sendBox": {
+        "x": 328,
+        "y": 405.96875,
+        "width": 44,
+        "height": 44,
+        "top": 405.96875,
+        "right": 372,
+        "bottom": 449.96875,
+        "left": 328
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/touch/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/touch/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/touch/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 330,
+      "rows": [
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 102,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        },
+        {
+          "height": 122.578125,
+          "inline": false,
+          "actionsRight": 344,
+          "rowRight": 344
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/touch/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/390/touch/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/740/touch/toolbar",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 435.171875,
+      "sendBox": {
+        "x": 660,
+        "y": 390.171875,
+        "width": 44,
+        "height": 44,
+        "top": 390.171875,
+        "right": 704,
+        "bottom": 434.171875,
+        "left": 660
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/touch/bottom-inset",
+    "pass": true,
+    "detail": {
+      "gap": 8
+    }
+  },
+  {
+    "name": "dark/740/touch/hover-invariant",
+    "pass": true,
+    "detail": {
+      "before": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hover": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      }
+    }
+  },
+  {
+    "name": "dark/740/touch/chip-height",
+    "pass": true,
+    "detail": {
+      "height": 30,
+      "width": 167.422,
+      "radius": "9999px",
+      "bg": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "dark/740/touch/toolbar-fit",
+    "pass": true,
+    "detail": {
+      "barHeight": 44,
+      "composerBottom": 435.171875,
+      "sendBox": {
+        "x": 660,
+        "y": 390.171875,
+        "width": 44,
+        "height": 44,
+        "top": 390.171875,
+        "right": 704,
+        "bottom": 434.171875,
+        "left": 660
+      },
+      "send": {
+        "height": 30,
+        "width": 30,
+        "radius": "50%",
+        "bg": "rgb(48, 54, 64)"
+      },
+      "chip": {
+        "height": 30,
+        "width": 167.422,
+        "radius": "9999px",
+        "bg": "rgb(34, 38, 44)"
+      },
+      "add": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "mic": {
+        "height": 32,
+        "width": 32,
+        "radius": "9999px",
+        "bg": "rgba(0, 0, 0, 0)"
+      },
+      "hitHeight": 44,
+      "overlap": false,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/touch/context-layout",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/touch/context-density",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/touch/context-actions-aligned",
+    "pass": true,
+    "detail": {
+      "panelWidth": 644,
+      "rows": [
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        },
+        {
+          "height": 56,
+          "inline": true,
+          "actionsRight": 676,
+          "rowRight": 676
+        }
+      ],
+      "controlSize": "44px",
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/740/touch/outline-action",
+    "pass": true,
+    "detail": {
+      "bg": "rgb(24, 27, 32)",
+      "expected": "rgb(24, 27, 32)",
+      "border": "1px"
+    }
+  },
+  {
+    "name": "dark/740/touch/errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/tags",
+    "pass": true,
+    "detail": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(217, 79, 112)"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(40, 120, 232)"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(170, 117, 10)"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(22, 136, 153)"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(133, 84, 207)"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "body": "rgb(255, 255, 255)",
+        "radius": "9999px",
+        "icon": "rgb(207, 64, 156)"
+      }
+    ]
+  },
+  {
+    "name": "light/tool-colors",
+    "pass": true,
+    "detail": [
+      "rgb(40, 120, 232)",
+      "rgb(133, 84, 207)",
+      "rgb(170, 117, 10)"
+    ]
+  },
+  {
+    "name": "light/agents",
+    "pass": true,
+    "detail": {
+      "catalog": 5,
+      "same": true,
+      "images": [
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/blue.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/lavender.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/amber.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/coral.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/cyan.png?v=components-20260917"
+        }
+      ],
+      "ids": [
+        "amber",
+        "cyan",
+        "blue",
+        "cyan"
+      ]
+    }
+  },
+  {
+    "name": "dark/tags",
+    "pass": true,
+    "detail": [
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(255, 145, 168)"
+      },
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(141, 187, 255)"
+      },
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(236, 193, 108)"
+      },
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(118, 212, 223)"
+      },
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(201, 167, 255)"
+      },
+      {
+        "bg": "rgb(24, 27, 32)",
+        "body": "rgb(24, 27, 32)",
+        "radius": "9999px",
+        "icon": "rgb(245, 155, 218)"
+      }
+    ]
+  },
+  {
+    "name": "dark/tool-colors",
+    "pass": true,
+    "detail": [
+      "rgb(141, 187, 255)",
+      "rgb(201, 167, 255)",
+      "rgb(236, 193, 108)"
+    ]
+  },
+  {
+    "name": "dark/agents",
+    "pass": true,
+    "detail": {
+      "catalog": 5,
+      "same": true,
+      "images": [
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/blue.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/lavender.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/amber.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/coral.png?v=components-20260917"
+        },
+        {
+          "ok": true,
+          "src": "http://127.0.0.1:8877/system/assets/agents/cyan.png?v=components-20260917"
+        }
+      ],
+      "ids": [
+        "blue",
+        "lavender",
+        "blue",
+        "cyan"
+      ]
+    }
+  }
+]

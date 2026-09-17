@@ -1,0 +1,82 @@
+[
+  {
+    "theme": "light",
+    "pass": true,
+    "states": [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "guarded": true,
+    "sent": true,
+    "imgs": [
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/blue.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/lavender.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/amber.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/coral.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/cyan.png?v=components-20260917",
+        "loaded": true
+      }
+    ],
+    "shape": {
+      "width": "20",
+      "height": "14"
+    },
+    "errors": []
+  },
+  {
+    "theme": "dark",
+    "pass": true,
+    "states": [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "guarded": true,
+    "sent": true,
+    "imgs": [
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/blue.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/lavender.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/amber.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/coral.png?v=components-20260917",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:8877/system/assets/agents/cyan.png?v=components-20260917",
+        "loaded": true
+      }
+    ],
+    "shape": {
+      "width": "20",
+      "height": "14"
+    },
+    "errors": []
+  }
+]

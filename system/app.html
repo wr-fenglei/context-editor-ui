@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="对话消息, 工具调用, 子代理, 输入框与上下文编辑集成示例">
   <title>对话界面集成示例 - context-editor-ui</title>
-  <script src="design-system.config.js?v=small-disclosure-1"></script>
-  <script src="motion-runtime.js?v=motion-system-1"></script>
-  <script src="icon-set.js?v=thin-icons-1"></script>
-  <link rel="stylesheet" href="styles.css?v=quiet-context-1">
+  <script src="design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="motion-runtime.js?v=menu-corners-20260917"></script>
+  <script src="icons.data.js?v=menu-corners-20260917"></script>
+  <script src="icon-set.js?v=menu-corners-20260917"></script>
+  <script src="code-format.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="styles.css?v=menu-corners-20260917">
 </head>
 <body>
   <div id="app"></div>
@@ -16,13 +18,14 @@
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
-  <script type="text/babel" src="Icons.js?v=generated-icons-1"></script>
-  <script type="text/babel" src="MotionPresence.js?v=motion-system-1"></script>
-  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=message-feedback-1"></script>
-  <script type="text/babel" src="components/ToolCall/ToolCall.js?v=motion-system-1"></script>
-  <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=inline-agents-1"></script>
-  <script type="text/babel" src="components/Composer/Composer.js?v=motion-system-1"></script>
-  <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=quiet-context-1"></script>
+  <script type="text/babel" src="Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/Button/Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="MotionPresence.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/MessageBubble/MessageBubble.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/ToolCall/ToolCall.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/SubagentCall/SubagentCall.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/Composer/Composer.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="components/ContextEditor/ContextEditor.js?v=menu-corners-20260917"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.integratedDemo
     const contextDemo = ContextEditorUIConfig.components.contextEditor.demo
@@ -33,7 +36,7 @@
       const threadRef = React.useRef(null)
       const dockRef = React.useRef(null)
 
-      const send = (text) => setSent((items) => [...items, text])
+      const send = (text) => setSent((items) => [...items, { text, context: editor.confirmed.map(item => ({ ...item })) }])
 
       React.useEffect(() => {
         if (!sent.length) return
@@ -98,17 +101,17 @@
                   <ContextEditor {...editor.editorProps}/>
               </MotionPresence>
 
-              {sent.map((text, index) => (
-                <MotionPresence show appear as="article" className="turn" key={`${text}-${index}`} data-od-id="sent-user-turn">
-                  <div className="message-row is-user"><div className="user-message">{text}</div></div>
-                  <div className="user-meta is-visible"><span>刚刚</span></div>
+              {sent.map((message, index) => (
+                <MotionPresence show appear as="article" className="turn" key={index} data-od-id="sent-user-turn">
+                  <div className="message-row is-user"><div className="user-message">{message.text}</div></div>
+                  <div className="user-meta is-visible"><span>刚刚 · 已确认上下文 {message.context.length} 项</span></div>
                 </MotionPresence>
               ))}
             </section>
 
             <div ref={dockRef} className="composer-dock" data-od-id="composer-dock">
               <div id="composer-root">
-                <Composer onSend={send} onOpenContextEditor={editor.openEditor} onToggleContextEditor={editor.toggleEditor} includedCount={editor.includedCount} pendingCount={editor.pending.length} editorOpen={editor.open}/>
+                <Composer onSend={send} onOpenContextEditor={editor.openEditor} onToggleContextEditor={editor.toggleEditor} includedCount={editor.confirmedCount} draftDirty={editor.dirty} pendingCount={editor.pending.length} editorOpen={editor.open}/>
               </div>
             </div>
           </div>
@@ -118,6 +121,6 @@
 
     ReactDOM.createRoot(document.getElementById('app')).render(<App/>)
   </script>
-  <script src="interactions.js?v=message-feedback-1"></script>
+  <script src="interactions.js?v=menu-corners-20260917"></script>
 </body>
 </html>

@@ -5,24 +5,24 @@ function KindIcon({ kind }) {
   return <NoteIcon/>
 }
 
-function ContextEditor({ editorRef, draft, pending, includedCount, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
+function ContextEditor({ editorRef, draft, pending, includedCount, dirty, status, newItem, onNewItem, onToggle, onRemoveDraft, onRemovePending, onMove, onMerge, onMergeAll, onAddPending, onConfirm, onCollapse }) {
   React.useLayoutEffect(() => { ContextEditorUIMotion.layout(editorRef.current) }, [draft, pending])
   return (
-    <section ref={editorRef} className="context-editor" aria-label="上下文编辑" data-od-id="context-editor">
+    <section ref={editorRef} className="context-editor" data-component="ContextEditor" aria-label="上下文编辑" data-od-id="context-editor">
       <header className="context-editor-head">
         <span className="context-editor-mark" aria-hidden="true"><ContextIcon/></span>
         <div className="context-editor-heading">
           <strong>上下文编辑</strong>
           <span className="context-editor-sub">工作草稿 {includedCount} 项 · 待处理 {pending.length} 项</span>
         </div>
-        <button className="context-editor-collapse" type="button" onClick={onCollapse} data-od-id="context-editor-collapse">收起</button>
+        <Button className="context-editor-collapse" variant="ghost" tone="neutral" type="button" onClick={onCollapse} data-od-id="context-editor-collapse">收起</Button>
       </header>
 
       <div className="context-editor-body">
         <section className="context-group" data-od-id="context-work-draft">
           <div className="context-group-head">
             <span className="context-group-label">工作草稿</span>
-            <span className="context-group-hint">已确认的上下文, 随下一条消息发送</span>
+
           </div>
           <ul className="context-list">
             {draft.map((item, index) => (
@@ -38,7 +38,7 @@ function ContextEditor({ editorRef, draft, pending, includedCount, status, newIt
                 <span className="context-item-actions">
                   <button className="context-icon-button" type="button" aria-label={`上移 ${item.title}`} disabled={index === 0} onClick={() => onMove(item.id, -1)}><ArrowUpIcon/></button>
                   <button className="context-icon-button" type="button" aria-label={`下移 ${item.title}`} disabled={index === draft.length - 1} onClick={() => onMove(item.id, 1)}><ArrowDownIcon/></button>
-                  <button className="context-icon-button" type="button" aria-label={`移除 ${item.title}`} onClick={() => onRemoveDraft(item.id)}><TrashIcon/></button>
+                  <button className="context-icon-button ds-action-remove" type="button" aria-label={`移除 ${item.title}`} onClick={() => onRemoveDraft(item.id)}><TrashIcon/></button>
                 </span>
               </li>
             ))}
@@ -54,7 +54,7 @@ function ContextEditor({ editorRef, draft, pending, includedCount, status, newIt
         <section className="context-group" data-od-id="context-pending">
           <div className="context-group-head">
             <span className="context-group-label">待处理</span>
-            <span className="context-group-hint">未处理的内容, 确认后才会并入</span>
+
           </div>
           <ul className="context-list">
             {pending.map((item) => (
@@ -65,48 +65,51 @@ function ContextEditor({ editorRef, draft, pending, includedCount, status, newIt
                   <span className="context-item-meta">{item.meta}</span>
                 </span>
                 <span className="context-item-actions">
-                  <button className="context-merge" type="button" onClick={() => onMerge(item.id)} data-od-id={`merge-${item.id}`}>并入</button>
-                  <button className="context-icon-button" type="button" aria-label={`移除 ${item.title}`} onClick={() => onRemovePending(item.id)}><TrashIcon/></button>
+                  <Button className="context-merge" variant="ghost" tone="merge" type="button" onClick={() => onMerge(item.id)} data-od-id={`merge-${item.id}`}>并入</Button>
+                  <button className="context-icon-button ds-action-remove" type="button" aria-label={`移除 ${item.title}`} onClick={() => onRemovePending(item.id)}><TrashIcon/></button>
                 </span>
               </li>
             ))}
           </ul>
           <div className="context-add">
             <input className="context-add-input" type="text" value={newItem} placeholder="添加文件, 路径或说明" aria-label="添加待处理内容"
-                   onChange={(event) => onNewItem(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') { event.preventDefault(); onAddPending() } }} data-od-id="context-add-input"/>
-            <button className="context-add-button" type="button" onClick={onAddPending} data-od-id="context-add-button">添加到待处理</button>
+                   onChange={(event) => onNewItem(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter' && !event.nativeEvent.isComposing) { event.preventDefault(); onAddPending() } }} data-od-id="context-add-input"/>
+            <Button className="context-add-button" tone="neutral" type="button" onClick={onAddPending} data-od-id="context-add-button">添加到待处理</Button>
           </div>
-          {pending.length > 0 ? <button className="context-merge-all" type="button" onClick={onMergeAll} data-od-id="context-merge-all">全部并入工作草稿</button> : null}
+          {pending.length > 0 ? <Button className="context-merge-all" variant="ghost" tone="merge" type="button" onClick={onMergeAll} data-od-id="context-merge-all">全部并入工作草稿</Button> : null}
         </section>
       </div>
 
-      <footer className="context-editor-foot">
-        <span className="context-foot-note">确认后, 工作草稿作为下一条消息的上下文</span>
-        <button className="context-confirm" type="button" onClick={onConfirm} data-od-id="context-confirm"><CheckIcon/>确认工作草稿</button>
-      </footer>
       <p className="context-status" role="status" aria-live="polite">{status}</p>
+      <footer className="context-editor-foot">
+        <Button className="context-confirm" tone="confirm" type="button" onClick={onConfirm} data-od-id="context-confirm"><CheckIcon/>确认工作草稿</Button>
+      </footer>
     </section>
   )
 }
 
-function useContextEditor(initialDraft, initialPending) {
+function useContextEditor(initialDraft, initialPending, { initialOpen = true, triggerRef } = {}) {
   const [draft, setDraft] = React.useState(initialDraft)
   const [pending, setPending] = React.useState(initialPending)
-  const [open, setOpen] = React.useState(true)
+  const [confirmed, setConfirmed] = React.useState(() => initialDraft.filter(item => item.included).map(item => ({ ...item })))
+  const [open, setOpen] = React.useState(initialOpen)
   const [status, setStatus] = React.useState('')
   const [newItem, setNewItem] = React.useState('')
   const removing = React.useRef(new Set())
   const editorRef = React.useRef(null)
   const [openRequest, setOpenRequest] = React.useState(0)
 
-  const includedCount = draft.filter((item) => item.included).length
+  const selected = draft.filter((item) => item.included)
+  const includedCount = selected.length
+  const confirmedCount = confirmed.length
+  const dirty = JSON.stringify(selected) !== JSON.stringify(confirmed)
 
   const openEditor = () => {
     setOpen(true)
     setOpenRequest((request) => request + 1)
   }
   const collapseEditor = () => {
-    const trigger = document.querySelector('[data-od-id="composer-context-accessory"], [data-demo-context-toggle]')
+    const trigger = triggerRef?.current || document.querySelector('[data-od-id="composer-context-accessory"], [data-demo-context-toggle]')
     if (editorRef.current?.contains(document.activeElement)) trigger?.focus({ preventScroll: true })
     setOpen(false)
   }
@@ -182,14 +185,17 @@ function useContextEditor(initialDraft, initialPending) {
     setPending((items) => [...items, { id: `p-${Date.now()}`, kind: 'note', title, meta: '刚添加 · 未处理' }])
     setNewItem('')
   }
-  const confirmDraft = () => setStatus(`已确认 ${includedCount} 项工作草稿 · 待处理 ${pending.length} 项保持不变`)
+  const confirmDraft = () => {
+    setConfirmed(selected.map(item => ({ ...item })))
+    setStatus(`已确认 ${includedCount} 项工作草稿 · 待处理 ${pending.length} 项保持不变`)
+  }
 
   return {
-    draft, pending, includedCount, open, status, newItem,
+    draft, pending, includedCount, confirmed, confirmedCount, dirty, open, status, newItem,
     setOpen, setNewItem, openEditor, toggleEditor, toggleItem, removeDraft, removePending,
     move, merge, mergeAll, addPending, confirmDraft,
     editorProps: {
-      editorRef, draft, pending, includedCount, status, newItem,
+      editorRef, draft, pending, includedCount, dirty, status, newItem,
       onNewItem: setNewItem, onToggle: toggleItem, onRemoveDraft: removeDraft,
       onRemovePending: removePending, onMove: move, onMerge: merge, onMergeAll: mergeAll,
       onAddPending: addPending, onConfirm: confirmDraft, onCollapse: collapseEditor

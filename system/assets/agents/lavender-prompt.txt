@@ -1,0 +1,10 @@
+Use case: logo-brand
+Asset type: one small bitmap identity icon for a serious professional AI agent named LAVENDER, intended to be displayed at 18px
+Primary request: Create exactly one centered, front-facing compact symmetrical amethyst rosette icon, consisting of exactly six thin translucent folded geometric petals meeting around a small central point. The six petals form a near-circular silhouette with softly clipped angular outer tips. The overall structure is restrained, delicate, legible, and balanced.
+Reference guidance: The supplied reference screenshot's far-right lavender rosette was visually inspected; follow its thin pale lavender geometric petal character. Do not reproduce any text, other icons, or screenshot background.
+Style/medium: refined high-quality raster product icon, thin frosted translucent folded glass petals with subtle curved refraction and gently faceted planes, very shallow depth, no heavy extrusion
+Composition/framing: one icon only, front orthographic view, centered on a square canvas, occupies 85 percent of canvas width and height, sixfold radial symmetry, recognizable silhouette at 18px
+Color palette: pale lavender, light amethyst and measured medium violet contrast, very fine near-white seams between petals, no dark black edges
+Scene/backdrop: genuinely transparent background with real alpha channel, all area outside the icon must be alpha 0, no baked checkerboard and no opaque white background
+Lighting/mood: soft clean lighting within the material, restrained white highlights, no floor, no cast shadow and no outer glow
+Constraints: no letters, no words, no numbers, no watermark, no frame, no badge container, no surrounding ring, no extra objects, no robot, no thick gummy toy or candy material, no bulbous balloon petals, no line-art halo, no dramatic shadow. Deliver a single PNG asset with preserved real transparency.

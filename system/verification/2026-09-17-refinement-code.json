@@ -1,0 +1,262 @@
+[
+  {
+    "name": "app",
+    "theme": "light",
+    "actualTheme": "light",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      },
+      {
+        "text": "需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理\n体验验证 → 已安排",
+        "amberText": "需求梳理 ",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-app-light.png"
+  },
+  {
+    "name": "messages",
+    "theme": "light",
+    "actualTheme": "light",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理",
+        "amberText": "需求梳理 ",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-messages-light.png"
+  },
+  {
+    "name": "tools",
+    "theme": "light",
+    "actualTheme": "light",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      },
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": null,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-tools-light.png"
+  },
+  {
+    "name": "workbench",
+    "theme": "light",
+    "actualTheme": "light",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "# 消息页调整清单\n\n- [ ] 连续发送消息时, 消息与输入框不重叠\n- [ ] 复制提示完整显示在当前消息内部\n- [ ] 窄屏下的反馈按钮可点击, 提示不越界",
+        "amberText": "# 消息页调整清单",
+        "amberColor": "rgb(153, 103, 10)",
+        "bodyColor": "rgb(34, 38, 44)",
+        "background": "rgb(246, 247, 248)",
+        "contrast": 4.554220436260044,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": null,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-workbench-light.png"
+  },
+  {
+    "name": "app",
+    "theme": "dark",
+    "actualTheme": "dark",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      },
+      {
+        "text": "需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理\n体验验证 → 已安排",
+        "amberText": "需求梳理 ",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-app-dark.png"
+  },
+  {
+    "name": "messages",
+    "theme": "dark",
+    "actualTheme": "dark",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "需求梳理 → 已完成\n交互检查 → 已检查\n文案确认 → 待处理",
+        "amberText": "需求梳理 ",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-messages-dark.png"
+  },
+  {
+    "name": "tools",
+    "theme": "dark",
+    "actualTheme": "dark",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      },
+      {
+        "text": "$ rg -n \"done|pending\" notes\n找到 3 组任务\n上下文草稿已就绪",
+        "amberText": "\"done|pending\"",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": true,
+    "overflow": false,
+    "copied": null,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-tools-dark.png"
+  },
+  {
+    "name": "workbench",
+    "theme": "dark",
+    "actualTheme": "dark",
+    "scriptTags": [
+      "http://127.0.0.1:8877/system/code-format.js?v=refined-20260917"
+    ],
+    "resourceLoads": 1,
+    "sourceUnchanged": true,
+    "preList": [
+      {
+        "text": "# 消息页调整清单\n\n- [ ] 连续发送消息时, 消息与输入框不重叠\n- [ ] 复制提示完整显示在当前消息内部\n- [ ] 窄屏下的反馈按钮可点击, 提示不越界",
+        "amberText": "# 消息页调整清单",
+        "amberColor": "rgb(234, 193, 107)",
+        "bodyColor": "rgb(238, 240, 243)",
+        "background": "rgb(34, 38, 44)",
+        "contrast": 8.930586318488787,
+        "contentFormatted": true
+      }
+    ],
+    "safeDOM": true,
+    "safeReact": null,
+    "overflow": false,
+    "copied": true,
+    "errors": [],
+    "failedRequests": [],
+    "screenshot": "/private/tmp/code-acceptance-workbench-dark.png"
+  }
+]

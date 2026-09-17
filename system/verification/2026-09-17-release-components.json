@@ -1,0 +1,1434 @@
+[
+  {
+    "name": "light/1280/system/foundations.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/index.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/app.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/Button/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/Composer/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/ToolCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/ContextEditor/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/MessageBubble/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/ProfileTags/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/AvatarGroup/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/Panel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/SubagentCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/AnnotationPopover/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/ReviewPanel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/system/components/SessionSwitcher/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/foundations.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/index.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/Button/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/app.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/MessageBubble/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/Composer/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/ToolCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/ContextEditor/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/ProfileTags/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/AvatarGroup/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/Panel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/SubagentCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/AnnotationPopover/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/ReviewPanel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/320/system/components/SessionSwitcher/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/index.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/foundations.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/app.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/Button/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/MessageBubble/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/Composer/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/ToolCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/ContextEditor/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/ProfileTags/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/AvatarGroup/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/SubagentCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/Panel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/SessionSwitcher/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/ReviewPanel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/1280/system/components/AnnotationPopover/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/index.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/foundations.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/Button/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/app.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/Composer/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/ContextEditor/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/MessageBubble/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/ToolCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/ProfileTags/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/AvatarGroup/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/Panel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/SubagentCall/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/AnnotationPopover/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/SessionSwitcher/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "dark/320/system/components/ReviewPanel/spec.html",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "images": true,
+      "ids": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "light/1280/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "light/1280/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(198, 64, 67)",
+      "title": "rgb(198, 64, 67)",
+      "description": "rgb(98, 106, 117)"
+    }
+  },
+  {
+    "name": "light/1280/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(227, 230, 233)"
+    }
+  },
+  {
+    "name": "light/1280/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(153, 103, 10)",
+      "label": "rgb(153, 103, 10)",
+      "text": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "light/1280/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "light/1280/mouse/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/800/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "light/800/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(198, 64, 67)",
+      "title": "rgb(198, 64, 67)",
+      "description": "rgb(98, 106, 117)"
+    }
+  },
+  {
+    "name": "light/800/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(227, 230, 233)"
+    }
+  },
+  {
+    "name": "light/800/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(153, 103, 10)",
+      "label": "rgb(153, 103, 10)",
+      "text": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "light/800/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "light/800/mouse/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/390/touch/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "light/390/touch/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(198, 64, 67)",
+      "title": "rgb(198, 64, 67)",
+      "description": "rgb(98, 106, 117)"
+    }
+  },
+  {
+    "name": "light/390/touch/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(227, 230, 233)"
+    }
+  },
+  {
+    "name": "light/390/touch/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(153, 103, 10)",
+      "label": "rgb(153, 103, 10)",
+      "text": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "light/390/touch/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/copy-source",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/new-session",
+    "pass": true
+  },
+  {
+    "name": "light/390/touch/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "light/320/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "light/320/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(198, 64, 67)",
+      "title": "rgb(198, 64, 67)",
+      "description": "rgb(98, 106, 117)"
+    }
+  },
+  {
+    "name": "light/320/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(227, 230, 233)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(227, 230, 233)"
+    }
+  },
+  {
+    "name": "light/320/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(153, 103, 10)",
+      "label": "rgb(153, 103, 10)",
+      "text": "rgb(34, 38, 44)"
+    }
+  },
+  {
+    "name": "light/320/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "light/320/mouse/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/1280/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "dark/1280/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(255, 148, 153)",
+      "title": "rgb(255, 148, 153)",
+      "description": "rgb(161, 170, 183)"
+    }
+  },
+  {
+    "name": "dark/1280/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(54, 62, 73)"
+    }
+  },
+  {
+    "name": "dark/1280/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(234, 193, 107)",
+      "label": "rgb(234, 193, 107)",
+      "text": "rgb(238, 240, 243)"
+    }
+  },
+  {
+    "name": "dark/1280/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/mouse/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/800/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "dark/800/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(255, 148, 153)",
+      "title": "rgb(255, 148, 153)",
+      "description": "rgb(161, 170, 183)"
+    }
+  },
+  {
+    "name": "dark/800/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(54, 62, 73)"
+    }
+  },
+  {
+    "name": "dark/800/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(234, 193, 107)",
+      "label": "rgb(234, 193, 107)",
+      "text": "rgb(238, 240, 243)"
+    }
+  },
+  {
+    "name": "dark/800/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "dark/800/mouse/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/390/touch/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "dark/390/touch/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(255, 148, 153)",
+      "title": "rgb(255, 148, 153)",
+      "description": "rgb(161, 170, 183)"
+    }
+  },
+  {
+    "name": "dark/390/touch/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(54, 62, 73)"
+    }
+  },
+  {
+    "name": "dark/390/touch/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(234, 193, 107)",
+      "label": "rgb(234, 193, 107)",
+      "text": "rgb(238, 240, 243)"
+    }
+  },
+  {
+    "name": "dark/390/touch/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/copy-source",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/new-session",
+    "pass": true
+  },
+  {
+    "name": "dark/390/touch/runtime",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "dark/320/mouse/built-in-components",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/shared-composer-geometry",
+    "pass": true,
+    "detail": {
+      "bar": 44,
+      "send": 30,
+      "chip": 30,
+      "gap": 8,
+      "overlap": false
+    }
+  },
+  {
+    "name": "dark/320/mouse/full-access-red",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(255, 148, 153)",
+      "title": "rgb(255, 148, 153)",
+      "description": "rgb(161, 170, 183)"
+    }
+  },
+  {
+    "name": "dark/320/mouse/shared-input-focus",
+    "pass": true,
+    "detail": {
+      "border": "rgb(54, 62, 73)",
+      "outline": "none",
+      "shadow": "none",
+      "expected": "rgb(54, 62, 73)"
+    }
+  },
+  {
+    "name": "dark/320/mouse/edit-resets-check",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/undo-text-and-check",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/unsaved-annotation-blocks-send",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/quote-snapshot",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/session-isolation",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/session-preserves-drafts",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/switch-preserves-trigger-focus",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/context-amber",
+    "pass": true,
+    "detail": {
+      "icon": "rgb(234, 193, 107)",
+      "label": "rgb(234, 193, 107)",
+      "text": "rgb(238, 240, 243)"
+    }
+  },
+  {
+    "name": "dark/320/mouse/confirmed-snapshot-before",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/confirmed-snapshot-after",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/pending-merge",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/copy-source",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/insert-controlled-composer",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/shared-code-renderer",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/new-session",
+    "pass": true
+  },
+  {
+    "name": "dark/320/mouse/runtime",
+    "pass": true,
+    "detail": []
+  }
+]

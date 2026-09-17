@@ -4,15 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>子代理调用 - context-editor-ui</title>
-  <script src="../../design-system.config.js?v=small-disclosure-1"></script>
-  <script src="../../motion-runtime.js?v=motion-system-1"></script>
-  <script src="../../icon-set.js?v=thin-icons-1"></script>
-  <link rel="stylesheet" href="../../styles.css?v=quiet-context-1">
+  <script src="../../design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="../../motion-runtime.js?v=menu-corners-20260917"></script>
+  <script src="../../icons.data.js?v=menu-corners-20260917"></script>
+  <script src="../../icon-set.js?v=menu-corners-20260917"></script>
+  <script src="../../code-format.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="../../styles.css?v=menu-corners-20260917">
 </head>
 <body>
   <main class="review-shell" data-od-id="subagents-preview">
     <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title data-od-id="subagents-title"></h1><p class="lede" data-config-lede></p></div><p data-config-summary></p></header>
     <section class="review-section" data-od-id="subagents-demo"><div class="section-head"><h2>组件示例</h2><p>查看任务进度, 工具事件与完成状态</p></div><div class="stage component-demo" id="subagents-demo-root"></div></section>
+    <section class="review-section"><div class="section-head"><h2>Agent 图形</h2><p>新身份随机分配, 同一身份的开始与完成保持一致</p></div><div class="agent-gallery" id="agent-gallery"></div></section>
     <section class="review-section" data-od-id="subagents-rules"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
     <section class="review-section" data-od-id="subagents-parameters"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
     <footer class="review-foot" data-config-footer></footer>
@@ -20,10 +23,11 @@
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
-  <script type="text/babel" src="../../Icons.js?v=generated-icons-1"></script>
-  <script type="text/babel" src="../../MotionPresence.js?v=motion-system-1"></script>
-  <script type="text/babel" src="../ToolCall/ToolCall.js?v=motion-system-1"></script>
-  <script type="text/babel" src="./SubagentCall.js?v=inline-agents-1"></script>
+  <script type="text/babel" src="../../Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Button/Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../../MotionPresence.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../ToolCall/ToolCall.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="./SubagentCall.js?v=menu-corners-20260917"></script>
   <script type="text/babel">
     const demo = ContextEditorUIConfig.components.subagents.demo
     ReactDOM.createRoot(document.getElementById('subagents-demo-root')).render(<div className="demo-tool-stack">
@@ -35,6 +39,12 @@
       <SubagentCall {...demo.agents[1]} status="finished" />
       <SubagentCall {...demo.agents[2]} status="working" />
     </div>)
+    ContextEditorUIConfig.agents.forEach(item => {
+      const figure = document.createElement('div'); figure.className = 'agent-sample'
+      const image = document.createElement('img'); image.src = ContextEditorUIIcons.agentAsset(item.id); image.alt = ''; image.className = 'agent-mark'
+      const label = document.createElement('span'); label.textContent = item.label
+      figure.append(image, label); document.getElementById('agent-gallery').append(figure)
+    })
     ContextEditorUI.renderComponentPage('subagents')
   </script>
 </body>

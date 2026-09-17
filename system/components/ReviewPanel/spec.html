@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>评审面板 - context-editor-ui</title>
+  <script src="../../design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="../../motion-runtime.js?v=menu-corners-20260917"></script>
+  <script src="../../icons.data.js?v=menu-corners-20260917"></script>
+  <script src="../../icon-set.js?v=menu-corners-20260917"></script>
+  <script src="../../code-format.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="../../styles.css?v=menu-corners-20260917">
+</head>
+<body>
+  <main class="review-shell" data-od-id="reviewPanel-preview">
+    <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title></h1><p class="lede" data-config-lede></p></div><p data-config-summary></p></header>
+    <section class="review-section"><div class="section-head"><h2>组件示例</h2><p>操作共享评审组件, 检查编辑, 核对, 撤销与备注</p></div><div class="component-demo" id="reviewPanel-demo-root"></div></section>
+    <section class="review-section"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
+    <section class="review-section"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
+    <footer class="review-foot" data-config-footer></footer>
+  </main>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="../../Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Button/Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Panel/Panel.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../MessageBubble/MessageBubble.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../AnnotationPopover/AnnotationPopover.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="./ReviewPanel.js?v=menu-corners-20260917"></script>
+  <script type="text/babel">
+    function ReviewDemo() {
+      const demo = ContextEditorUIConfig.components.reviewPanel.demo
+      const [items, setItems] = React.useState(() => demo.items.map(item => ({ ...item })))
+      const [annotation, setAnnotation] = React.useState(null)
+      const [inserted, setInserted] = React.useState('')
+      const [visible, setVisible] = React.useState(true)
+      const [dirty, setDirty] = React.useState(false)
+      return <div className="annotation-demo">
+        {visible ? <ReviewPanel title={demo.title} intro={demo.intro} items={items} onChange={setItems} onEditingChange={setDirty} onDiscuss={(item, index) => setAnnotation(previous => ({ ...(previous?.itemId === item.id ? previous : {}), itemId: item.id, index, text: item.text, open: true }))} onInsert={setInserted} onClose={() => setVisible(false)} footer={<span>组件示例 · 项目状态由调用方保存</span>}/> : <Button type="button" tone="neutral" variant="ghost" onClick={() => setVisible(true)}>展开评审面板</Button>}
+        <p role="status" data-testid="review-unsaved-state">{dirty ? '文档有未保存内容' : '文档与已保存内容一致'}</p>
+        <AnnotationPopover annotation={annotation} onChange={setAnnotation}/>
+        {inserted ? <CodeObject label="已放入输入框的内容" codeId="review-inserted-content" language="markdown">{inserted}</CodeObject> : null}
+      </div>
+    }
+    ReactDOM.createRoot(document.getElementById('reviewPanel-demo-root')).render(<ReviewDemo/>)
+    ContextEditorUI.renderComponentPage('reviewPanel')
+  </script>
+  <script src="../../interactions.js?v=menu-corners-20260917"></script>
+</body>
+</html>

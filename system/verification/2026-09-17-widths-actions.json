@@ -1,0 +1,1482 @@
+[
+  {
+    "name": "light/320/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 743.1875,
+        "width": 286,
+        "height": 130,
+        "top": 743.1875,
+        "right": 303,
+        "bottom": 873.1875,
+        "left": 17
+      },
+      "review": {
+        "x": 17,
+        "y": 957.578125,
+        "width": 286,
+        "height": 504.421875,
+        "top": 957.578125,
+        "right": 303,
+        "bottom": 1462,
+        "left": 17
+      },
+      "conversation": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 286,
+        "height": 749.609375,
+        "top": 175.96875,
+        "right": 303,
+        "bottom": 925.578125,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 286,
+        "height": 1286.03125,
+        "top": 175.96875,
+        "right": 303,
+        "bottom": 1462,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 517.109375,
+        "width": 268,
+        "height": 303.078125,
+        "top": 517.109375,
+        "right": 294,
+        "bottom": 820.1875,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 743.1875,
+        "width": 286,
+        "height": 130,
+        "top": 743.1875,
+        "right": 303,
+        "bottom": 873.1875,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "light/320/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/320/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/320/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 286,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/320/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "light/390/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 808.859375,
+        "width": 356,
+        "height": 144,
+        "top": 808.859375,
+        "right": 373,
+        "bottom": 952.859375,
+        "left": 17
+      },
+      "review": {
+        "x": 17,
+        "y": 1037.25,
+        "width": 356,
+        "height": 567.234375,
+        "top": 1037.25,
+        "right": 373,
+        "bottom": 1604.484375,
+        "left": 17
+      },
+      "conversation": {
+        "x": 17,
+        "y": 206.390625,
+        "width": 356,
+        "height": 798.859375,
+        "top": 206.390625,
+        "right": 373,
+        "bottom": 1005.25,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 206.390625,
+        "width": 356,
+        "height": 1398.09375,
+        "top": 206.390625,
+        "right": 373,
+        "bottom": 1604.484375,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 590.875,
+        "width": 320,
+        "height": 308.984375,
+        "top": 590.875,
+        "right": 346,
+        "bottom": 899.859375,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 808.859375,
+        "width": 356,
+        "height": 144,
+        "top": 808.859375,
+        "right": 373,
+        "bottom": 952.859375,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "light/390/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/390/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/390/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 356,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/390/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "light/800/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 699,
+        "width": 367,
+        "height": 130,
+        "top": 699,
+        "right": 384,
+        "bottom": 829,
+        "left": 17
+      },
+      "review": {
+        "x": 416,
+        "y": 175.96875,
+        "width": 367,
+        "height": 449.859375,
+        "top": 175.96875,
+        "right": 783,
+        "bottom": 625.828125,
+        "left": 416
+      },
+      "conversation": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 367,
+        "height": 705.421875,
+        "top": 175.96875,
+        "right": 384,
+        "bottom": 881.390625,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 766,
+        "height": 705.421875,
+        "top": 175.96875,
+        "right": 783,
+        "bottom": 881.390625,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/800/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 472.921875,
+        "width": 320,
+        "height": 303.078125,
+        "top": 472.921875,
+        "right": 346,
+        "bottom": 776,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 699,
+        "width": 367,
+        "height": 130,
+        "top": 699,
+        "right": 384,
+        "bottom": 829,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "light/800/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/800/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/800/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/800/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "light/1280/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 653.8125,
+        "width": 654,
+        "height": 130,
+        "top": 653.8125,
+        "right": 671,
+        "bottom": 783.8125,
+        "left": 17
+      },
+      "review": {
+        "x": 703,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1263,
+        "bottom": 580.640625,
+        "left": 703
+      },
+      "conversation": {
+        "x": 17,
+        "y": 130.78125,
+        "width": 654,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 671,
+        "bottom": 836.203125,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 130.78125,
+        "width": 1246,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1263,
+        "bottom": 836.203125,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1280/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 30,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 350,
+        "bottom": 730.8125,
+        "left": 30
+      },
+      "composer": {
+        "x": 17,
+        "y": 653.8125,
+        "width": 654,
+        "height": 130,
+        "top": 653.8125,
+        "right": 671,
+        "bottom": 783.8125,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "light/1280/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/1280/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/1280/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1280/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "light/1600/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      },
+      "review": {
+        "x": 876,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1436,
+        "bottom": 580.640625,
+        "left": 876
+      },
+      "conversation": {
+        "x": 164,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 844,
+        "bottom": 836.203125,
+        "left": 164
+      },
+      "layout": {
+        "x": 97,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1503,
+        "bottom": 836.203125,
+        "left": 97
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1600/wide-limits",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      },
+      "review": {
+        "x": 876,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1436,
+        "bottom": 580.640625,
+        "left": 876
+      },
+      "conversation": {
+        "x": 164,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 844,
+        "bottom": 836.203125,
+        "left": 164
+      },
+      "layout": {
+        "x": 97,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1503,
+        "bottom": 836.203125,
+        "left": 97
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1600/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 177,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 497,
+        "bottom": 730.8125,
+        "left": 177
+      },
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      }
+    }
+  },
+  {
+    "name": "light/1600/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/1600/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/1600/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/1600/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "light/2400/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      },
+      "review": {
+        "x": 1276,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1836,
+        "bottom": 580.640625,
+        "left": 1276
+      },
+      "conversation": {
+        "x": 564,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1244,
+        "bottom": 836.203125,
+        "left": 564
+      },
+      "layout": {
+        "x": 497,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1903,
+        "bottom": 836.203125,
+        "left": 497
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/2400/wide-limits",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      },
+      "review": {
+        "x": 1276,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1836,
+        "bottom": 580.640625,
+        "left": 1276
+      },
+      "conversation": {
+        "x": 564,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1244,
+        "bottom": 836.203125,
+        "left": 564
+      },
+      "layout": {
+        "x": 497,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1903,
+        "bottom": 836.203125,
+        "left": 497
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/2400/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 577,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 897,
+        "bottom": 730.8125,
+        "left": 577
+      },
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      }
+    }
+  },
+  {
+    "name": "light/2400/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(186, 38, 35)",
+      "merge": "rgb(153, 103, 10)",
+      "all": "rgb(153, 103, 10)",
+      "confirm": "rgb(36, 95, 185)",
+      "mergeBg": "rgb(255, 255, 255)",
+      "confirmBg": "rgb(255, 255, 255)",
+      "panelBg": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "name": "light/2400/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "light/2400/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "light/2400/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/320/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 743.1875,
+        "width": 286,
+        "height": 130,
+        "top": 743.1875,
+        "right": 303,
+        "bottom": 873.1875,
+        "left": 17
+      },
+      "review": {
+        "x": 17,
+        "y": 957.578125,
+        "width": 286,
+        "height": 504.421875,
+        "top": 957.578125,
+        "right": 303,
+        "bottom": 1462,
+        "left": 17
+      },
+      "conversation": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 286,
+        "height": 749.609375,
+        "top": 175.96875,
+        "right": 303,
+        "bottom": 925.578125,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 286,
+        "height": 1286.03125,
+        "top": 175.96875,
+        "right": 303,
+        "bottom": 1462,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 517.109375,
+        "width": 268,
+        "height": 303.078125,
+        "top": 517.109375,
+        "right": 294,
+        "bottom": 820.1875,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 743.1875,
+        "width": 286,
+        "height": 130,
+        "top": 743.1875,
+        "right": 303,
+        "bottom": 873.1875,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "dark/320/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/320/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/320/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 286,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/320/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/390/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 808.859375,
+        "width": 356,
+        "height": 144,
+        "top": 808.859375,
+        "right": 373,
+        "bottom": 952.859375,
+        "left": 17
+      },
+      "review": {
+        "x": 17,
+        "y": 1037.25,
+        "width": 356,
+        "height": 567.234375,
+        "top": 1037.25,
+        "right": 373,
+        "bottom": 1604.484375,
+        "left": 17
+      },
+      "conversation": {
+        "x": 17,
+        "y": 206.390625,
+        "width": 356,
+        "height": 798.859375,
+        "top": 206.390625,
+        "right": 373,
+        "bottom": 1005.25,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 206.390625,
+        "width": 356,
+        "height": 1398.09375,
+        "top": 206.390625,
+        "right": 373,
+        "bottom": 1604.484375,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 590.875,
+        "width": 320,
+        "height": 308.984375,
+        "top": 590.875,
+        "right": 346,
+        "bottom": 899.859375,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 808.859375,
+        "width": 356,
+        "height": 144,
+        "top": 808.859375,
+        "right": 373,
+        "bottom": 952.859375,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "dark/390/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/390/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/390/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 356,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/390/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/800/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 699,
+        "width": 367,
+        "height": 130,
+        "top": 699,
+        "right": 384,
+        "bottom": 829,
+        "left": 17
+      },
+      "review": {
+        "x": 416,
+        "y": 175.96875,
+        "width": 367,
+        "height": 449.859375,
+        "top": 175.96875,
+        "right": 783,
+        "bottom": 625.828125,
+        "left": 416
+      },
+      "conversation": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 367,
+        "height": 705.421875,
+        "top": 175.96875,
+        "right": 384,
+        "bottom": 881.390625,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 175.96875,
+        "width": 766,
+        "height": 705.421875,
+        "top": 175.96875,
+        "right": 783,
+        "bottom": 881.390625,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/800/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 26,
+        "y": 472.921875,
+        "width": 320,
+        "height": 303.078125,
+        "top": 472.921875,
+        "right": 346,
+        "bottom": 776,
+        "left": 26
+      },
+      "composer": {
+        "x": 17,
+        "y": 699,
+        "width": 367,
+        "height": 130,
+        "top": 699,
+        "right": 384,
+        "bottom": 829,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "dark/800/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/800/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/800/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/800/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/1280/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 17,
+        "y": 653.8125,
+        "width": 654,
+        "height": 130,
+        "top": 653.8125,
+        "right": 671,
+        "bottom": 783.8125,
+        "left": 17
+      },
+      "review": {
+        "x": 703,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1263,
+        "bottom": 580.640625,
+        "left": 703
+      },
+      "conversation": {
+        "x": 17,
+        "y": 130.78125,
+        "width": 654,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 671,
+        "bottom": 836.203125,
+        "left": 17
+      },
+      "layout": {
+        "x": 17,
+        "y": 130.78125,
+        "width": 1246,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1263,
+        "bottom": 836.203125,
+        "left": 17
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1280/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 30,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 350,
+        "bottom": 730.8125,
+        "left": 30
+      },
+      "composer": {
+        "x": 17,
+        "y": 653.8125,
+        "width": 654,
+        "height": 130,
+        "top": 653.8125,
+        "right": 671,
+        "bottom": 783.8125,
+        "left": 17
+      }
+    }
+  },
+  {
+    "name": "dark/1280/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/1280/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/1280/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1280/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/1600/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      },
+      "review": {
+        "x": 876,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1436,
+        "bottom": 580.640625,
+        "left": 876
+      },
+      "conversation": {
+        "x": 164,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 844,
+        "bottom": 836.203125,
+        "left": 164
+      },
+      "layout": {
+        "x": 97,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1503,
+        "bottom": 836.203125,
+        "left": 97
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1600/wide-limits",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      },
+      "review": {
+        "x": 876,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1436,
+        "bottom": 580.640625,
+        "left": 876
+      },
+      "conversation": {
+        "x": 164,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 844,
+        "bottom": 836.203125,
+        "left": 164
+      },
+      "layout": {
+        "x": 97,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1503,
+        "bottom": 836.203125,
+        "left": 97
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1600/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 177,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 497,
+        "bottom": 730.8125,
+        "left": 177
+      },
+      "composer": {
+        "x": 164,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 844,
+        "bottom": 783.8125,
+        "left": 164
+      }
+    }
+  },
+  {
+    "name": "dark/1600/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/1600/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/1600/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/1600/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "dark/2400/bounded-columns",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      },
+      "review": {
+        "x": 1276,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1836,
+        "bottom": 580.640625,
+        "left": 1276
+      },
+      "conversation": {
+        "x": 564,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1244,
+        "bottom": 836.203125,
+        "left": 564
+      },
+      "layout": {
+        "x": 497,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1903,
+        "bottom": 836.203125,
+        "left": 497
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/2400/wide-limits",
+    "pass": true,
+    "data": {
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      },
+      "review": {
+        "x": 1276,
+        "y": 130.78125,
+        "width": 560,
+        "height": 449.859375,
+        "top": 130.78125,
+        "right": 1836,
+        "bottom": 580.640625,
+        "left": 1276
+      },
+      "conversation": {
+        "x": 564,
+        "y": 130.78125,
+        "width": 680,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1244,
+        "bottom": 836.203125,
+        "left": 564
+      },
+      "layout": {
+        "x": 497,
+        "y": 130.78125,
+        "width": 1406,
+        "height": 705.421875,
+        "top": 130.78125,
+        "right": 1903,
+        "bottom": 836.203125,
+        "left": 497
+      },
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/2400/add-menu",
+    "pass": true,
+    "data": {
+      "menu": {
+        "x": 577,
+        "y": 427.734375,
+        "width": 320,
+        "height": 303.078125,
+        "top": 427.734375,
+        "right": 897,
+        "bottom": 730.8125,
+        "left": 577
+      },
+      "composer": {
+        "x": 564,
+        "y": 653.8125,
+        "width": 680,
+        "height": 130,
+        "top": 653.8125,
+        "right": 1244,
+        "bottom": 783.8125,
+        "left": 564
+      }
+    }
+  },
+  {
+    "name": "dark/2400/type-and-action-colors",
+    "pass": true,
+    "data": {
+      "title": "14px",
+      "hint": "12px",
+      "remove": "rgb(250, 66, 62)",
+      "merge": "rgb(234, 193, 107)",
+      "all": "rgb(234, 193, 107)",
+      "confirm": "rgb(138, 182, 255)",
+      "mergeBg": "rgb(24, 27, 32)",
+      "confirmBg": "rgb(24, 27, 32)",
+      "panelBg": "rgb(24, 27, 32)"
+    }
+  },
+  {
+    "name": "dark/2400/remove-hover",
+    "pass": true
+  },
+  {
+    "name": "dark/2400/closed-centered",
+    "pass": true,
+    "data": {
+      "width": 680,
+      "difference": 0,
+      "overflow": false
+    }
+  },
+  {
+    "name": "dark/2400/runtime",
+    "pass": true,
+    "data": []
+  },
+  {
+    "name": "Composer/standalone-max",
+    "pass": true,
+    "data": {
+      "x": 460,
+      "y": 224.28125,
+      "width": 680,
+      "height": 130
+    }
+  },
+  {
+    "name": "ReviewPanel/standalone-max",
+    "pass": true,
+    "data": {
+      "x": 520,
+      "y": 248.078125,
+      "width": 560,
+      "height": 449.859375
+    }
+  }
+]

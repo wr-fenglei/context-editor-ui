@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>会话切换 - context-editor-ui</title>
+  <script src="../../design-system.config.js?v=menu-corners-20260917"></script>
+  <script src="../../icons.data.js?v=menu-corners-20260917"></script>
+  <script src="../../icon-set.js?v=menu-corners-20260917"></script>
+  <link rel="stylesheet" href="../../styles.css?v=menu-corners-20260917">
+</head>
+<body>
+  <main class="review-shell" data-od-id="session-switcher-spec">
+    <header class="review-head"><div><p class="eyebrow" data-config-eyebrow></p><h1 data-config-title></h1><p class="lede" data-config-lede></p></div><p data-config-summary></p></header>
+    <section class="review-section"><div class="section-head"><h2>组件示例</h2><p>切换和新建会话, 可用方向键与 Enter 操作</p></div><div class="stage" id="component-root"></div></section>
+    <section class="review-section"><div class="section-head"><h2>设计规范</h2><p data-config-rules-intro></p></div><dl class="spec-list" data-config-rules></dl></section>
+    <section class="review-section"><div class="section-head"><h2>设计参数</h2><p data-config-parameters-intro></p></div><div class="parameter-grid" data-config-parameters></div></section>
+    <footer class="review-foot"><a href="../../../index.html">返回组件目录</a></footer>
+  </main>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+  <script type="text/babel" src="../../Icons.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Button/Button.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="../Panel/Panel.js?v=menu-corners-20260917"></script>
+  <script type="text/babel" src="./SessionSwitcher.js?v=menu-corners-20260917"></script>
+  <script type="text/babel">
+    function SessionSwitcherPreview() {
+      const demo = ContextEditorUIConfig.components.sessionSwitcher.demo
+      const [items, setItems] = React.useState(demo.items)
+      const [value, setValue] = React.useState(demo.initialValue)
+      const sequence = React.useRef(0)
+      const create = () => {
+        sequence.current += 1
+        const next = { id: `new-${sequence.current}`, title: `新对话 ${sequence.current}` }
+        setItems(current => [...current, next])
+        setValue(next.id)
+      }
+      return <><SessionSwitcher project={demo.project} items={items} value={value} onChange={setValue} onCreate={create}/><p className="ds-session-demo-copy" role="status">当前会话: {items.find(item => item.id === value)?.title}</p></>
+    }
+    ContextEditorUI.renderComponentPage('sessionSwitcher')
+    ReactDOM.createRoot(document.getElementById('component-root')).render(<SessionSwitcherPreview/>)
+  </script>
+</body>
+</html>

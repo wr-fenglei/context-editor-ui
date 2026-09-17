@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "light/labels",
+      "pass": true,
+      "detail": [
+        "取消",
+        "确认",
+        "并入",
+        "删除",
+        "暂不可用",
+        "保存更改"
+      ]
+    },
+    {
+      "name": "light/save-feedback",
+      "pass": true,
+      "detail": "已保存示例更改"
+    },
+    {
+      "name": "light/disabled",
+      "pass": true
+    },
+    {
+      "name": "light/runtime",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark/labels",
+      "pass": true,
+      "detail": [
+        "取消",
+        "确认",
+        "并入",
+        "删除",
+        "暂不可用",
+        "保存更改"
+      ]
+    },
+    {
+      "name": "dark/save-feedback",
+      "pass": true,
+      "detail": "已保存示例更改"
+    },
+    {
+      "name": "dark/disabled",
+      "pass": true
+    },
+    {
+      "name": "dark/runtime",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

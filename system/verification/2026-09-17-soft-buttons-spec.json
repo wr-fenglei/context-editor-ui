@@ -1,0 +1,2169 @@
+{
+  "summary": {
+    "passed": 224,
+    "failed": 0,
+    "configurations": 8
+  },
+  "checks": [
+    {
+      "name": "light-320-fine/six-examples",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-320-fine/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-320-fine/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-fine/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-fine/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(255, 243, 220)",
+        "color": "rgb(153, 103, 10)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-fine/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-fine/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "light-320-fine/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-fine/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(153, 103, 10)",
+          "bg": "rgb(255, 243, 220)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgb(253, 235, 237)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        }
+      ]
+    },
+    {
+      "name": "light-320-fine/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/取消/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/确认/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/并入/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/删除/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 32
+        },
+        "afterHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "light-320-fine/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(242, 243, 244)",
+        "backgroundAfter": "rgb(232, 235, 239)"
+      }
+    },
+    {
+      "name": "light-320-fine/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(146, 154, 164)"
+      }
+    },
+    {
+      "name": "light-320-fine/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "light-320-fine/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-320-coarse/six-examples",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-320-coarse/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-320-coarse/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-coarse/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-coarse/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(255, 243, 220)",
+        "color": "rgb(153, 103, 10)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-coarse/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-coarse/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "light-320-coarse/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-320-coarse/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(153, 103, 10)",
+          "bg": "rgb(255, 243, 220)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgb(253, 235, 237)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        }
+      ]
+    },
+    {
+      "name": "light-320-coarse/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/取消/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/确认/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/并入/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/删除/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 44
+        },
+        "afterHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 44
+        }
+      }
+    },
+    {
+      "name": "light-320-coarse/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(242, 243, 244)",
+        "backgroundAfter": "rgb(232, 235, 239)"
+      }
+    },
+    {
+      "name": "light-320-coarse/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(146, 154, 164)"
+      }
+    },
+    {
+      "name": "light-320-coarse/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "light-320-coarse/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-1024-fine/six-examples",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-1024-fine/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-1024-fine/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-fine/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-fine/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(255, 243, 220)",
+        "color": "rgb(153, 103, 10)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-fine/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-fine/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "light-1024-fine/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-fine/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(153, 103, 10)",
+          "bg": "rgb(255, 243, 220)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgb(253, 235, 237)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        }
+      ]
+    },
+    {
+      "name": "light-1024-fine/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/取消/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/确认/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/并入/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/删除/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 32
+        },
+        "afterHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "light-1024-fine/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(242, 243, 244)",
+        "backgroundAfter": "rgb(232, 235, 239)"
+      }
+    },
+    {
+      "name": "light-1024-fine/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(146, 154, 164)"
+      }
+    },
+    {
+      "name": "light-1024-fine/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "light-1024-fine/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "light-1024-coarse/six-examples",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-1024-coarse/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "light",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "light-1024-coarse/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(34, 38, 44)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-coarse/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-coarse/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(255, 243, 220)",
+        "color": "rgb(153, 103, 10)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-coarse/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(253, 235, 237)",
+        "color": "rgb(198, 64, 67)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-coarse/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(242, 243, 244)",
+        "color": "rgb(146, 154, 164)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "light-1024-coarse/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(234, 242, 255)",
+        "color": "rgb(36, 95, 185)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "light-1024-coarse/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(34, 38, 44)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(153, 103, 10)",
+          "bg": "rgb(255, 243, 220)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(198, 64, 67)",
+          "bg": "rgb(253, 235, 237)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(146, 154, 164)",
+          "bg": "rgb(242, 243, 244)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(36, 95, 185)",
+          "bg": "rgb(234, 242, 255)"
+        }
+      ]
+    },
+    {
+      "name": "light-1024-coarse/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/取消/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/确认/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/并入/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/删除/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 44
+        },
+        "afterHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 44
+        }
+      }
+    },
+    {
+      "name": "light-1024-coarse/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(242, 243, 244)",
+        "backgroundAfter": "rgb(232, 235, 239)"
+      }
+    },
+    {
+      "name": "light-1024-coarse/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(146, 154, 164)"
+      }
+    },
+    {
+      "name": "light-1024-coarse/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "light-1024-coarse/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-320-fine/six-examples",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-320-fine/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-320-fine/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-fine/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-fine/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(59, 48, 32)",
+        "color": "rgb(234, 193, 107)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-fine/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-fine/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "dark-320-fine/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-fine/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(234, 193, 107)",
+          "bg": "rgb(59, 48, 32)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgb(68, 39, 46)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        }
+      ]
+    },
+    {
+      "name": "dark-320-fine/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/取消/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/确认/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/并入/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/删除/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 32
+        },
+        "afterHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "dark-320-fine/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(42, 48, 56)",
+        "backgroundAfter": "rgb(53, 61, 72)"
+      }
+    },
+    {
+      "name": "dark-320-fine/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(135, 147, 162)"
+      }
+    },
+    {
+      "name": "dark-320-fine/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "dark-320-fine/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-320-coarse/six-examples",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-320-coarse/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-320-coarse/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-coarse/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-coarse/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(59, 48, 32)",
+        "color": "rgb(234, 193, 107)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-coarse/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-coarse/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "dark-320-coarse/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-320-coarse/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(234, 193, 107)",
+          "bg": "rgb(59, 48, 32)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgb(68, 39, 46)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        }
+      ]
+    },
+    {
+      "name": "dark-320-coarse/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/取消/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/确认/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/并入/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/删除/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 44
+        },
+        "afterHover": {
+          "x": 29,
+          "y": 300.171875,
+          "width": 54,
+          "height": 44
+        }
+      }
+    },
+    {
+      "name": "dark-320-coarse/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(42, 48, 56)",
+        "backgroundAfter": "rgb(53, 61, 72)"
+      }
+    },
+    {
+      "name": "dark-320-coarse/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(135, 147, 162)"
+      }
+    },
+    {
+      "name": "dark-320-coarse/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "dark-320-coarse/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-1024-fine/six-examples",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-1024-fine/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": false,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-1024-fine/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-fine/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-fine/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(59, 48, 32)",
+        "color": "rgb(234, 193, 107)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-fine/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 32,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-fine/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 32,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "dark-1024-fine/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 32,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-fine/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(234, 193, 107)",
+          "bg": "rgb(59, 48, 32)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgb(68, 39, 46)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        }
+      ]
+    },
+    {
+      "name": "dark-1024-fine/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/取消/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/确认/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/并入/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/删除/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 32
+        },
+        "afterHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "dark-1024-fine/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(42, 48, 56)",
+        "backgroundAfter": "rgb(53, 61, 72)"
+      }
+    },
+    {
+      "name": "dark-1024-fine/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(135, 147, 162)"
+      }
+    },
+    {
+      "name": "dark-1024-fine/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-fine/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dark-1024-coarse/six-examples",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/theme-pointer",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-1024-coarse/no-overflow",
+      "pass": true,
+      "detail": {
+        "theme": "dark",
+        "coarse": true,
+        "overflow": 0
+      }
+    },
+    {
+      "name": "dark-1024-coarse/取消/geometry",
+      "pass": true,
+      "detail": {
+        "text": "取消",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(238, 240, 243)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-coarse/取消/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/确认/geometry",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-coarse/确认/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/并入/geometry",
+      "pass": true,
+      "detail": {
+        "text": "并入",
+        "type": "button",
+        "tone": "merge",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(59, 48, 32)",
+        "color": "rgb(234, 193, 107)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-coarse/并入/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/删除/geometry",
+      "pass": true,
+      "detail": {
+        "text": "删除",
+        "type": "button",
+        "tone": "danger",
+        "height": 44,
+        "width": 54,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(68, 39, 46)",
+        "color": "rgb(255, 148, 153)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-coarse/删除/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/暂不可用/geometry",
+      "pass": true,
+      "detail": {
+        "text": "暂不可用",
+        "type": "button",
+        "tone": "neutral",
+        "height": 44,
+        "width": 80,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(42, 48, 56)",
+        "color": "rgb(121, 132, 147)",
+        "disabled": true
+      }
+    },
+    {
+      "name": "dark-1024-coarse/暂不可用/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/保存更改/geometry",
+      "pass": true,
+      "detail": {
+        "text": "保存更改",
+        "type": "button",
+        "tone": "confirm",
+        "height": 44,
+        "width": 100,
+        "border": "0px",
+        "radius": "10px",
+        "pseudoHeight": "32px",
+        "pseudoRadius": "10px",
+        "pseudoBorder": "0px",
+        "bg": "rgb(36, 54, 77)",
+        "color": "rgb(138, 182, 255)",
+        "disabled": false
+      }
+    },
+    {
+      "name": "dark-1024-coarse/保存更改/native-button",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/tones",
+      "pass": true,
+      "detail": [
+        {
+          "tone": "neutral",
+          "color": "rgb(238, 240, 243)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        },
+        {
+          "tone": "merge",
+          "color": "rgb(234, 193, 107)",
+          "bg": "rgb(59, 48, 32)"
+        },
+        {
+          "tone": "danger",
+          "color": "rgb(255, 148, 153)",
+          "bg": "rgb(68, 39, 46)"
+        },
+        {
+          "tone": "neutral",
+          "color": "rgb(121, 132, 147)",
+          "bg": "rgb(42, 48, 56)"
+        },
+        {
+          "tone": "confirm",
+          "color": "rgb(138, 182, 255)",
+          "bg": "rgb(36, 54, 77)"
+        }
+      ]
+    },
+    {
+      "name": "dark-1024-coarse/distinct-semantic-colors",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/取消/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/确认/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/并入/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/删除/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/保存更改/click",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/disabled-native",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/hover-keeps-size",
+      "pass": true,
+      "detail": {
+        "beforeHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 44
+        },
+        "afterHover": {
+          "x": 49,
+          "y": 249.28125,
+          "width": 54,
+          "height": 44
+        }
+      }
+    },
+    {
+      "name": "dark-1024-coarse/hover-fill",
+      "pass": true,
+      "detail": {
+        "backgroundBefore": "rgb(42, 48, 56)",
+        "backgroundAfter": "rgb(53, 61, 72)"
+      }
+    },
+    {
+      "name": "dark-1024-coarse/keyboard-focus",
+      "pass": true,
+      "detail": {
+        "text": "确认",
+        "visible": true,
+        "outlineWidth": "1px",
+        "outlineStyle": "solid",
+        "outlineColor": "rgb(135, 147, 162)"
+      }
+    },
+    {
+      "name": "dark-1024-coarse/keyboard-activate",
+      "pass": true
+    },
+    {
+      "name": "dark-1024-coarse/no-runtime-errors",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

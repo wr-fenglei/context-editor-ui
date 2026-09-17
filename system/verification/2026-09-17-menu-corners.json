@@ -1,0 +1,824 @@
+{
+  "summary": {
+    "passed": 108,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "app-light-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "app-light-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "app-light-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "app-light-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "app-light-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "app-light-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "app-light-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "app-light-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "app-light-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Composer-light-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "Composer-light-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "Composer-light-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "Composer-light-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "Composer-light-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "Composer-light-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "Composer-light-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "Composer-light-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "Composer-light-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "workbench-light-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "workbench-light-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "workbench-light-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "workbench-light-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "workbench-light-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "workbench-light-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "workbench-light-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "workbench-light-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "workbench-light-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "app-light-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-light-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-light-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-light-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "app-light-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "app-light-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "app-light-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 330,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "app-light-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-light-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Composer-light-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-light-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-light-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-light-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "Composer-light-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "Composer-light-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "Composer-light-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 330,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "Composer-light-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-light-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "workbench-light-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-light-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-light-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-light-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "workbench-light-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "workbench-light-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "workbench-light-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 320,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "workbench-light-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(246, 247, 248)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-light-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "app-dark-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "app-dark-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "app-dark-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "app-dark-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "app-dark-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "app-dark-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "app-dark-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "app-dark-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "app-dark-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Composer-dark-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "Composer-dark-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "Composer-dark-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "Composer-dark-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "Composer-dark-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "Composer-dark-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "Composer-dark-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "Composer-dark-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "Composer-dark-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "workbench-dark-1280/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "workbench-dark-1280/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 43.984375
+      }
+    },
+    {
+      "name": "workbench-dark-1280/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 190,
+        "height": 28
+      }
+    },
+    {
+      "name": "workbench-dark-1280/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "workbench-dark-1280/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "workbench-dark-1280/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "workbench-dark-1280/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 402,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "workbench-dark-1280/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 38.09375
+      }
+    },
+    {
+      "name": "workbench-dark-1280/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "app-dark-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-dark-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-dark-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-dark-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "app-dark-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "app-dark-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "app-dark-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 330,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "app-dark-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "app-dark-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Composer-dark-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-dark-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-dark-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 338,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-dark-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "Composer-dark-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "Composer-dark-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "Composer-dark-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 330,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "Composer-dark-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "Composer-dark-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "workbench-dark-390/selected-only-check",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-dark-390/model-0-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-dark-390/model-1-hover",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 328,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-dark-390/toolbar-stays-pill",
+      "pass": true,
+      "detail": "9999px"
+    },
+    {
+      "name": "workbench-dark-390/selection-closes-and-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "workbench-dark-390/selection-persists",
+      "pass": true
+    },
+    {
+      "name": "workbench-dark-390/approval-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 320,
+        "height": 57.5
+      }
+    },
+    {
+      "name": "workbench-dark-390/add-trigger-matching-corners",
+      "pass": true,
+      "detail": {
+        "radius": "8px",
+        "bg": "rgb(41, 46, 54)",
+        "width": 302,
+        "height": 44
+      }
+    },
+    {
+      "name": "workbench-dark-390/runtime-and-overflow",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}
