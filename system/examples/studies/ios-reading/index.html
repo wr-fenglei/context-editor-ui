@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <title>阅读与备注 · iOS 视觉小样</title>
+  <link rel="stylesheet" href="ios.css">
+  <script src="ios.js" defer></script>
+</head>
+<body>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <symbol id="back" viewBox="0 0 24 24"><path d="m14 5-7 7 7 7"/></symbol>
+  <symbol id="close" viewBox="0 0 24 24"><path d="m7 7 10 10M17 7 7 17"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+  <symbol id="comment" viewBox="0 0 24 24"><path d="M20.5 14a4 4 0 0 1-4 4H9l-5 3v-4a4 4 0 0 1-2-3V7a4 4 0 0 1 4-4h10.5a4 4 0 0 1 4 4z"/><path d="M7 8h9M7 12h6"/></symbol>
+  <symbol id="edit" viewBox="0 0 24 24"><path d="M13 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7M9 15l1-4L18 3a2 2 0 0 1 3 3l-8 8z"/></symbol>
+  <symbol id="file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></symbol>
+  <symbol id="chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></symbol>
+</defs></svg>
+<main class="presentation">
+  <header class="presentation-header"><a href="../../../../index.html">设计系统</a><span>移动端方向 / 01</span><a href="#references">参考来源 ↗</a></header>
+  <div class="stage">
+    <div class="device-area">
+      <div class="device">
+        <div class="screen" id="screen">
+          <div class="status-bar" aria-hidden="true"><span>9:41</span><span class="island"></span><span class="system-symbols"><svg viewBox="0 0 18 12"><path d="M1 11V8h2v3zm4 0V6h2v5zm4 0V3h2v8zm4 0V0h2v11z"/></svg><svg viewBox="0 0 18 13"><path d="M1 4a13 13 0 0 1 16 0L15 6a10 10 0 0 0-12 0zm4 4a6 6 0 0 1 8 0l-2 2a3 3 0 0 0-4 0zm3 3h2l-1 2z"/></svg><span class="battery"></span></span></div>
+          <div class="app" id="app">
+            <nav class="app-nav" aria-label="文档导航"><button class="round glass" id="back-button" aria-label="返回文档列表"><svg class="icon"><use href="#back"/></svg></button><span id="nav-title">审阅</span><button class="round glass text-size" id="text-size" aria-label="放大文字" aria-pressed="false">Aa</button></nav>
+            <div class="reader" id="reader" tabindex="-1">
+              <article id="document-view">
+                <p class="document-category">消息页 · 交互检查</p>
+                <h1>让每一条回复<br>都完整呈现</h1>
+                <p class="document-intro">连续对话中的消息可见性</p>
+                <p class="body-copy">在消息页连续发送内容时, 用户需要看到刚发出的消息和助手的新回复</p>
+                <p class="body-copy"><span class="selection" id="selection" role="button" tabindex="0" aria-label="查看这段文字的备注" aria-controls="note-sheet" aria-expanded="false">连续发送消息时, 最新回复不应被底部输入框遮挡<span class="selection-count" aria-hidden="true">1</span></span></p>
+                <p class="body-copy">当输入框因为内容增加而变高, 消息区域也应同步调整, 如果用户已经向上滚动阅读历史消息, 应保留当前阅读位置, 由用户决定何时返回新回复</p>
+                <div class="note-inline"><span class="small-dot"></span><span id="note-status">1 条待处理备注</span></div>
+                <section class="attachments" aria-labelledby="sources-heading"><h2 id="sources-heading">检查依据</h2><div class="source-group"><button class="source-row" data-source="0"><span class="file-icon blue"><svg class="icon"><use href="#file"/></svg></span><span><strong>Composer.js</strong><small>输入框高度与消息区域</small></span><svg class="icon disclosure"><use href="#chevron"/></svg></button><button class="source-row" data-source="1"><span class="file-icon orange"><svg class="icon"><use href="#file"/></svg></span><span><strong>MessageBubble.js</strong><small>回复内容与显示边界</small></span><svg class="icon disclosure"><use href="#chevron"/></svg></button></div></section>
+              </article>
+              <section id="library-view" hidden aria-labelledby="library-title"><p class="document-category">当前项目</p><h1 id="library-title">文档</h1><div class="library-group"><button id="open-document"><span class="file-icon orange"><svg class="icon"><use href="#file"/></svg></span><span><strong>消息页交互检查</strong><small>1 条备注 · 2 个关联文件</small></span><svg class="icon disclosure"><use href="#chevron"/></svg></button></div></section>
+            </div>
+            <div class="bottom-tools" id="bottom-tools"><div class="tool-group glass"><button id="open-note"><svg class="icon"><use href="#comment"/></svg><span id="note-button-label">1 条备注</span></button><span class="tool-divider"></span><button id="resolve-note" aria-label="标为已处理" aria-pressed="false"><svg class="icon"><use href="#check"/></svg></button></div><button class="round glass compose" id="edit-note" aria-label="编辑备注"><svg class="icon"><use href="#edit"/></svg></button></div>
+          </div>
+
+          <section class="sheet" id="note-sheet" role="dialog" aria-modal="false" aria-labelledby="sheet-title" hidden>
+            <button class="grabber-control" id="grabber" aria-label="展开备注面板" aria-expanded="false"><span></span></button>
+            <header class="sheet-header"><button class="sheet-close round" id="close-sheet" aria-label="关闭备注"><svg class="icon"><use href="#close"/></svg></button><h2 id="sheet-title">备注</h2><button class="sheet-action" id="sheet-edit">编辑</button></header>
+            <div class="sheet-scroll" id="sheet-scroll">
+              <div class="quote" id="quote"><span class="quote-label">引用内容</span><p>连续发送消息时, 最新回复不应被底部输入框遮挡</p></div>
+              <div id="note-detail"><div class="note-author"><span class="person" aria-hidden="true">我</span><strong>我的备注</strong><span id="sheet-state">待处理</span></div><p id="note-copy">输入框展开后, 最后一行回复会被挡住, 建议等消息渲染完成、输入框高度确定后再更新滚动位置</p><button class="resolve-row" id="sheet-resolve"><svg class="icon"><use href="#check"/></svg><span>标为已处理</span></button></div>
+              <form id="note-form" hidden><label for="note-input">我的备注</label><textarea id="note-input" maxlength="2000" rows="6" spellcheck="false"></textarea><p class="draft-message" id="draft-message">修改保留在当前小样中</p></form>
+              <div id="source-detail" hidden><div class="source-name"><svg class="icon"><use href="#file"/></svg><strong id="source-name"></strong></div><p id="source-description"></p><p class="source-boundary">此处展示小样中的检查依据摘要, 未读取或执行项目源码</p></div>
+            </div>
+          </section>
+          <div class="home-indicator" aria-hidden="true"></div>
+          <div class="toast" id="toast" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+      <p class="device-caption">可滚动正文, 点击蓝色选区查看备注</p>
+    </div>
+
+    <aside class="study-guide" id="references">
+      <p class="guide-kicker">iOS 26 / iOS 27 参考练习</p><h2>阅读在前<br>备注按需展开</h2><p class="guide-intro">用一段正文和一条备注, 验证系统字体、浮动控件与半屏面板的组合</p>
+      <div class="preview-switch" role="group" aria-label="预览状态"><button data-preview="read" aria-pressed="true">阅读</button><button data-preview="note" aria-pressed="false">半屏备注</button><button data-preview="edit" aria-pressed="false">编辑</button></div>
+      <div class="display-options">
+        <label class="display-setting" for="reduce-transparency"><span><strong>减少透明效果</strong><small>也可点击手机中的 Aa 放大正文</small></span><input type="checkbox" role="switch" id="reduce-transparency"><span class="setting-switch" aria-hidden="true"></span></label>
+      </div>
+      <h3 class="reference-heading">参考来源</h3>
+      <div class="reference-feature guide-surface"><a href="references/apple-notes-sheet.png" target="_blank" rel="noopener" class="notes-image"><img src="references/apple-notes-sheet.png" alt="Apple HIG 中的 Notes 非模态半屏格式面板, 上方仍显示正文和选区"></a><div><span class="reference-type">结构主参考</span><h3>Apple Notes</h3><p>参考 Notes 保留上方原文的非模态结构, 本小样提供展开与收起</p><a href="https://developer.apple.com/design/human-interface-guidelines/sheets" target="_blank" rel="noopener">HIG · Sheets ↗</a></div></div>
+      <div class="reference-pair guide-surface"><article><a class="reference-thumb" href="references/bear-reading.png" target="_blank" rel="noopener"><img src="references/bear-reading.png" alt="Bear 官方展示的 iPhone 阅读页面"></a><div class="reference-copy"><h3>Bear · 阅读排版</h3><p>正文直接排版, 标题靠左, 工具与内容分开</p><a href="https://bear.app/" target="_blank" rel="noopener">官方手机示例 ↗</a></div></article><article><a class="reference-thumb" href="references/craft27-toolbar.png" target="_blank" rel="noopener"><img src="references/craft27-toolbar.png" alt="Craft OS27 更新中的 iPhone 浮动工具分组"></a><div class="reference-copy"><h3>Craft · 操作分组</h3><p>底部按用途分组, 单独呈现当前操作</p><a href="https://www.craft.do/blog/craft-update-3-6-5" target="_blank" rel="noopener">OS27 更新示例 ↗</a></div></article></div>
+      <details class="design-notes guide-surface"><summary><span>官方依据与本次适配</span><svg class="icon" aria-hidden="true"><use href="#chevron"/></svg></summary><div><p><a href="https://developer.apple.com/design/resources/" target="_blank" rel="noopener">Apple Design Resources</a> 已提供 iOS 27 UI Kit, <a href="https://developer.apple.com/design/whats-new/" target="_blank" rel="noopener">2026-09-17 更新记录</a>包含组件和系统颜色, 本次未下载或逐项复刻该 Kit</p><ul><li><a href="https://developer.apple.com/design/human-interface-guidelines/materials" target="_blank" rel="noopener">Materials</a>: Liquid Glass 用于导航和操作层, 本小样正文与备注选择实底</li><li><a href="https://developer.apple.com/design/human-interface-guidelines/typography" target="_blank" rel="noopener">Typography</a>: 参考 iOS 17pt 默认正文, 本网页使用 17px 系统字体, 中文标题 32px, 不将 CSS px 当作原生 pt 验证</li><li><a href="https://developer.apple.com/design/human-interface-guidelines/sheets" target="_blank" rel="noopener">Sheets</a>: 半屏与展开状态, 单层编辑面板左侧取消、右侧完成, 本次适配: 草稿暂存在当前页面, 收起后可继续编辑</li><li><a href="https://developer.apple.com/videos/play/wwdc2026/251/" target="_blank" rel="noopener">WWDC26 · 品牌与 iOS</a>: 内容层与操作层分开, 强调色服务于操作和状态</li></ul><p>这是网页交互小样, 半透明、阴影与过渡为 CSS 近似, 并非原生 Liquid Glass, 图标为独立 SVG, 没有打包 SF Symbols, 参考图片归原权利人所有</p><p>背景原则: 浅色页面优先白色, 分组只使用接近白色的淡灰, 本页背景 #FFFFFF, 分组底色 #FCFCFD, 通过圆角、间距与阴影区分层级</p><p>当前选区为预设内容, 不支持任意文字选区, 数据仅保留在当前页面, 刷新还原, 未接入保存服务</p></div></details>
+      <div class="study-footer"><span>候选方向, 等待视觉评审</span><a href="README.md">小样说明</a></div>
+    </aside>
+  </div>
+</main>
+</body>
+</html>

@@ -7,7 +7,7 @@
   "description": "面向对话交互的设计系统, 使用五级统一规范构建消息, 上下文编辑和行内评审工作台, 支持浅色与深色主题",
   "files": {
     "design": "DESIGN.md",
-    "skill": "SKILL.md",
+    "skill": "DESIGN_SYSTEM_GUIDE.md",
     "specs": "index.html",
     "uiKit": "system/examples/workbench.html",
     "home": "index.html",

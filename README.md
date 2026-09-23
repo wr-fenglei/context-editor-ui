@@ -6,6 +6,8 @@
 
 [预览设计系统](https://wr-fenglei.github.io/context-editor-ui/)
 
+Agent 新增或修改组件与页面前, 先阅读 [设计系统使用指南](DESIGN_SYSTEM_GUIDE.md), 再按任务读取相关规范和实现
+
 ## 内容
 
 - 行内工作台示例, 包含会话切换, 评审编辑, 备注浮窗和上下文协作
@@ -13,7 +15,7 @@
 - 12 个独立组件规范页, 包含文案按钮, 面板, 会话切换, 评审清单与备注浮窗
 - 按基础值, 语义角色, 控件, 组合组件和页面模板组织的五级规范
 - 统一的设计变量, 参数, 示例内容和样式
-- 设计约束和技能使用说明
+- 设计约束和设计系统使用指南
 
 ## 文件职责
 
@@ -28,12 +30,14 @@
 - `system/motion-runtime.js`: 展开, 收起, 条目排序与移除的共享动效
 - `system/MotionPresence.js`: 面板和消息的进入退出生命周期
 - `DESIGN.md`: 设计约束和集成边界
-- `SKILL.md`: 代理应用本系统的方式
+- [DESIGN_SYSTEM_GUIDE.md](DESIGN_SYSTEM_GUIDE.md): Agent 使用本系统分析任务, 选择组件, 实现与验证的方法
 - `system/components/<组件>/spec.html`: 规范页模板和组件挂载点, 不保存设计数值副本
 - `manifest.json`: 系统标识和文件入口
 - `system/verification/geometry.mjs`: 输入栏, 行操作, 标签和上下文布局的浏览器回归检查
 
 ## 页面入口
+
+[iOS 阅读与备注小样](system/examples/studies/ios-reading/index.html) · [小样范围与验证](system/examples/studies/ios-reading/README.md), 独立候选方案, 尚未替换正式组件
 
 [设计系统概览](index.html) · [行内工作台](system/examples/workbench.html) · [连续对话](system/app.html) · [基础规范](system/foundations.html) · [控件几何](system/foundations.html#control-geometry)
 
@@ -64,11 +68,7 @@ python3 -m http.server 8000
 
 ## 修改流程
 
-1. 在 `system/design-system.config.js` 修改设计变量, 规范或示例数据
-2. 在对应组件文件修改结构和图标
-3. 在 `system/styles.css` 修改视觉和响应式布局
-4. 在 `system/interactions.js` 修改复制与状态反馈, 在 `system/code-format.js` 修改共享代码高亮
-5. 验证对应规范页和集成示例, 运行几何回归, 同步文档
+按 [设计系统使用指南](DESIGN_SYSTEM_GUIDE.md) 判断任务范围, 优先复用已有组件, 在对应共享来源修改, 同步规范并验证受影响的独立页和集成页
 
 不要在集成页或规范页中复制组件样式与行为, 页面只管理数据, 布局及组件间事件, 浮窗定位和输入高度等运行时几何由对应组件处理
 
@@ -82,15 +82,15 @@ node system/verification/geometry.mjs
 
 检查覆盖 320, 390, 640, 740, 1024px 精细指针视口, 390 和 740px 粗指针视口, 以及浅色和深色主题, 包含工具栏高度, hover 背景, 发送圆与下沿留白, 状态标签高度, 按钮重叠, 上下文密度和 Agent 身份稳定性
 
-## 作为技能使用
+## 让 Agent 使用设计系统
 
-在本地项目中, 可要求代理先阅读本仓库再实现对话界面
+设计方法与设计系统在本仓库一起维护, 不再安装全局 design-practice 或复制仓库到技能目录, 可直接指定:
 
 ```text
-阅读 DESIGN.md 和 SKILL.md, 使用对应的共享组件与设计变量
+先阅读本仓库的 DESIGN_SYSTEM_GUIDE.md, 按其中的指导使用已有规范, 组件和页面模板完成这次界面修改
 ```
 
-如需作为个人技能使用, 将仓库链接或复制到技能目录, 保留名称 `context-editor-ui`, 然后重启或刷新技能发现
+指南是项目文档, 通过本 README 和 DESIGN.md 引用发现, 不依赖全局技能的自动加载, manifest.json 保留现有 files.skill 字段作为宿主入口, 路径指向 DESIGN_SYSTEM_GUIDE.md
 
 ## 个人资料组件
 

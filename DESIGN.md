@@ -1,5 +1,7 @@
 # context-editor-ui
 
+新增或修改组件与页面时, 先阅读 [设计系统使用指南](DESIGN_SYSTEM_GUIDE.md), 本文件维护已确认的设计约束和交互边界
+
 ## 范围与来源
 
 面向对话, 上下文编辑与评审协作, 最新示例为 [行内工作台](system/examples/workbench.html), 保留 [连续对话](system/app.html) 用于验证原有组件组合
